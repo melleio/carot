@@ -2,7 +2,6 @@
 class HomePage extends Page {
 
 	private static $db = array(
-		'NewsExcludeTags' => 'Varchar'
 	);
 
 	/*function canCreate($Member = null){
@@ -10,27 +9,34 @@ class HomePage extends Page {
 	}*/
 
 	private static $has_many = array(
-		"Callouts" => "Callout",
-		'ToolboxLinks' => 'ToolboxLink'
+		"HomeImages" => "Image"
     );
 
     public function getCMSFields() {
 		$fields = parent::getCMSFields();
 		$fields->removeFieldFromTab("Root.Main","Content");
 
-		$config = new GridFieldConfig_RelationEditor();
+		/*$config = new GridFieldConfig_RelationEditor();
 		$config->addComponents(new GridFieldExportButton('before'));
 		$callouts = GridField::create('Callouts',false, $this->Callouts(), $config);
 		if(Permission::check("ADMIN")){
 			$fields->addFieldToTab('Root.Callouts', $callouts);
-		}
+		}*/
 
-		$config2 = new GridFieldConfig_RelationEditor();
+		/*$config2 = new GridFieldConfig_RelationEditor();
 		$config2->addComponents(new GridFieldExportButton('before'));
 		$config2->addComponent(new GridFieldSortableRows('SortOrder'));
 		$toolbox = GridField::create('ToolboxLinks',false, $this->ToolboxLinks()->sort('SortOrder'), $config2);
 		if(Permission::check("ADMIN")){
 			$fields->addFieldToTab('Root.Toolbox', $toolbox);
+		}*/
+
+		$config2 = new GridFieldConfig_RelationEditor();
+		$config2->addComponents(new GridFieldExportButton('before'));
+		$config2->addComponent(new GridFieldSortableRows('SortOrder'));
+		$toolbox = GridField::create('HomePageImages',false, $this->HomeImages()->sort('SortOrder'), $config2);
+		if(Permission::check("ADMIN")){
+			$fields->addFieldToTab('Root.HomePageImages', $toolbox);
 		}
 		
 		return $fields;
@@ -55,7 +61,7 @@ class HomePage_Controller extends Page_Controller {
 	 * @var array
 	 */
 	private static $allowed_actions = array (
-		'LatestTweet','headerImage'
+		'LatestTweet','HomeImage'
 	);
 
 	public function init() {
@@ -64,7 +70,7 @@ class HomePage_Controller extends Page_Controller {
 		// Security Check. Comment to disable
 		// if(!Permission::check("VIEW_SITE")) Security::permissionFailure();
 		//Requirements::set_write_js_to_body(false);
-		Requirements::combine_files(
+		/*Requirements::combine_files(
 	    'home.ppd.js',
 	    array(
 	        'themes/v3/js/custom.js',
@@ -73,11 +79,11 @@ class HomePage_Controller extends Page_Controller {
 	        'themes/v3/js/chosen.jquery.min.js',
 	        'themes/v3/js/searchoverlay.js'
 	    )
-		);
+		);*/
 	}
 
-	public function headerImage(){
-		$d = SiteConfig::get()->First()->HomeHeaderImages()->sort('RAND()')->First();
+	public function HomeImage(){
+		$d = SiteConfig::get()->First()->HomePageImages()->sort('RAND()')->First();
 		$d->Filename = Director::absoluteBaseURL().$d->Image()->Filename;
 		$copy = Injector::inst()->create('Text');
 		$copy->setValue($d->Description);
@@ -103,18 +109,18 @@ class HomePage_Controller extends Page_Controller {
 	 }
 
 	public function LatestTweet(){
-		$latest = DataObject::get('Tweet')->sort('pubDate DESC');
+		/*$latest = DataObject::get('Tweet')->sort('pubDate DESC');
 		$a = new ArrayList();
 		foreach($latest as $l){
         	$l->Status = $this->makeClickableLinks($l->Status);
         	$a->push($l);
         }
-        return $a;
+        return $a;*/
 	}
 
 	public function LatestHomeNews() {
 		// Deprecated code //
-		$a= new ArrayList();
+		/*$a= new ArrayList();
 		$d = NewsHomePage::get()->First()->getComponents('GeneralNewsSections');
 		foreach($d as $s){
 			$c = GeneralNewsSection::get()->filter(array('Slug'=>$s->Slug))->First()->getManyManyComponents('Categories')->First();
@@ -124,22 +130,22 @@ class HomePage_Controller extends Page_Controller {
 			}
 		}
 		
-		return $a;
+		return $a;*/
 	}
 
 	private function getPosts($cat){
-		$t = array();
+		/*$t = array();
 		$a = new ArrayList();
 		$t = array("TagList:PartialMatch"=>$cat);
 		$d = GeneralNews::get()->filter($t)->sort('Date','DESC')->First();
-		return $d;
+		return $d;*/
 	}
 	
 
 	function TopStory() {
 		// Deprecated code //
-		$d = GeneralNews::get()->filter(array("TagList:PartialMatch"=>'top-story'))->Last();
-		return $d;
+		/*$d = GeneralNews::get()->filter(array("TagList:PartialMatch"=>'top-story'))->Last();
+		return $d;*/
 	} 
 
 }
