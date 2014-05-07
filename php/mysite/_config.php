@@ -15,7 +15,7 @@ global $databaseConfig;
 
 $databaseConfig = array(
 	"type" => 'MySQLDatabase',
-	"server" => 'localhost',
+	"server" => '127.1.245.2',
 	"username" => 'adminDqaggHF',
 	"password" => 'I-25-whqbqHl',
 	"database" => 'www',
