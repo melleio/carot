@@ -9,7 +9,7 @@ class HomePage extends Page {
 	}*/
 
 	private static $has_many = array(
-		"HomeImages" => "Image"
+		"HomeImages" => "GalleryImage"
     );
 
     public function getCMSFields() {
