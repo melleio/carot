@@ -31,7 +31,7 @@ class GalleryImage extends DataObject {
   }
   
   // Tell the datagrid what fields to show in the table
-   public static $summary_fields = array( 
+   private static $summary_fields = array( 
      'ID' => 'ID',
 	   'Title' => 'Title',
 	   'Thumbnail' => 'Thumbnail'     
