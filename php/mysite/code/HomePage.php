@@ -83,7 +83,7 @@ class HomePage_Controller extends Page_Controller {
 	}
 
 	public function HomeImage(){
-		$d = SiteConfig::get()->First()->HomePageImages()->sort('RAND()')->First();
+		$d = HomePage::get()->First()->HomePageImages()->sort('RAND()')->First();
 		$d->Filename = Director::absoluteBaseURL().$d->Image()->Filename;
 		$copy = Injector::inst()->create('Text');
 		$copy->setValue($d->Description);

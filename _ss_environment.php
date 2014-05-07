@@ -1,6 +1,5 @@
 <?php
 
-$allowed_hosts = array('preview.phillypolice.com', 'dev.phillypolice.com');
 //$_SERVER['HTTP_HOST'] = $allowed_hosts;
 //$_SERVER['REQUEST_METHOD'] = 'Get';
 define('SS_ENVIRONMENT_TYPE', 'dev');
