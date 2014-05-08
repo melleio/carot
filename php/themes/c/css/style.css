@@ -151,7 +151,7 @@ font-family: "eskapade";
 }
 
 .submenu-item{
-font-size: 14px;
+font-size: 14px !important;
 font-weight: 100;
 color: #616161;
 }
