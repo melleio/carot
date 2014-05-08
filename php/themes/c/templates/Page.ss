@@ -67,16 +67,20 @@ melle.io
 			
 			<div class="nav-collapse collapse navbar-responsive-collapse">
 				<ul id="mainNavList" class="nav row">
+				<% loop $Menu(1) %>
 					<li class="col-12 col-sm-2 dropdown">
-						<a id="menu-link-1" class="dropdown-toggle" data-toggle="dropdown" href="#" title="Next Section"><span class="fa fa-home"></span> <span class="text">HOME</span><b class="caret"></b>
+						<a id="menu-link-1" class="dropdown-toggle" data-toggle="dropdown" href="#" title="$Title.XML"><span class="fa fa-home"></span> <span class="text">$MenuTitle</span><b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu">
+						<% loop $Menu(2) %>
 							<li><a href="#">History</a></li>
+						<% end_loop %>
 						</ul>
 					</li>
-					<li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="fa fa-eye"></span> <span class="text">RESEARCH</span></a></li>
+				<% end_loop %>
+					<%-- <li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="fa fa-eye"></span> <span class="text">RESEARCH</span></a></li>
 					<li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-3" title="Next Section"><span class="fa fa-flask"></span> <span class="text">SERVICES</span></a></li>
-					<li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="fa fa-users"></span> <span class="text">COMMUNITY</span></a></li>
+					<li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="fa fa-users"></span> <span class="text">COMMUNITY</span></a></li> --%>
 				</ul>
 				<div class="row">
 					<div class="col-sm-2 active-menu"></div>
@@ -87,12 +91,12 @@ melle.io
 	
 	
 	<!-- === Arrows === -->
-	<div id="arrows">
+	<%-- <div id="arrows">
 		<div id="arrow-up" class="disabled"></div>
 		<div id="arrow-down"></div>
 		<div id="arrow-left" class="disabled visible-lg"></div>
 		<div id="arrow-right" class="disabled visible-lg"></div>
-	</div><!-- /.arrows -->
+	</div> --%><!-- /.arrows -->
 	
 	<div id="blue-space"></div>
 	<!-- === MAIN Background === -->
@@ -100,8 +104,8 @@ melle.io
 		<div class="container">
 			<div id="home-row-1" class="row clearfix">
 				<div class="col-12">
-					<h1 class="font-semibold">CAROT</span></h1>
-					<h4 class="font-thin">Some <span class="font-semibold">text</span> here.</h4>
+					<h1 class="font-semibold">Welcome!</span></h1>
+					<h4 class="font-thin">$Content</h4>
 					<br>
 					<br>
 				</div><!-- /col-12 -->

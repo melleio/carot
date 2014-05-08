@@ -6,9 +6,14 @@
  * Version: 1.0
  * URL: http://blacktie.co
  */
- #mainNavList{
-margin-right: -410px;
-margin-left: -15px;
+#mainNavList {
+margin-right: -469px;
+margin-left: -54px;
+}
+
+@media (min-width: 1200px)
+.container {
+max-width: 1124px;
 }
 .main-nav{
 	background: rgb(244,244,244); /* Old browsers */
@@ -105,7 +110,7 @@ font-family: "eskapade";
 .header .inner {
     padding-top: 0px;
     position: relative;
-    min-height: 100px;
+    min-height: 115px;
 }
 
 /* Brand */
@@ -347,7 +352,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 
 #slide-1 {
 	background-color: #EAEAEA;
-	color: #ffffff;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -384,11 +388,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 	}
 	
 	#home-row-1 h1 {
-		font-size: 54px;
+		font-size: 34px;
 	}
 	
 	#home-row-1 h4 {
-		font-size: 32px;
+		font-size: 19px;
 	}
 	
 	#home-row-2 {
