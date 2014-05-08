@@ -71,7 +71,7 @@ melle.io
 				<% with Page(home) %>
 					<li class="col-12 col-sm-2 dropdown">
 						<a id="menu-link-1" class="dropdown-toggle" data-toggle="dropdown" href="#" title="$Title.XML">
-						<span class="text">$MenuTitle</span><b class="caret"></b>
+						<span class="text">$MenuTitle</span><%-- <b class="caret"></b> --%>
 						</a>
 						<ul class="dropdown-menu">
 						<% loop Children %>

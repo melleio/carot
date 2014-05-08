@@ -86,10 +86,10 @@ ul.dropdown-menu li{
 	font-size: 19px;
 }
 .carot-header {
-	position: absolute;
-right: 20px;
-min-width: 665px;
-font-family: "eskapade"
+position: absolute;
+right: 85px;
+min-width: 590px;
+font-family: "eskapade";
 }
 
 .carot-header h3{

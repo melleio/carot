@@ -152,7 +152,7 @@ var delay = (function(){
 })();
 
 function menu_focus( element, i ) {
-	if ( $(element).hasClass('active') ) {
+	/*if ( $(element).hasClass('active') ) {
 		if ( i == 6 ) {
 			if ( $('.navbar').hasClass('inv') == false )
 				return;
@@ -183,7 +183,7 @@ function menu_focus( element, i ) {
 		},
 		1500,
 		'easeInOutQuart'
-	);
+	);*/
 }
 
 function enable_arrows( dataslide ) {
