@@ -15,6 +15,10 @@ margin-left: -54px;
 .container {
 max-width: 1124px;
 }
+
+.text{
+	text-transform: uppercase;
+}
 .main-nav{
 	background: rgb(244,244,244); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(244,244,244,1) 0%, rgba(244,244,244,1) 15%, rgba(204,204,204,1) 23%, rgba(142,142,142,1) 26%, rgba(224,224,224,1) 29%, rgba(224,224,224,1) 32%, rgba(255,255,255,1) 36%, rgba(238,238,238,1) 100%); /* FF3.6+ */

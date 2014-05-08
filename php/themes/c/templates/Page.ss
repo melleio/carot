@@ -69,11 +69,12 @@ melle.io
 				<ul id="mainNavList" class="nav row">
 				<% loop $Menu(1) %>
 					<li class="col-12 col-sm-2 dropdown">
-						<a id="menu-link-1" class="dropdown-toggle" data-toggle="dropdown" href="#" title="$Title.XML"><span class="fa fa-home"></span> <span class="text">$MenuTitle</span><b class="caret"></b>
+						<a id="menu-link-1" class="dropdown-toggle" data-toggle="dropdown" href="#" title="$Title.XML">
+						<span class="text">$MenuTitle</span><b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu">
-						<% loop $Menu(2) %>
-							<li><a href="#">History</a></li>
+						<% loop Children %>
+							<li><a href="#">$MenuTitle</a></li>
 						<% end_loop %>
 						</ul>
 					</li>
@@ -114,7 +115,7 @@ melle.io
 				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="4"><img src="images/s02.png"></div><span>Hexagon</span></div>
 				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="3"><img src="images/s01.png"></div><span>Hexagon</span></div>
 				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="5"><img src="images/s03.png"></div><span>Hexagon</span></div>
-			</div><!-- /row --> -->
+			</div><!-- /row --> 
 		</div><!-- /container -->
 	</div><!-- /slide1 -->
 	
