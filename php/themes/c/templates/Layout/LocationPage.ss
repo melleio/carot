@@ -1,6 +1,7 @@
 <div class="slide story" id="slide-1" data-slide="1">
 		<div class="container">
 			<div id="home-row-1" class="row clearfix">
+				<h1 style="text-align: center;">$Title</h1>
 			  <div class="col-4">
 			  	<h3 style="text-align: center;">F.M. Kirby Center for Molecular Ophthalmology</h3>
 				<p class="p2" style="text-align: center;"><span class="s1">305 Stellar-Chance Labs</span></p>
