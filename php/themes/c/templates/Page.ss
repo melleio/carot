@@ -109,7 +109,7 @@ melle.io
 
 				<% with Page(community) %>
 					<li class="col-12 col-sm-2">
-						<a id="menu-link-4" class="" data-toggle="" href="$Link" title="$Title.XML">
+						<a id="menu-link-4" class="" href="$Link" title="$Title.XML">
 						<span class="text">$MenuTitle</span><%-- <b class="caret"></b> --%>
 						</a>
 						<%-- <ul class="dropdown-menu">
