@@ -118,7 +118,7 @@ melle.io
 	<script src="themes/c/js/jquery-migrate-1.2.1.min.js"></script>
 	<script src="themes/c/js/bootstrap.min.js"></script>
 	<script src="themes/c/js/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="fancybox/jquery.fancybox.pack-v=2.1.5.js"></script>
+	<script type="text/javascript" src="themes/c/fancybox/jquery.fancybox.pack-v=2.1.5.js"></script>
 	<script src="themes/c/js/script.js"></script>
 	
 	<!-- fancybox init -->
