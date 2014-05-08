@@ -16,10 +16,11 @@ margin-left: -54px;
 max-width: 1124px;
 }
 
-@media (min-width: 1200px)
 #home-image {
 width: 905px;
-box-shadow: 0px 3px 3px 3px #BBBBBB;
+}
+#home-image img{
+	box-shadow: 0px 3px 3px 3px #BBBBBB;
 }
 
 .text{
