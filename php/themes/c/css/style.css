@@ -17,10 +17,14 @@ max-width: 1124px;
 }
 
 #home-image {
-padding-bottom: 20px;
 }
 #home-image img{
 	box-shadow: 0px 3px 3px 3px #BBBBBB;
+}
+
+#carot-logo{
+	text-align:center;
+	position: relative;
 }
 
 .text{
@@ -95,7 +99,7 @@ ul.dropdown-menu li{
 .carot-header {
 position: absolute;
 right: 85px;
-min-width: 590px;
+min-width: 580px;
 font-family: "eskapade";
 }
 
@@ -379,7 +383,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 }
 
 #slide-1 h1 {
-	padding-top: 130px;
+	padding-top: 30px;
 }
 
 @media (max-width: 991px) {

@@ -45,6 +45,7 @@ melle.io
 			<div class="carot-header">
 				<div id="carot-logo">
 					<h1 class="carot-large">CAROT</h1>
+					<p>CAROT</p>
 				</div>
 				<h3>
 				Center for Advanced<br>
