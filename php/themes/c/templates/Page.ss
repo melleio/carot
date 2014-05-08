@@ -160,13 +160,13 @@ melle.io
 
 </body>
 <!-- SCRIPTS -->
-	<script src="themes/c/js/html5shiv.js"></script>
-	<script src="themes/c/js/jquery-1.10.2.min.js"></script>
-	<script src="themes/c/js/jquery-migrate-1.2.1.min.js"></script>
-	<script src="themes/c/js/bootstrap.min.js"></script>
-	<script src="themes/c/js/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="themes/c/fancybox/jquery.fancybox.pack-v=2.1.5.js"></script>
-	<script src="themes/c/js/script.js"></script>
+	<script src="$ThemeDir/js/html5shiv.js"></script>
+	<script src="$ThemeDir/js/jquery-1.10.2.min.js"></script>
+	<script src="$ThemeDir/js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="$ThemeDir/js/bootstrap.min.js"></script>
+	<script src="$ThemeDir/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="$ThemeDir/fancybox/jquery.fancybox.pack-v=2.1.5.js"></script>
+	<script src="$ThemeDir/js/script.js"></script>
 	
 	<!-- fancybox init -->
 	<script>
