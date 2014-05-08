@@ -143,7 +143,8 @@ melle.io
 			<div id="home-row-1" class="row clearfix">
 				<div class="col-12">
 					<h1 class="font-semibold">Welcome!</span></h1>
-					<h4 class="font-thin">$Content</h4>
+					<h4 class="font-thin">$Content
+					$Form</h4>
 					<br>
 					<br>
 				</div><!-- /col-12 -->
