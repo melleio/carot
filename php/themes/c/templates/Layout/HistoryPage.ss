@@ -3,7 +3,7 @@
 			<div id="home-row-1" class="row clearfix">
 				<div class="col-12">
 					<h1>$Title</h1>
-					<div id="home-image">
+					<div id="top-image">
 						<img src="$TopImage.Filename" title="$TopImage.Title">
 					</div>
 					<div class="font-thin">
