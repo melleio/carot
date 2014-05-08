@@ -3,7 +3,7 @@
 			<div id="home-row-1" class="row clearfix">
 				<div class="col-12">
 					<div id="home-image">
-						<img src="$HomeImage.Filename" title="$HomeImage.Title">
+						<img src="$TopImage.Filename" title="$TopImage.Title">
 					</div>
 					<div class="font-thin">
 						$Content
