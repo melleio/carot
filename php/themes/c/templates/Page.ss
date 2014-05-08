@@ -67,21 +67,57 @@ melle.io
 			
 			<div class="nav-collapse collapse navbar-responsive-collapse">
 				<ul id="mainNavList" class="nav row">
+				<% with Page(home) %>
+					<li class="col-12 col-sm-2 dropdown">
+						<a id="menu-link-1" class="dropdown-toggle" data-toggle="dropdown" href="#" title="$Title.XML">
+						<span class="text">$MenuTitle</span><b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+						<% loop Children %>
+							<li><a href="#">$MenuTitle</a></li>
+						<% end_loop %>
+						</ul>
+					</li>
+				<% end_with %>
+
 				<% with Page(research) %>
 					<li class="col-12 col-sm-2 dropdown">
 						<a id="menu-link-1" class="dropdown-toggle" data-toggle="dropdown" href="#" title="$Title.XML">
 						<span class="text">$MenuTitle</span><b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu">
-						<% loop Menu(2) %>
+						<% loop Children %>
 							<li><a href="#">$MenuTitle</a></li>
 						<% end_loop %>
 						</ul>
 					</li>
 				<% end_with %>
-					<%-- <li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="fa fa-eye"></span> <span class="text">RESEARCH</span></a></li>
-					<li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-3" title="Next Section"><span class="fa fa-flask"></span> <span class="text">SERVICES</span></a></li>
-					<li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="fa fa-users"></span> <span class="text">COMMUNITY</span></a></li> --%>
+
+				<% with Page(services) %>
+					<li class="col-12 col-sm-2 dropdown">
+						<a id="menu-link-1" class="dropdown-toggle" data-toggle="dropdown" href="#" title="$Title.XML">
+						<span class="text">$MenuTitle</span><b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+						<% loop Children %>
+							<li><a href="#">$MenuTitle</a></li>
+						<% end_loop %>
+						</ul>
+					</li>
+				<% end_with %>
+
+				<% with Page(community) %>
+					<li class="col-12 col-sm-2 dropdown">
+						<a id="menu-link-1" class="dropdown-toggle" data-toggle="dropdown" href="#" title="$Title.XML">
+						<span class="text">$MenuTitle</span><b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+						<% loop Children %>
+							<li><a href="#">$MenuTitle</a></li>
+						<% end_loop %>
+						</ul>
+					</li>
+				<% end_with %>
 				</ul>
 				<div class="row">
 					<div class="col-sm-2 active-menu"></div>
