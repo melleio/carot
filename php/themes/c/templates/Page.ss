@@ -78,11 +78,9 @@ melle.io
 						<ul class="dropdown-menu">
 						<% loop Children %>
 							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
-							<li role="presentation" class="divider"></li>
 							<% loop Children %>
 								<li class="submenu-item"><a href="$Link">$MenuTitle</a></li>
 							<% end_loop %>
-							<li role="presentation" class="divider"></li>
 						<% end_loop %>
 						</ul>
 					</li>
