@@ -36,18 +36,18 @@ max-width: 1124px;
 	float: left;
 }
 
-.carot-medium
-{
+.carot-medium {
 color: #fff;
 letter-spacing: 15px;
 font-size: 17px;
 margin: 0 0 2px;
+opacity: 0.8;
 }
-
 .carot-small{
 color: #fff;
 letter-spacing: 10px;
 font-size: 12px;
+opacity: 0.7;
 }
 
 .text{
