@@ -11,4 +11,5 @@ unset GIT_DIR
 
 cd $OPENSHIFT_REPO_DIR\php
 rm -Rf assets
+echo "cleaning assets"
 ln -sf $OPENSHIFT_DATA_DIR/assets $OPENSHIFT_REPO_DIR/php/assets
