@@ -67,12 +67,12 @@ melle.io
 			
 			<div class="nav-collapse collapse navbar-responsive-collapse">
 				<ul id="mainNavList" class="nav row">
-					<li data-slide="1" class="col-12 col-sm-2 dropdown">
-					<a id="menu-link-1" class="dropdown-toggle" data-toggle="dropdown" href="#slide-1" title="Next Section"><span class="fa fa-home"></span> <span class="text">HOME</span><b class="caret">
-					</a>
-					<ul class="dropdown-menu">
-						<li><a href="#">History</a></li>
-					</ul>
+					<li class="col-12 col-sm-2 dropdown">
+						<a id="menu-link-1" class="dropdown-toggle" data-toggle="dropdown" href="#" title="Next Section"><span class="fa fa-home"></span> <span class="text">HOME</span><b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">History</a></li>
+						</ul>
 					</li>
 					<li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="fa fa-eye"></span> <span class="text">RESEARCH</span></a></li>
 					<li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-3" title="Next Section"><span class="fa fa-flask"></span> <span class="text">SERVICES</span></a></li>
