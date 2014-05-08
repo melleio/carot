@@ -39,17 +39,108 @@ melle.io
 <div class="search" role="search">
 <p>Stuff here</p>
 </div>
-<div class="main" role="main">
-	<div class="inner typography line">
-		<% include Navigation %>
-		$Layout
+<body>
+	<header class="header">
+	<div class="inner container">
+		<div class="unit size4of4 lastUnit">
+			<a href="$BaseHref" class="brand" rel="home">
+				<h1><img src="https://www.med.upenn.edu/images/psom_logo_white.png"></h1>
+				
+			</a>
+			<div class="carot-header">
+				<div id="carot-logo">
+					<h1 class="carot-large">CAROT</h1>
+				</div>
+				<h3>
+				Center for Advanced Retinal<br> 
+				and	Ophthalmic Therapeutics
+				</h3>
+			</div>
+		</div>
 	</div>
-</div>
-<% include Footer %>
-
-<% require javascript('framework/thirdparty/jquery/jquery.js') %>
-<%-- Please move: Theme javascript (below) should be moved to mysite/code/page.php  --%>
-<script type="text/javascript" src="{$ThemeDir}/javascript/script.js"></script>
+	</header>
+	<div id="mainNavigation" class="navbar navbar-static-top main-nav" data-activeslide="1">
+		<div class="container">
+		
+			<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+			
+			<div class="nav-collapse collapse navbar-responsive-collapse">
+				<ul id="mainNavList" class="nav row">
+					<li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-1" title="Next Section"><span class="fa fa-home"></span> <span class="text">HOME</span></a></li>
+					<li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="fa fa-eye"></span> <span class="text">RESEARCH</span></a></li>
+					<li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-3" title="Next Section"><span class="fa fa-flask"></span> <span class="text">SERVICES</span></a></li>
+					<li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="fa fa-users"></span> <span class="text">COMMUNITY</span></a></li>
+					<!-- <li data-slide="5" class="col-12 col-sm-2"><a id="menu-link-5" href="#slide-5" title="Next Section"><span class="icon icon-heart"></span> <span class="text">CLIENTS</span></a></li>
+					<li data-slide="6" class="col-12 col-sm-2"><a id="menu-link-6" href="#slide-6" title="Next Section"><span class="icon icon-envelope"></span> <span class="text">CONTACT</span></a></li> -->
+				</ul>
+				<div class="row">
+					<div class="col-sm-2 active-menu"></div>
+				</div>
+			</div><!-- /.nav-collapse -->
+		</div><!-- /.container -->
+	</div><!-- /.navbar -->
+	
+	
+	<!-- === Arrows === -->
+	<div id="arrows">
+		<div id="arrow-up" class="disabled"></div>
+		<div id="arrow-down"></div>
+		<div id="arrow-left" class="disabled visible-lg"></div>
+		<div id="arrow-right" class="disabled visible-lg"></div>
+	</div><!-- /.arrows -->
+	
+	<div id="blue-space"></div>
+	<!-- === MAIN Background === -->
+	<div class="slide story" id="slide-1" data-slide="1">
+		<div class="container">
+			<div id="home-row-1" class="row clearfix">
+				<div class="col-12">
+					<h1 class="font-semibold">CAROT</span></h1>
+					<h4 class="font-thin">Some <span class="font-semibold">text</span> here.</h4>
+					<br>
+					<br>
+				</div><!-- /col-12 -->
+			</div><!-- /row -->
+			<!-- <div id="home-row-2" class="row clearfix">
+				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="4"><img src="images/s02.png"></div><span>Hexagon</span></div>
+				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="3"><img src="images/s01.png"></div><span>Hexagon</span></div>
+				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="5"><img src="images/s03.png"></div><span>Hexagon</span></div>
+			</div><!-- /row --> -->
+		</div><!-- /container -->
+	</div><!-- /slide1 -->
+	
 
 </body>
+<!-- SCRIPTS -->
+	<script src="themes/c/js/html5shiv.js"></script>
+	<script src="themes/c/js/jquery-1.10.2.min.js"></script>
+	<script src="themes/c/js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="themes/c/js/bootstrap.min.js"></script>
+	<script src="themes/c/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox.pack-v=2.1.5.js"></script>
+	<script src="themes/c/js/script.js"></script>
+	
+	<!-- fancybox init -->
+	<script>
+	$(document).ready(function(e) {
+		var lis = $('.nav > li');
+		menu_focus( lis[0], 1 );
+		
+		$(".fancybox").fancybox({
+			padding: 10,
+			helpers: {
+				overlay: {
+					locked: false
+				}
+			}
+		});
+	
+	});
+	</script>
 </html>
