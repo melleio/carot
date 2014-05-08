@@ -18,10 +18,12 @@ margin-right: -469px;
 margin-left: -54px;
 }
 
-@media (min-width: 1200px)
-.container {
+@media (min-width: 1200px){
+	.container {
 max-width: 1124px;
 }
+}
+
 
 #top-image {
 	padding-bottom: 15px;
