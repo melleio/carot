@@ -6,6 +6,13 @@
  * Version: 1.0
  * URL: http://blacktie.co
  */
+
+ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+font-family: "Effra", Helvetica, Arial, sans-serif;
+font-weight: 500;
+line-height: 1.1;
+}
+
 #mainNavList {
 margin-right: -469px;
 margin-left: -54px;
@@ -34,6 +41,7 @@ max-width: 1124px;
 color: #fff;
 letter-spacing: 15px;
 font-size: 17px;
+margin: 0 0 2px;
 }
 
 .carot-small{
