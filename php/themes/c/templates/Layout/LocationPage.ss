@@ -1,13 +1,9 @@
 <div class="slide story" id="slide-1" data-slide="1">
 		<div class="container">
 			<div id="home-row-1" class="row clearfix">
-				<div class="col-12">
-					<div class="row">
-						<div class="col-xs-4">...</div>
-						<div class="col-xs-4">...</div>
-						<div class="col-xs-4">...</div>
-					</div>
-				</div><!-- /col-12 -->
+			  <div class="col-md-4">.col-md-4</div>
+			  <div class="col-md-4">.col-md-4</div>
+			  <div class="col-md-4">.col-md-4</div>
 			</div><!-- /row -->
 			<!-- <div id="home-row-2" class="row clearfix">
 				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="4"><img src="images/s02.png"></div><span>Hexagon</span></div>
