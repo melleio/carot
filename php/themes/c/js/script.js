@@ -18,9 +18,9 @@ $(document).ready(function(e) {
         collapsedBar = c;
         //document.body.style.backgroundPosition = (-window.pageXOffset / speed) + "px " + (-window.pageYOffset / speed) + "px";
     }
-	$('.with-hover-text, .regular-link').click(function(e){
+	/*$('.with-hover-text, .regular-link').click(function(e){
 		e.stopPropagation();
-	});
+	});*/
 	
 	/***************
 	* = Hover text *
