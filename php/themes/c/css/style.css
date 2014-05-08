@@ -22,9 +22,24 @@ max-width: 1124px;
 	box-shadow: 0px 3px 3px 3px #BBBBBB;
 }
 
-#carot-logo{
-	text-align:center;
+#carot-logo {
+	text-align: center;
 	position: relative;
+	width: 200px;
+	float: left;
+}
+
+.carot-medium
+{
+color: #fff;
+letter-spacing: 15px;
+font-size: 17px;
+}
+
+.carot-small{
+color: #fff;
+letter-spacing: 10px;
+font-size: 12px;
 }
 
 .text{
