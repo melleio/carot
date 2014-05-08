@@ -73,7 +73,7 @@ melle.io
 						<span class="text">$MenuTitle</span><b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu">
-						<% loop Children %>
+						<% loop Menu(2) %>
 							<li><a href="#">$MenuTitle</a></li>
 						<% end_loop %>
 						</ul>
