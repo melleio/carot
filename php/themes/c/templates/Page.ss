@@ -34,11 +34,6 @@ melle.io
 	
 	<link rel="shortcut icon" href="$ThemeDir/images/favicon.ico" />
 </head>
-<body class="$ClassName<% if not $Menu(2) %> no-sidebar<% end_if %>" <% if $i18nScriptDirection %>dir="$i18nScriptDirection"<% end_if %>>
-<% include Header %>
-<div class="search" role="search">
-<p>Stuff here</p>
-</div>
 <body>
 	<header class="header">
 	<div class="inner container">
