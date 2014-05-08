@@ -90,12 +90,11 @@ melle.io
 						</a>
 						<ul class="dropdown-menu">
 						<% loop Children %>
-							<li><a href="#">$MenuTitle</a></li>
-							<ul class="dropdown-menu">
+							<li role="presentation" class="dropdown-header"><a href="#">$MenuTitle</a></li>
 							<% loop Children %>
 								<li><a href="#">$MenuTitle</a></li>
 							<% end_loop %>
-							</ul>
+							<li role="presentation" class="divider"></li>
 						<% end_loop %>
 						</ul>
 					</li>
