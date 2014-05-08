@@ -95,7 +95,7 @@ melle.io
 							<% loop Children %>
 								<li class="submenu-item"><a href="#">$MenuTitle</a></li>
 							<% end_loop %>
-							
+							<li role="presentation" class="divider"></li>
 						<% end_loop %>
 						</ul>
 					</li>
