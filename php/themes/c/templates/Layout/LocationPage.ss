@@ -12,14 +12,14 @@
 			  	<h3 style="text-align: center;">Scheie Eye Institute</h3>
 				<p class="p2" style="text-align: center;"><span class="s1">51 N 39th St</span></p>
 				<p class="p2" style="text-align: center;"><span class="s1">Philadelphia, PA 19104</span></p>
-				<p class="p2" style="text-align: center;"><img SRC="assets/Index-Page/Location/Location-1-FM-Kirby-Center-Stellar-Chance-Labs-.png" title="Stellar Chance"></p>
+				<p class="p2" style="text-align: center;"><img SRC="http://www-carot.us.melle.io/assets/Index-Page/Location/Location-Image-2-Scheie-Eye-Institue-.png" title="Stellar Chance"></p>
 			  </div>
 			  <div class="col-4">
 			  	<h3 style="text-align: center;">Perelman School of Medicine</h3>
 				<p class="p2" style="text-align: center;"><span class="s1">at the University of Pennsylvania</span></p>
 				<p class="p2" style="text-align: center;"><span class="s1">295 John Morgan Building, </span></p>
 				<p class="p2" style="text-align: center;"><span class="s1">3620 Hamilton Walk, Philadelphia, PA 19104</span></p>
-				<p class="p2" style="text-align: center;"><img SRC="assets/Index-Page/Location/Location-1-FM-Kirby-Center-Stellar-Chance-Labs-.png" title="Stellar Chance"></p>
+				<p class="p2" style="text-align: center;"><img SRC="assets/Index-Page/Location/Location-Image-3-Perelman-Medical-Center-.png" title="Stellar Chance"></p>
 			  </div>
 			</div><!-- /row -->
 			<!-- <div id="home-row-2" class="row clearfix">
