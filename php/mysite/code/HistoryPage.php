@@ -14,7 +14,7 @@ class HistoryPage extends Page {
 
     public function getCMSFields() {
 		$fields = parent::getCMSFields();
-		$fields->removeFieldFromTab("Root.Main","Content");
+		//$fields->removeFieldFromTab("Root.Main","Content");
 
 		/*$config = new GridFieldConfig_RelationEditor();
 		$config->addComponents(new GridFieldExportButton('before'));

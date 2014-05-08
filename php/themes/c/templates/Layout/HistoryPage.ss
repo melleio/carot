@@ -2,6 +2,7 @@
 		<div class="container">
 			<div id="home-row-1" class="row clearfix">
 				<div class="col-12">
+					<h1>$Title</h1>
 					<div id="home-image">
 						<img src="$TopImage.Filename" title="$TopImage.Title">
 					</div>
