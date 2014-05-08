@@ -47,8 +47,9 @@ melle.io
 					<h1 class="carot-large">CAROT</h1>
 				</div>
 				<h3>
-				Center for Advanced Retinal<br> 
-				and	Ophthalmic Therapeutics
+				Center for Advanced<br>
+				Retinal and	Ophthalmic<br>
+				Therapeutics
 				</h3>
 			</div>
 		</div>

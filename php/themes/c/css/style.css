@@ -88,7 +88,7 @@ ul.dropdown-menu li{
 .carot-header {
 	position: absolute;
 right: 20px;
-min-width: 700px;
+min-width: 665px;
 font-family: "eskapade"
 }
 
@@ -101,6 +101,7 @@ padding-top: 5px;
 text-transform: uppercase;
 letter-spacing: 5px;
 font-family: "eskapade";
+text-align: right;
 }
 .carot-header h1{
 	color: #FFF;
@@ -221,7 +222,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 .nav li {
 	text-align: center;
 	white-space: nowrap;
-	font-size: 29px; *
+	font-size: 26px; 
 }
 
 .nav > li > a:hover,
