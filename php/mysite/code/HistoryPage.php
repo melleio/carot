@@ -1,5 +1,5 @@
 <?php
-class HistorPage extends Page {
+class HistoryPage extends Page {
 
 	private static $db = array(
 	);
