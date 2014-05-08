@@ -17,7 +17,6 @@ class GalleryImage extends DataObject {
   );
 
   private static $belongs_many_many = array(
-    'SiteConfig' => 'SiteConfig'
   );
  
  // tidy up the CMS by not showing these fields
