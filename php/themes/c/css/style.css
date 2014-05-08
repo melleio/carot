@@ -70,7 +70,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4f54', end
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
 color: #444444;
 text-decoration: none;
-background-color: #FFFFFF;
+background-color: #FFFFFF !important;
 }
 
 ul.dropdown-menu li{
@@ -196,6 +196,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 	color: #5f5f5f;
 	font-family: "Titillium Web", sans-serif;
 	font-weight: 600;
+	background-color: #FFFFFF !important;
 	transition: all .5 linear;
 }
 
