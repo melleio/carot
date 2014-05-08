@@ -13,7 +13,8 @@ class GalleryImage extends DataObject {
   private static $has_one = array(
     'Image' => 'Image',
     'GalleryPage' => 'GalleryPage',
-    'HomePage' => 'HomePage'
+    'HomePage' => 'HomePage',
+    'HistoryPage' => 'HistoryPage'
   );
 
   private static $belongs_many_many = array(
