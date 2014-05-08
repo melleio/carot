@@ -108,15 +108,15 @@ melle.io
 				<% end_with %>
 
 				<% with Page(community) %>
-					<li class="col-12 col-sm-2 dropdown">
-						<a id="menu-link-1" class="dropdown-toggle" data-toggle="dropdown" href="#" title="$Title.XML">
+					<li class="col-12 col-sm-2">
+						<a id="menu-link-1" class="" data-toggle="" href="$Link" title="$Title.XML">
 						<span class="text">$MenuTitle</span><%-- <b class="caret"></b> --%>
 						</a>
-						<ul class="dropdown-menu">
+						<%-- <ul class="dropdown-menu">
 						<% loop Children %>
 							<li><a href="#">$MenuTitle</a></li>
 						<% end_loop %>
-						</ul>
+						</ul> --%>
 					</li>
 				<% end_with %>
 				</ul>
