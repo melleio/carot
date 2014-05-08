@@ -91,6 +91,11 @@ melle.io
 						<ul class="dropdown-menu">
 						<% loop Children %>
 							<li><a href="#">$MenuTitle</a></li>
+							<ul class="dropdown-menu">
+							<% loop Children %>
+								<li><a href="#">$MenuTitle</a></li>
+							<% end_loop %>
+							</ul>
 						<% end_loop %>
 						</ul>
 					</li>
