@@ -62,6 +62,20 @@ background: linear-gradient(to bottom,  rgba(75,79,84,1) 0%,rgba(43,43,43,1) 41%
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4f54', endColorstr='#3f3f3f',GradientType=0 ); /* IE6-9 */
 
 }
+
+.dropdown-menu{
+	left:25px;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+color: #444444;
+text-decoration: none;
+background-color: #FFFFFF;
+}
+
+ul.dropdown-menu li{
+	font-size: 19px;
+}
 .carot-header {
 	position: absolute;
 right: 20px;
@@ -205,6 +219,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 .nav > li > a:focus {
 	background-color: inherit;
 	outline: none;
+	color:#E25858;
 }
 
 .navbar-brand {
