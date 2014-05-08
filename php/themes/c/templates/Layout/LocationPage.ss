@@ -2,10 +2,10 @@
 		<div class="container">
 			<div id="home-row-1" class="row clearfix">
 				<div class="col-12">
-					<div class="row-fluid show-grid">
-						<div class="span4">...</div>
-						<div class="span4">...</div>
-						<div class="span4">...</div>
+					<div class="row">
+						<div class="col-xs-4">...</div>
+						<div class="col-xs-4">...</div>
+						<div class="col-xs-4">...</div>
 					</div>
 				</div><!-- /col-12 -->
 			</div><!-- /row -->
