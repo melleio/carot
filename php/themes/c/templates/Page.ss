@@ -93,15 +93,24 @@ melle.io
 						</a>
 						<ul class="dropdown-menu" style="width:600px;">
 				<% end_with %>		
+						<div class="col-md-4">
 						<% with Page(clinical-trials) %>
-						<div class="col-4">
+						
 							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
 							<li role="presentation" class="divider"></li>
 							<% loop Children %>
 								<li class="submenu-item"><a href="$Link">$MenuTitle</a></li>
 							<% end_loop %>
-						</div>
 						<% end_with %>
+
+						<% with Page(research-method) %>
+							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
+							<li role="presentation" class="divider"></li>
+							<% loop Children %>
+								<li class="submenu-item"><a href="$Link">$MenuTitle</a></li>
+							<% end_loop %>
+						<% end_with %>
+						</div>
 							
 						</ul>
 					</li>
