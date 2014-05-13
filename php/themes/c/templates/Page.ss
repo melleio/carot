@@ -22,6 +22,7 @@ melle.io
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+	<script src="$ThemeDir/js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="//use.typekit.net/bzx4dno.js"></script>
     <script type="text/javascript">
         try{Typekit.load();}catch(e){}
@@ -111,6 +112,17 @@ melle.io
 							<% end_loop %>
 						<% end_with %>
 						</div>
+
+						<div class="col-md-4">
+						<% with Page(laboratory-research) %>
+						
+							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
+							<li role="presentation" class="divider"></li>
+							<% loop Children %>
+								<li class="submenu-item"><a href="$Link">$MenuTitle</a></li>
+							<% end_loop %>
+						<% end_with %>
+						</div>
 							
 						</ul>
 					</li>
@@ -171,7 +183,7 @@ melle.io
 </body>
 <!-- SCRIPTS -->
 	<script src="$ThemeDir/js/html5shiv.js"></script>
-	<script src="$ThemeDir/js/jquery-1.10.2.min.js"></script>
+	
 	<script src="$ThemeDir/js/jquery-migrate-1.2.1.min.js"></script>
 	<script src="$ThemeDir/js/bootstrap.min.js"></script>
 	<script src="$ThemeDir/js/jquery.easing.1.3.js"></script>
