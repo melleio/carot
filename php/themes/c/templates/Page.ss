@@ -92,12 +92,12 @@ melle.io
 						<span class="text">$MenuTitle</span><%-- <b class="caret"></b> --%>
 						</a>
 						<ul class="dropdown-menu" style="width:600px;">
-							
+				<% end_with %>		
 						<% with Page(clinical-trials) %>
 						<div class="col-4">
 							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
 							<li role="presentation" class="divider"></li>
-							<% loop ChildrenOf(clinical-trials) %>
+							<% loop Children %>
 								<li class="submenu-item"><a href="$Link">$MenuTitle</a></li>
 							<% end_loop %>
 						</div>
@@ -105,7 +105,7 @@ melle.io
 							
 						</ul>
 					</li>
-				<% end_with %>
+				
 
 				<% with Page(services) %>
 					<li class="col-12 col-sm-2 dropdown">
