@@ -92,6 +92,7 @@ melle.io
 						<span class="text">$MenuTitle</span><%-- <b class="caret"></b> --%>
 						</a>
 						<ul class="dropdown-menu">
+							<div class="col-4">
 						<% loop Children %>
 							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
 							<li role="presentation" class="divider"></li>
@@ -100,6 +101,7 @@ melle.io
 							<% end_loop %>
 							<li role="presentation" class="divider"></li>
 						<% end_loop %>
+							</div>
 						</ul>
 					</li>
 				<% end_with %>
