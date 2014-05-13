@@ -26,7 +26,7 @@ melle.io
     <script type="text/javascript">
         try{Typekit.load();}catch(e){}
     </script>
-	<% require themedCSS('bootstrap.min') %>
+	<% require themedCSS('bootstrap') %>
 	<% require themedCSS('fancybox') %>
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<% require themedCSS('style') %>
