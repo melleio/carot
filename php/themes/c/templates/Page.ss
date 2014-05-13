@@ -68,7 +68,7 @@ melle.io
 			</button>
 			
 			
-			<div class="nav-collapse collapse navbar-responsive-collapse">
+			<div class="nav-collapse navbar-responsive-collapse">
 				<ul id="mainNavList" class="nav row">
 				<% with Page(home) %>
 					<li class="col-12 col-sm-2 dropdown">
