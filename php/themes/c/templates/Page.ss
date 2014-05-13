@@ -91,17 +91,19 @@ melle.io
 						<a id="menu-link-1" class="dropdown-toggle" data-toggle="dropdown" href="#" title="$Title.XML">
 						<span class="text">$MenuTitle</span><%-- <b class="caret"></b> --%>
 						</a>
-						<ul class="dropdown-menu">
-							<div class="col-4">
+						<ul class="dropdown-menu" style="width:500px;">
+							
 						<% loop Children %>
+						<div class="col-4">
 							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
 							<li role="presentation" class="divider"></li>
 							<% loop Children %>
 								<li class="submenu-item"><a href="$Link">$MenuTitle</a></li>
 							<% end_loop %>
 							<li role="presentation" class="divider"></li>
+						</div>
 						<% end_loop %>
-							</div>
+							
 						</ul>
 					</li>
 				<% end_with %>
