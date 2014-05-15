@@ -2,21 +2,21 @@
 		<div class="container">
 			<div id="home-row-1" class="row clearfix">
 				<h1 style="text-align: center;text-transform:uppercase">$Title</h1>
-			  <div class="col-4">
+			  <div class="col-md-4">
 			  	<h5 style="text-align: center;">F.M. Kirby Center for Molecular Ophthalmology</h5>
 				<p class="p2" style="text-align: center;"><span class="s1">305 Stellar-Chance Labs</span></p>
 				<p class="p2" style="text-align: center;"><span class="s1">422 Curie Blvd.</span></p>
 				<p class="p2" style="text-align: center;"><span class="s1">Philadelphia, PA 19104-6100</span></p>
 				<p class="p2" style="text-align: center;"><img SRC="assets/Index-Page/Location/Location-1-FM-Kirby-Center-Stellar-Chance-Labs-.png" title="Stellar Chance"></p>
 			  </div>
-			  <div class="col-4">
+			  <div class="col-md-4">
 			  	<h5 style="text-align: center;">Scheie Eye Institute</h5>
 				<p class="p2" style="text-align: center;"><span class="s1">51 N 39th St</span></p>
 				<p class="p2" style="text-align: center;"><span class="s1">Philadelphia, PA 19104</span></p>
 				<p class="p2" style="text-align: center;"><span class="s1">&nbsp;</span></p>
 				<p class="p2" style="text-align: center;"><img SRC="http://www-carot.us.melle.io/assets/Index-Page/Location/Location-Image-2-Scheie-Eye-Institue-.png" title="Stellar Chance"></p>
 			  </div>
-			  <div class="col-4">
+			  <div class="col-md-4">
 			  	<h5 style="text-align: center;">Perelman School of Medicine</h5>
 				<p class="p2" style="text-align: center;"><span class="s1">at the University of Pennsylvania</span></p>
 				<p class="p2" style="text-align: center;"><span class="s1">295 John Morgan Building, </span></p>
