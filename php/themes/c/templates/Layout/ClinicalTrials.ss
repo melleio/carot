@@ -2,7 +2,7 @@
 <div class="container">
 
 	<div class="row clearfix">
-		<div class="col-sm-12">
+		<div class="col-sm-12" id="breadcrumbs">
 			$Breadcrumbs(2,true)
 		</div>
 	</div>
