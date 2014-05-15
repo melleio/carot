@@ -15,6 +15,7 @@
 		</div>
 		<% else %>
 
+		<% end_if %>
 		<% end_loop %>
 		<div class="col-sm-2">
 			<p></p>
