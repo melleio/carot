@@ -17,6 +17,7 @@ class Reference extends DataObject{
 
 	private static $has_one = array(
 		'ClinicalTrialItem' => 'ClinicalTrialItem',
+		'LaboratoryResearchItem' => 'LaboratoryResearchItem',
 	);
 
 	private static $belongs_many_many = array(
