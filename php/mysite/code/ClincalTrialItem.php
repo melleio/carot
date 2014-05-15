@@ -69,6 +69,11 @@ class ClinicalTrialItem_Controller extends ResearchPage_Controller {
 		);*/
 	}
 
+	public function index(){
+
+		$this->renderWith('ClinicalTrials');
+	}
+
 
 	/*public function GalleryImages(){
 		return SiteConfig::get()->First()->HomeHeaderImages()->sort('RAND()')->First();
