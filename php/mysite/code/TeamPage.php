@@ -14,6 +14,8 @@ class TeamPage extends ResearchPage {
 
     public function getCMSFields() {
 		$fields = parent::getCMSFields();
+		$topcontent = new TextAreaField('TopContent');
+		$fields->addFieldToTab('Root.Main', $topcontent,'MenuTitle');
 		
 		$config2 = new GridFieldConfig_RelationEditor();
 		$config2->addComponents(new GridFieldExportButton('before'));
@@ -63,6 +65,12 @@ class TeamPage_Controller extends ResearchPage_Controller {
 	        'themes/v3/js/searchoverlay.js'
 	    )
 		);*/
+	}
+
+
+	public function index(){
+
+		return $this->renderWith(array('ResearchPage','TeamPage'));
 	}
 
 
