@@ -1,11 +1,7 @@
 <div class="slide story" id="slide-1" data-slide="1">
 <div class="container">
 
-	<div class="row clearfix">
-		<div class="col-sm-12" id="breadcrumbs">
-			$Breadcrumbs(2,true)
-		</div>
-	</div>
+	<% include BreadCrumbs %>
 	<div class="row">
 		<% loop ChildrenOf(clinical-trials) %>
 		<div class="col-sm-3">
