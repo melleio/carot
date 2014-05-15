@@ -17,6 +17,7 @@ class Reference extends DataObject{
 
 	private static $has_one = array(
 		'ClinicalTrialItem' => 'ClinicalTrialItem',
+		'TeamMemberPage' => 'TeamMemberPage',
 		'LaboratoryResearchItem' => 'LaboratoryResearchItem',
 	);
 
