@@ -71,7 +71,7 @@ class LaboratoryResearchItem_Controller extends LaboratoryResearch_Controller {
 
 	public function index(){
 
-		return $this->renderWith(array('ResearchPage','ClinicalTrials'));
+		return $this->renderWith(array('ResearchPage','LaboratoryResearchItem'));
 	}
 
 
