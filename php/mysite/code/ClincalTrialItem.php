@@ -1,5 +1,5 @@
 <?php
-class ClinicalTrialItem extends ResearchPage {
+class ClinicalTrialItem extends ClinicalTrials {
 
 	private static $db = array(
 	);
@@ -30,7 +30,7 @@ class ClinicalTrialItem extends ResearchPage {
     }
 
 }
-class ClinicalTrialItem_Controller extends ResearchPage_Controller {
+class ClinicalTrialItem_Controller extends ClinicalTrials_Controller {
 
 	/**
 	 * An array of actions that can be accessed via a request. Each array element should be an action name, and the
