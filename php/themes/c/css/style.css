@@ -277,8 +277,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 }
 
 .nav li {
-	text-align: center;
-	white-space: nowrap;
+	text-align: left;
+	width: 14em;
 	font-size: 26px; 
 }
 
