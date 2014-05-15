@@ -37,7 +37,9 @@
 	</div>
 	<div class="row">
 		<div class="col-sm-7 gray-box" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
-			<p class="content-text">$Content</p>
+			<div class="content-text">
+			$Content
+			</div>
 		</div>
 		<div class="col-sm-4" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/REV1-CHM-block-for-references-.png');background-size:cover;">
 			<h4 class="ref-header">References</h4>

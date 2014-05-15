@@ -838,9 +838,9 @@ padding-top: 10px;
 	color:blue;
 }
 .ref-list {
-	padding:0;
+	padding:20px;
 	margin:0;
 }
 .ref-list li {
-
+	margin:10px 0;
 }
