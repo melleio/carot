@@ -116,10 +116,12 @@ melle.io
 						<div class="col-md-4">
 						<% with Page(laboratory-research) %>
 						
-							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
+							<li role="presentation" class="dropdown-header">
+								<p><a href="$Link">$MenuTitle</a></p></li>
 							<li role="presentation" class="divider"></li>
 							<% loop Children %>
-								<li class="submenu-item"><a href="$Link">$MenuTitle</a></li>
+								<li class="submenu-item">
+									<p><a href="$Link">$MenuTitle</a></p></li>
 							<% end_loop %>
 						<% end_with %>
 						</div>
