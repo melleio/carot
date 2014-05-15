@@ -13,7 +13,7 @@
 		<% loop Children %>
 		<div class="col-sm-2">
 			<p>$Image.SetWidth(150)
-			<strong><a href="$Link">$MenuTitle</a></strong>
+			<p><strong><a href="$Link">$MenuTitle</a></strong></p>
 			</p>
 		</div>
 		<% end_loop %>
