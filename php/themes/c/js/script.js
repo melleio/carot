@@ -1,7 +1,7 @@
 collapsedBar = false;
 c=false;
 $(document).ready(function(e) {
-	/*window.onscroll = function() {
+	window.onscroll = function() {
         
         if(window.pageYOffset > 110 && !collapsedBar){  // header size
           c = true;
@@ -17,7 +17,7 @@ $(document).ready(function(e) {
         }
         collapsedBar = c;
         //document.body.style.backgroundPosition = (-window.pageXOffset / speed) + "px " + (-window.pageYOffset / speed) + "px";
-    }*/
+    }
 	/*$('.with-hover-text, .regular-link').click(function(e){
 		e.stopPropagation();
 	});*/
