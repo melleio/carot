@@ -3,11 +3,12 @@
 			<div id="home-row-1" class="row clearfix">
 				<div class="col-12">
 					<div id="home-image">
-						<img src="$HomeImage.Filename" title="$HomeImage.Title">
+						<p style="text-align:center;"><img src="$HomeImage.Filename" title="$HomeImage.Title"></p>
 					</div>
 					<div class="font-thin">
 						$Content
-					$Form</div>
+						$Form
+					</div>
 					<br>
 					<br>
 				</div><!-- /col-12 -->
