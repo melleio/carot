@@ -2,6 +2,14 @@
 <div class="container">
 
 	<% include BreadCrumbs %>
+	
+
+	<div class="row">
+		<div class="col-sm-12">
+			<p><% if TopContent %> $TopContent <% else %> $Parent.TopContent <% end_if %></p>
+		</div>
+	</div>
+
 	<div class="row">
 		<% loop ChildrenOf(clinical-trials) %>
 		<div class="col-sm-3">
@@ -13,12 +21,6 @@
 	</div>
 
 	<div class="row">
-		<div class="col-sm-12">
-			<p><% if TopContent %> $TopContent <% else %> $Parent.TopContent <% end_if %></p>
-		</div>
-	</div>
-
-	<div class="row">
 		<div class="col-sm-3">
 			<div class="options">
 				<a href="#"><img src="images/buttons/share.png" alt="share button" title="Share" /></a>
@@ -26,7 +28,11 @@
 		</div>
 		<div class="col-sm-9">
 			<div class="slider">
-				<p><img src="http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/REV1-CHM-IMAGE-1-teddy-holds-slide-NO-SHADOW.png" /></p>
+				<p>
+					<% loop GalleryImages %>
+					$Image
+					<% end_loop %>
+				</p>
 			</div>
 		</div>
 	</div>
