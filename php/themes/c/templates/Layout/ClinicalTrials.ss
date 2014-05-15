@@ -9,8 +9,8 @@
 	<div class="row">
 		<% loop ChildrenOf(clinical-trials) %>
 		<div class="col-sm-3">
-			<p><img src="$Image" alt="" title="" /></p>
-			<p><strong>$Title</strong></p>
+			<p>$Image</p>
+			<p><strong>$MenuTitle</strong></p>
 		</div>
 		<% end_loop %>
 		
