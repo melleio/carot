@@ -9,7 +9,8 @@ class ClinicalTrialItem extends ResearchPage {
 	    if(!Permission::check("EDIT_SITE")) Security::permissionFailure();
 	}*/
 
-	private static $has_many = array(
+	private static $has_one = array(
+		'Image' => 'Image'
     );
 
     public function getCMSFields() {

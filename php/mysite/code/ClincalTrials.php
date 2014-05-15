@@ -17,6 +17,13 @@ class ClinicalTrials extends ResearchPage {
 		$topcontent = new TextAreaField('TopContent');
 		$fields->addFieldToTab('Root.Main', $topcontent,'MenuTitle');
 		
+		$config2 = new GridFieldConfig_RelationEditor();
+		$config2->addComponents(new GridFieldExportButton('before'));
+		$config2->addComponent(new GridFieldSortableRows('SortOrder'));
+		$toolbox = GridField::create('GalleryImages',false, $this->GalleryImages()->sort('SortOrder'), $config2);
+		if(Permission::check("ADMIN")){
+			$fields->addFieldToTab('Root.GalleryImages', $toolbox);
+		}
 		return $fields;
     }
 
