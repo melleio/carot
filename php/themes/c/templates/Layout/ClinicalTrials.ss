@@ -1,33 +1,48 @@
-<div class="slide story" id="slide-1" data-slide="1">
-		<div class="container">
-			<div id="home-row-1" class="row clearfix">
-				<h1 style="text-align: center;text-transform:uppercase">$Title</h1>
-			  <div class="col-4">
-			  	<h5 style="text-align: center;">F.M. Kirby Center for Molecular Ophthalmology</h5>
-				<p class="p2" style="text-align: center;"><span class="s1">305 Stellar-Chance Labs</span></p>
-				<p class="p2" style="text-align: center;"><span class="s1">422 Curie Blvd.</span></p>
-				<p class="p2" style="text-align: center;"><span class="s1">Philadelphia, PA 19104-6100</span></p>
-				<p class="p2" style="text-align: center;"><img SRC="assets/Index-Page/Location/Location-1-FM-Kirby-Center-Stellar-Chance-Labs-.png" title="Stellar Chance"></p>
-			  </div>
-			  <div class="col-4">
-			  	<h5 style="text-align: center;">Scheie Eye Institute</h5>
-				<p class="p2" style="text-align: center;"><span class="s1">51 N 39th St</span></p>
-				<p class="p2" style="text-align: center;"><span class="s1">Philadelphia, PA 19104</span></p>
-				<p class="p2" style="text-align: center;"><span class="s1">&nbsp;</span></p>
-				<p class="p2" style="text-align: center;"><img SRC="http://www-carot.us.melle.io/assets/Index-Page/Location/Location-Image-2-Scheie-Eye-Institue-.png" title="Stellar Chance"></p>
-			  </div>
-			  <div class="col-4">
-			  	<h5 style="text-align: center;">Perelman School of Medicine</h5>
-				<p class="p2" style="text-align: center;"><span class="s1">at the University of Pennsylvania</span></p>
-				<p class="p2" style="text-align: center;"><span class="s1">295 John Morgan Building, </span></p>
-				<p class="p2" style="text-align: center;"><span class="s1">3620 Hamilton Walk, Philadelphia, PA 19104</span></p>
-				<p class="p2" style="text-align: center;"><img SRC="assets/Index-Page/Location/Location-Image-3-Perelman-Medical-Center-.png" title="Stellar Chance"></p>
-			  </div>
-			</div><!-- /row -->
-			<!-- <div id="home-row-2" class="row clearfix">
-				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="4"><img src="images/s02.png"></div><span>Hexagon</span></div>
-				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="3"><img src="images/s01.png"></div><span>Hexagon</span></div>
-				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="5"><img src="images/s03.png"></div><span>Hexagon</span></div>
-			</div><!-- /row --> 
-		</div><!-- /container -->
-	</div><!-- /slide1 -->
+<div class="container" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/Clinical-Trials-Gray-Background-.png');">
+<div class="row">
+	<div class="col-sm-12">
+		<p><img src="http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/blue-strip-at-the-top-of-clinical-trials-page-.png" alt="" title="" /></p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+		<h3>Research > <span>Clinical Trials</span></h3>
+		<p></p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-3">
+		<p><img src="images/thumb.png" alt="" title="" /></p>
+		<p><strong>RPE65</strong></p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-3">
+		<div class="options">
+			<a href="#"><img src="images/buttons/share.png" alt="share button" title="Share" /></a>
+		</div>
+	</div>
+	<div class="col-sm-9">
+		<div class="slider">
+			<p><img src="http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/REV1-CHM-IMAGE-1-teddy-holds-slide-NO-SHADOW.png" /></p>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+		<h1 style="color:red;text-transform:uppercase;">CHM</h1>
+		<h2 style="color:#c9c9c9;text-transform:uppercase;">Choroideremia</h2>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-8" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;">
+		<p>Lorem</p>
+	</div>
+	<div class="col-sm-4" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/REV1-CHM-block-for-references-.png');background-size:cover;">
+		<h4>References</h4>
+		<ol>
+			<li></li>
+			<li></li>
+		</ol>
+	</div>
+</div>
