@@ -3,7 +3,7 @@
 		<% include BreadCrumbs %>
 		<div class="row">
 			<div class="col-sm-12" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/Clinical-Trials-Main/other-graphic-elements/Clinical-Trials-Image-Bed-for-Mission-Statement-.png') no-repeat;background-size:cover;background-position: 100% 100%;padding:2.5%;margin:1% 0;">
-				<p style="color:#c70000;font-weight:bold;text-align:center;">$Title</p>
+				<p style="color:#c70000;font-weight:bold;">$Title</p>
 			</div>
 		</div>
 		<div class="row">
@@ -24,7 +24,7 @@
 				
 			</div>
 			<% else %>
-			<div class="col-sm-12 gray-box" style="background:url('$AbsoluteURL/assets/Research/Labstudies/AAV-And-Retinal/Rev1-AAV-and-Retinal-Transfer-Image-Body-for-Text.png');background-size:cover;background-position: 100% 100%;">
+			<div class="col-sm-12 gray-box" style="background:url('$AbsoluteURL/assets/Research/Labstudies/Optgenetic-Therapy/Optogenetic-Therapy-Block-for-Text-.png');background-size:cover;background-position: 100% 100%;">
 				<div class="content-text">
 				$Content
 				</div>
