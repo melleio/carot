@@ -283,7 +283,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 
 .nav > li > a:hover,
 .nav > li > a:focus,
-.nav > li > ul > li > a:focus {
+a:focus {
 	background-color: inherit;
 	outline: none;
 	color:#E25858;
