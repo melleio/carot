@@ -46,7 +46,7 @@ class ClinicalTrials_Controller extends ResearchPage_Controller {
 	 * @var array
 	 */
 	private static $allowed_actions = array (
-		'LatestTweet','TopImage'
+		'LatestTweet','TopImage','test'
 	);
 
 	public function init() {
@@ -68,7 +68,7 @@ class ClinicalTrials_Controller extends ResearchPage_Controller {
 	}
 
 
-	public function index(){
+	public function test(){
 
 		$this->redirect(ClinicalTrialItem::get()->First()->Link);
 	}
