@@ -14,7 +14,8 @@ class GalleryImage extends DataObject {
     'Image' => 'Image',
     'GalleryPage' => 'GalleryPage',
     'HomePage' => 'HomePage',
-    'HistoryPage' => 'HistoryPage'
+    'HistoryPage' => 'HistoryPage',
+    'ResearchPage' => 'ResearchPage'
   );
 
   private static $belongs_many_many = array(
