@@ -416,7 +416,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 font-size: 21px;
 }
 
-#breadcrumbs a:nth-child(2){
+#breadcrumbs a:nth-child(3),a::after{
 color: red;
 text-transform: uppercase;
 font-weight: 600;
