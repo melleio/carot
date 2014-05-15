@@ -34,7 +34,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-6 gray-box" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;">
+		<div class="col-sm-6 gray-box" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
 			<p>$Content</p>
 		</div>
 		<div class="col-sm-4" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/REV1-CHM-block-for-references-.png');background-size:cover;">
