@@ -1,5 +1,5 @@
 <?php
-class ResearchPage extends Page {
+class ClinicalTrials extends ResearchPage {
 
 	private static $db = array(
 	);
@@ -9,7 +9,6 @@ class ResearchPage extends Page {
 	}*/
 
 	private static $has_many = array(
-		"GalleryImages" => "GalleryImage"
     );
 
     public function getCMSFields() {
@@ -18,7 +17,7 @@ class ResearchPage extends Page {
     }
 
 }
-class ResearchPage_Controller extends Page_Controller {
+class ClinicalTrials_Controller extends ResearchPage_Controller {
 
 	/**
 	 * An array of actions that can be accessed via a request. Each array element should be an action name, and the
