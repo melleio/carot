@@ -451,6 +451,11 @@ letter-spacing: 6px;
 	padding-top: 30px;
 }
 
+#team-list p{
+	text-align: center;
+	top: -40px;
+}
+
 .gray-box{
 background: #F5F5F5;
 margin-right: 40px;

@@ -6,10 +6,6 @@
 
 
 	<div class="row" style="background:url('') no-repeat;background-size:cover;background-position: 100% 100%;">
-		<div class="col-sm-2">
-			<p></p>
-			<p></p>
-		</div>
 		<% loop Children %>
 		<div class="col-sm-2">
 			<p>$Image.SetWidth(150)
