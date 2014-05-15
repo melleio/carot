@@ -34,7 +34,7 @@
 						<% end_with %>
 
 						<% with Page(research-method) %>
-							<li role="presentation" class="dropdown-header" style="padding-top: 5px;"><a href="$Link">$MenuTitle</a></li>
+							<li role="presentation" class="dropdown-header" style="padding-top: 10px;"><a href="$Link">$MenuTitle</a></li>
 							<li role="presentation" class="divider"></li>
 							<% loop Children %>
 								<li class="submenu-item"><a href="$Link">$MenuTitle</a></li>
