@@ -70,7 +70,7 @@ class ClinicalTrials_Controller extends ResearchPage_Controller {
 
 	public function test(){
 
-		var_dump(ClinicalTrialItem::get()->First()->Link);
+		var_dump(ClinicalTrialItem::get()->First());
 	}
 
 
