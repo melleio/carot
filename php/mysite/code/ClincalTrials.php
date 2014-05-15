@@ -2,6 +2,7 @@
 class ClinicalTrials extends ResearchPage {
 
 	private static $db = array(
+		'TopContent' => 'Text'
 	);
 
 	/*function canCreate($Member = null){
@@ -13,6 +14,9 @@ class ClinicalTrials extends ResearchPage {
 
     public function getCMSFields() {
 		$fields = parent::getCMSFields();
+		$topcontent = new TextField('TopContent');
+		$fields->addFieldToTab('Root.Main', $topcontent,'MenuTitle');
+		
 		return $fields;
     }
 
