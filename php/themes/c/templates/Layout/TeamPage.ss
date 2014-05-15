@@ -6,7 +6,7 @@
 
 
 	<div class="row" style="background:url('') no-repeat;background-size:cover;background-position: 100% 100%;">
-		<% loop Children.Limit(8) %>
+		<% loop Children %>
 		<div class="col-sm-2" class="team-list">
 			<p>$Image.SetWidth(150)
 			<p><strong><a href="$Link">$MenuTitle</a></strong></p>

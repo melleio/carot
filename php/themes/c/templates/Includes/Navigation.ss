@@ -65,7 +65,7 @@
 						
 							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
 							<li role="presentation" class="divider"></li>
-							<% loop Children %>
+							<% loop Children.Limit(8) %>
 								<li class="submenu-item"><a href="$Link">$MenuTitle</a></li>
 							<% end_loop %>
 						<% end_with %>
