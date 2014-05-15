@@ -5,7 +5,7 @@
 	
 
 	<div class="row">
-		<div class="col-sm-12" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/Clinical-Trials-Main/other-graphic-elements/Clinical-Trials-Image-Bed-for-Mission-Statement-.png') no-repeat;background-size:cover;background-position: 100% 100%;padding:2.5%;">
+		<div class="col-sm-12" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/Clinical-Trials-Main/other-graphic-elements/Clinical-Trials-Image-Bed-for-Mission-Statement-.png') no-repeat;background-size:cover;background-position: 100% 100%;padding:2.5%;margin:1%;">
 			<p><% if TopContent %> $TopContent <% else %> $Parent.TopContent <% end_if %></p>
 		</div>
 	</div>
@@ -17,7 +17,6 @@
 			<p><strong><a href="$Link">$MenuTitle</a></strong></p>
 		</div>
 		<% end_loop %>
-		
 	</div>
 
 	<div class="row">
@@ -38,14 +37,13 @@
 	</div>
 	<div class="row">
 		<div class="col-sm-7 gray-box" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
-			<p>$Content</p>
+			<p class="content-text">$Content</p>
 		</div>
 		<div class="col-sm-4" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/REV1-CHM-block-for-references-.png');background-size:cover;">
-			<h4>References</h4>
-			
-			<ol>
+			<h4 class="ref-header">References</h4>
+			<ol class="ref-list">
 				<% loop References %>
-				<li> $Title</li>
+					<li>$Title</li>
 				<% end_loop %>
 			</ol>
 			
