@@ -34,7 +34,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-8" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;">
+		<div class="col-sm-8 gray-box" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;">
 			<p>Choroideremia (CHM) is a rare inherited disorder that causes progressive loss of vision due to degeneration of the retina and choroid.  It is caused by a lack of RAB Escort Protein-1 (REP-1), and the disease is genetically passed through families by an X-linked pattern of inheritance.  Our group was involved in the first attempt to correct the condition using gene therapy1.  In the past few years, our group optimized the transgene expression construct, generated a recombinant virus to deliver this, and developed an induced pluripotent stem ( iPS) cell model of CHM2 with which we showed proof-of-concept of gene augmentation therapy. This paved a path to an IND filing.  We are actively engaged in planning a CHM clinical trial. This may start enrolling subjects in late in 2014. Concurrent with development of a gene-based approach for treating CHM, non-invasive studies in progress aim to characterize genotype: phenotype relationships in this disease.</p>
 		</div>
 		<div class="col-sm-4" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/REV1-CHM-block-for-references-.png');background-size:cover;">
