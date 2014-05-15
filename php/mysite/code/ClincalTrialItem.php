@@ -71,7 +71,7 @@ class ClinicalTrialItem_Controller extends ResearchPage_Controller {
 
 	public function index(){
 
-		return $this->renderWith('ClinicalTrials');
+		return $this->renderWith(array('ResearchPage','ClinicalTrials'));
 	}
 
 
