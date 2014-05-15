@@ -1,7 +1,7 @@
 <div class="container" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/Clinical-Trials-Gray-Background-.png');margin:0;padding:0;">
 <div class="row">
 	<div class="col-sm-12">
-		<p><img src="http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/blue-strip-at-the-top-of-clinical-trials-page-.png" alt="" title="" /></p>
+		<p class="black-blue"><img src="http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/blue-strip-at-the-top-of-clinical-trials-page-.png" alt="" title="" /></p>
 	</div>
 </div>
 <div class="row">
