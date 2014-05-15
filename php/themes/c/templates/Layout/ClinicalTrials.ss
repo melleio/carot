@@ -44,12 +44,12 @@
 		</div>
 	</div>
 	<div class="row">
-	<% if References %>
 		<div class="col-sm-7 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
 			<div class="content-text">
 				$Content
 			</div>
 		</div>
+		<% if References %>
 		<div class="col-sm-4" id="references" >
 			<h4 class="ref-header">References</h4>
 			<ol class="ref-list">

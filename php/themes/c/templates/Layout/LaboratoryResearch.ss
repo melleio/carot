@@ -5,7 +5,7 @@
 	
 	<div class="row">
 		<div class="col-sm-6">
-			<h2>Translational Studies</h2>
+			<h2 class="lab-header">Translational Studies</h2>
 			<ul>
 				<li>Leber’s Congenital Amaurosis Type 2 (LCA2)</li>
 				<li>Gene therapy for Leber’s Congenital Amaurosis due to LCA5 Mutations</li>
@@ -15,15 +15,15 @@
 			</ul>
 		</div>
 		<div class="col-sm-6">
-			<h2>Adeno-Associated Viruses and Retinal Gene Transfer</h2>
+			<h2 class="lab-header">Adeno-Associated Viruses and Retinal Gene Transfer</h2>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-sm-6">
-			<h2>OPTOGENETIC THERAPY</h2>
+			<h2 class="lab-header">OPTOGENETIC THERAPY</h2>
 		</div>
 		<div class="col-sm-6">
-			<h2>INDUCED Pluripotent Stem Cell (iPSC) Studies</h2>
+			<h2 class="lab-header">INDUCED Pluripotent Stem Cell (iPSC) Studies</h2>
 		</div>
 	</div>
 	
