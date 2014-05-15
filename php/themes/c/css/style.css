@@ -298,7 +298,9 @@ a:focus {
 .navbar-brand {
 	padding: 8px;
 }
-
+.submenu-item{
+margin-left: 5px;
+}
 .active-menu {
 	content: '.';
 	display: block;
