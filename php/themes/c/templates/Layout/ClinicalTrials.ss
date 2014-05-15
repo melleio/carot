@@ -3,8 +3,7 @@
 
 <div class="row">
 	<div class="col-sm-12">
-		<h3>Research > <span>Clinical Trials</span></h3>
-		<p></p>
+		$Breadcrumbs
 	</div>
 </div>
 <div class="row">
