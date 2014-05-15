@@ -44,6 +44,7 @@
 		</div>
 	</div>
 	<div class="row">
+	<% if References %>
 		<div class="col-sm-7 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
 			<div class="content-text">
 			$Content
@@ -58,6 +59,13 @@
 			</ol>
 			
 		</div>
+		<% else %>
+		<div class="col-sm-12 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
+			<div class="content-text">
+			$Content
+			</div>
+		</div>
+	<% end_if %>
 	</div>
 
 </div>
