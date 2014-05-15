@@ -1,6 +1,6 @@
 <div class="slide story" id="slide-1" data-slide="1">
 		<div class="container">
-			<div id="home-row-1" class="row clearfix">
+			<div id="home-row-1" class="row clearfix" style="text-align: center;">
 				<div class="col-12">
 					<div id="home-image">
 						<p style="text-align:center;"><img src="$HomeImage.Filename" title="$HomeImage.Title"></p>
