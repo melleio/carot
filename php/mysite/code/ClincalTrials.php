@@ -14,7 +14,7 @@ class ClinicalTrials extends ResearchPage {
 
     public function getCMSFields() {
 		$fields = parent::getCMSFields();
-		$topcontent = new TextField('TopContent');
+		$topcontent = new TextAreaField('TopContent');
 		$fields->addFieldToTab('Root.Main', $topcontent,'MenuTitle');
 		
 		return $fields;
