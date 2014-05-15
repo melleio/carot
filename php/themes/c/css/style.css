@@ -435,7 +435,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 .gray-box{
 background: #F5F5F5;
 margin-right: 40px;
-border:1px solid #DEDEDE;
+background-position: 100% 100%;
 background-size: cover;
 padding-right: 35px;
 padding-left: 35px;
