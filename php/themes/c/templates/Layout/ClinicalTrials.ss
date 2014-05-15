@@ -11,6 +11,13 @@
 		<% end_loop %>
 		
 	</div>
+
+	<div class="row">
+		<div class="col-sm-12">
+			<p><% if TopContent %> $TopContent <% else %> $Parent.TopContent <% end_if %></p>
+		</div>
+	</div>
+
 	<div class="row">
 		<div class="col-sm-3">
 			<div class="options">
