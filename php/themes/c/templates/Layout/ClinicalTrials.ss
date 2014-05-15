@@ -1,4 +1,4 @@
-<div class="slide story" id="slide-1" data-slide="1">
+<div class="slide story" id="slide-1" data-slide="1" ng-controller="MainCtrl">
 <div class="container">
 
 	<% include BreadCrumbs %>
@@ -27,13 +27,7 @@
 			</div>
 		</div>
 		<div class="col-sm-9">
-			<div class="slider">
-				<p>
-					<% loop GalleryImages %>
-					$Image
-					<% end_loop %>
-				</p>
-			</div>
+			<% include ClinicalGallery %>
 		</div>
 	</div>
 	<div class="row">
