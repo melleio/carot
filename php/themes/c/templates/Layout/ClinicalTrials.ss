@@ -1,3 +1,4 @@
+<div class="slide story" id="slide-1" data-slide="1">
 <div class="container" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/CHM/Clinical-Trials-Gray-Background-.png');margin:0;padding:0;">
 <div class="row">
 	<div class="col-sm-12">
@@ -54,4 +55,6 @@
 			<li>Vasireddy V, Mills JA, Gaddameedi R, Basner-Tschakarjan E, Kohnke M, Black AD, Alexandrov K, Zhou S, Maguire AM, Chung DC, Mac H, Sullivan L, Gadue P, Bennicelli JL, French DL, Bennett J. PLoS One. 2013 May 7;8(5):e61396. AAV-mediated gene therapy for choroideremia: preclinical studies in personalized models.</li>
 		</ol>
 	</div>
+</div>
+
 </div>
