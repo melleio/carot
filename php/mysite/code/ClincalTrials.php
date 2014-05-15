@@ -68,9 +68,10 @@ class ClinicalTrials_Controller extends ResearchPage_Controller {
 	}
 
 
-	/*public function GalleryImages(){
-		return SiteConfig::get()->First()->HomeHeaderImages()->sort('RAND()')->First();
-	}*/
+	public function index(){
+
+		$this->redirect(ClinicalTrialItem::get()->First()->AbsoluteURL);
+	}
 
 
 
