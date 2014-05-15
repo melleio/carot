@@ -5,7 +5,7 @@
 	
 
 	<div class="row">
-		<div class="col-sm-12">
+		<div class="col-sm-12" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/Clinical-Trials-Main/other-graphic-elements/Clinical-Trials-Image-Bed-for-Mission-Statement-.png');background-size:cover;background-position: 100% 100%;">
 			<p><% if TopContent %> $TopContent <% else %> $Parent.TopContent <% end_if %></p>
 		</div>
 	</div>
@@ -14,7 +14,7 @@
 		<% loop ChildrenOf(clinical-trials) %>
 		<div class="col-sm-3">
 			<p>$Image.SetWidth(50)</p>
-			<p><strong>$MenuTitle</strong></p>
+			<p><strong><a href="$Link">$MenuTitle</a></strong></p>
 		</div>
 		<% end_loop %>
 		
