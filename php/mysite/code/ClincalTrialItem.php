@@ -2,7 +2,6 @@
 class ClinicalTrialItem extends ResearchPage {
 
 	private static $db = array(
-		'TopContent' => 'Text'
 	);
 
 	/*function canCreate($Member = null){
@@ -20,9 +19,7 @@ class ClinicalTrialItem extends ResearchPage {
     public function getCMSFields() {
 		$fields = parent::getCMSFields();
 		$topcontent = new TextAreaField('TopContent');
-		$fields->addFieldToTab('Root.Main', $topcontent,'MenuTitle');
 		$fields->addFieldToTab('Root.Main', new UploadField('Image'),'MenuTitle');
-		$fields->removeFieldFromTab("Root.Main","TopContent");
 		
 		$config2 = new GridFieldConfig_RelationEditor();
 		$config2->addComponents(new GridFieldExportButton('before'));
