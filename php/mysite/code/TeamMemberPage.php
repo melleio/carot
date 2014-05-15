@@ -18,7 +18,6 @@ class TeamMemberPage extends TeamPage {
 
     public function getCMSFields() {
 		$fields = parent::getCMSFields();
-		$topcontent = new TextAreaField('TopContent');
 		$fields->addFieldToTab('Root.Main', new UploadField('Image'),'MenuTitle');
 		
 		$config2 = new GridFieldConfig_RelationEditor();
