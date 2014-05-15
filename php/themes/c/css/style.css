@@ -409,7 +409,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 	background-repeat: no-repeat;
 	padding-bottom: 65px;
 	padding-top: 50px;
-	text-align: center;
+	/*text-align: center;*/
 }
 
 #slide-1 {
