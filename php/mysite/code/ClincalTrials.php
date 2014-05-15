@@ -70,7 +70,7 @@ class ClinicalTrials_Controller extends ResearchPage_Controller {
 
 	public function index(){
 
-		$this->redirect(ClinicalTrialItem::get()->First()->AbsoluteURL);
+		$this->redirect(ClinicalTrialItem::get()->First()->Link);
 	}
 
 
