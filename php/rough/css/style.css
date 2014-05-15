@@ -116,7 +116,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#abacac', end
 
 }
 
-#black-blue{;
+#black-blue{
 	height: 50px;
 	background: #0d0d0d; /* Old browsers */
 background: -moz-linear-gradient(left, #0d0d0d 1%, #010101 4%, #515151 13%, #76b8c1 24%, #76b8c1 53%, #76b8c1 79%, #515151 89%, #1b1b1b 96%, #1b1b1b 100%); /* FF3.6+ */
