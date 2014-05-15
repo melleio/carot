@@ -1,5 +1,5 @@
 <?php
-class ClinicalTrials extends ResearchPage {
+class ResearchMethodPage extends ResearchPage {
 
 	private static $db = array(
 		'TopContent' => 'Text'
@@ -28,7 +28,7 @@ class ClinicalTrials extends ResearchPage {
     }
 
 }
-class ClinicalTrials_Controller extends ResearchPage_Controller {
+class ResearchMethodPage_Controller extends ResearchPage_Controller {
 
 	/**
 	 * An array of actions that can be accessed via a request. Each array element should be an action name, and the
