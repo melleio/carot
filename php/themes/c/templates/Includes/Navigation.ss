@@ -6,7 +6,7 @@
 						<span class="text">$MenuTitle</span><%-- <b class="caret"></b> --%>
 						</a>
 						<ul class="dropdown-menu">
-							<li class="submenu-item"><a href="$Link">$MenuTitle</a></li>
+							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
 						<% loop Children %>
 							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
 							<% loop Children %>
