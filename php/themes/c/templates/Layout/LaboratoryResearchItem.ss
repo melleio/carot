@@ -2,8 +2,8 @@
 	<div class="container">
 		<% include BreadCrumbs %>
 		<div class="row">
-			<div class="col-sm-12" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/Clinical-Trials-Main/other-graphic-elements/Clinical-Trials-Image-Bed-for-Mission-Statement-.png') no-repeat;background-size:cover;background-position: 100% 100%;padding:2.5%;margin:1% 0;">
-				<p>$Title</p>
+			<div class="col-sm-12" style="background:url('$AbsoluteURL/assets/Research/Labstudies/Optgenetic-Therapy/Optogenetic-therapy-sign-.png') top center no-repeat;background-size:cover;padding:2.5%;margin:1% 0;">
+				<h2 style="color:#c70000;font-weight:bold;text-align:center;">$Title</h2>
 			</div>
 		</div>
 		<div class="row">
@@ -24,7 +24,7 @@
 				
 			</div>
 			<% else %>
-			<div class="col-sm-12 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
+			<div class="col-sm-12 gray-box" style="background:url('$AbsoluteURL/assets/Research/Labstudies/Optgenetic-Therapy/Optogenetic-Therapy-Block-for-Text-.png');background-size:cover;background-position: 100% 100%;">
 				<div class="content-text">
 				$Content
 				</div>
