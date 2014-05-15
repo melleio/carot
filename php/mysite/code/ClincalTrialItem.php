@@ -13,11 +13,20 @@ class ClinicalTrialItem extends ResearchPage {
 		'Image' => 'Image'
     );
 
+    private static $has_many = array(
+		'References' => 'Reference'
+    );
+
     public function getCMSFields() {
 		$fields = parent::getCMSFields();
 		$topcontent = new TextAreaField('TopContent');
 		$fields->addFieldToTab('Root.Main', $topcontent,'MenuTitle');
 		
+		$config2 = new GridFieldConfig_RelationEditor();
+		$config2->addComponents(new GridFieldExportButton('before'));
+		$config2->addComponent(new GridFieldSortableRows('SortOrder'));
+		$toolbox = GridField::create('References',false, $this->References()->sort('SortOrder'), $config2);
+		$fields->addFieldToTab('Root.References', $toolbox);
 		return $fields;
     }
 

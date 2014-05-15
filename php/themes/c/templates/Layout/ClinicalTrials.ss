@@ -7,18 +7,12 @@
 	</div>
 </div>
 <div class="row">
+	<% loop ChildrenOf(clinical-trials) %>
 	<div class="col-sm-3">
-		<p><img src="images/thumb.png" alt="" title="" /></p>
-		<p><strong>RPE65</strong></p>
+		<p><img src="$Image" alt="" title="" /></p>
+		<p><strong>$Title</strong></p>
 	</div>
-	<div class="col-sm-3">
-		<p><img src="images/thumb.png" alt="" title="" /></p>
-		<p><strong>CHM</strong></p>
-	</div>
-	<div class="col-sm-6">
-		<p><img src="images/thumb.png" alt="" title="" /><img src="images/thumb.png" alt="" title="" /></p>
-		<p><strong>GENO/PHENO</strong></p>
-	</div>
+	<% end_loop %>
 	
 </div>
 <div class="row">
