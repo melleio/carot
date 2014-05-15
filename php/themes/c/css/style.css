@@ -112,7 +112,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4f54', end
 }
 
 .dropdown-menu{
-	left:25px;
+	left:0px;
 }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
@@ -282,7 +282,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 }
 
 .nav > li > a:hover,
-.nav > li > a:focus {
+.nav > li > a:focus,
+.nav > li > ul > li > a:focus {
 	background-color: inherit;
 	outline: none;
 	color:#E25858;
