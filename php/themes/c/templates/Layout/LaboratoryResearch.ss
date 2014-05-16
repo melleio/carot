@@ -8,7 +8,7 @@
 		<div class="col-sm-6">
 			<h2 class="lab-header">$Title</h2>
 			<ul>
-				<% if InSection(translational-studies) %>
+				<% if (URLSegment == translational-studies) %>
 				<% loop ChildrenOf(translational-studies) %>
 					<li><a href="$Link">$Title</a></li>		
 				<% end_loop %>
