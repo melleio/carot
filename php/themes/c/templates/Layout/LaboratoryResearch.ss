@@ -8,9 +8,11 @@
 		<div class="col-sm-6">
 			<h2 class="lab-header">$Title</h2>
 			<ul>
-				<% loop ChildrenOf($Title) %>
+				<% if InSection(translational-studies) %>
+				<% loop ChildrenOf(translational-studies) %>
 					<li><a href="$Link">$Title</a></li>		
 				<% end_loop %>
+				<% end_if %>
 			</ul>
 		</div>
 		<% end_loop %>
