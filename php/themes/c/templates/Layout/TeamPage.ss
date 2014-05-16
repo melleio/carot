@@ -7,7 +7,7 @@
 
 	
 		<% loop Children %>
-		<% if $MultipleOf(5) || Count == 0 %>
+		<% if $MultipleOf(5) || $First %>
 		<div class="row" style="background:url('') no-repeat;background-size:cover;background-position: 100% 100%;">
 		<% end_if %>
 		<% if Image %>
