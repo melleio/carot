@@ -69,7 +69,14 @@ melle.io
 			</button>
 			
 			
-			<% include ForumNavigation %>
+			<% include Navigation %>
+		</div><!-- /.container -->
+	</div><!-- /.navbar -->
+	<div id="subNavigation" class="navbar navbar-static-top main-nav" data-activeslide="1">
+		<div class="container">
+		<% include ForumNavigation %>
+		</div><!-- /.container -->
+	</div><!-- /.navbar -->
 	<!-- === Arrows === -->
 	<%-- <div id="arrows">
 		<div id="arrow-up" class="disabled"></div>
