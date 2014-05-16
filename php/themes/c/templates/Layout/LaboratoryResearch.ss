@@ -4,7 +4,7 @@
 	<% include BreadCrumbs %>
 	
 		<% loop ChildrenOf(laboratory-research) %>
-		<% if $MultipleOf(4) %>
+		<% if $MultipleOf(2) %>
 		<div class="row">
 		<% end_if %>
 		<div class="col-sm-6">
