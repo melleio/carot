@@ -1,10 +1,8 @@
 <div class="nav-collapse navbar-responsive-collapse">
 	<ul class="nav row">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Help</a></li>
       <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-          Dropdown <span class="caret"></span>
+          myLab <span class="caret"></span>
         </a>
         <ul class="dropdown-menu" role="menu">
           <li><a href="#">Action</a></li>
