@@ -3,8 +3,10 @@
 
 	<% include BreadCrumbs %>
 	
-	<div class="row">
 		<% loop ChildrenOf(laboratory-research) %>
+		<% if $MultipleOf(4) %>
+		<div class="row">
+		<% end_if %>
 		<div class="col-sm-6">
 			<h2 class="lab-header">$Title</h2>
 			<ul>
@@ -15,8 +17,10 @@
 				<% end_if %>
 			</ul>
 		</div>
+		<% if $MultipleOf(2) %>
+		</div>
+		<% end_if %>
 		<% end_loop %>
-	</div>
 	
 </div>
 </div>
