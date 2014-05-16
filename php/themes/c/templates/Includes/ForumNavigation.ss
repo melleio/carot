@@ -5,9 +5,11 @@
           myLab <span class="caret"></span>
         </a>
         <ul class="dropdown-menu" role="menu">
-        	<% loop Page(lab) %>
+        	<% with Page(lab) %>
+        	<% loop Children %>
           <li><a href="$Link">$MenuTitle</a></li>
           <% end_loop %>
+          <% end_with %>
           <li class="divider"></li>
           <li><a href="#">Calendar</a></li>
         </ul>
