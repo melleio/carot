@@ -11,7 +11,7 @@
 		<div class="row" style="background:url('') no-repeat;background-size:cover;background-position: 100% 100%;">
 		<% end_if %>
 		<% if Image %>
-		<div class="col-xs-6 col-sm-3" class="team-list">
+		<div class="col-xs-6 col-sm-3 team-list">
 			<p>$Image.SetWidth(150)
 			<p><strong><a href="$Link">$MenuTitle</a></strong></p>
 			</p>
