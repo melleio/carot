@@ -1,4 +1,6 @@
-<% include ForumHeader %>
+<div class="slide story" id="slide-1" data-slide="1" ng-controller="MainCtrl">
+	<div class="container">
+	<% include ForumHeader %>
 
 <table class="forum-topics">
 
@@ -38,3 +40,6 @@
 </table>
 
 <% include ForumFooter %>
+
+</div>
+</div>
