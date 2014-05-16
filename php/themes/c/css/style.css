@@ -881,6 +881,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
 	height:150px;
 	text-align:center;
 	color:#c70000;
+	overflow:hidden;
 }
 .services-list {
 	list-style-type:none;
