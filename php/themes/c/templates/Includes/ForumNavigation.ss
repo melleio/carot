@@ -1,6 +1,6 @@
 <div class="nav-collapse navbar-responsive-collapse">
 	<ul class="nav row">
-      <li class="dropdown">
+     <li class="col-12 col-sm-2 dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
           myLab <span class="caret"></span>
         </a>
@@ -12,7 +12,9 @@
           <li><a href="#">Separated link</a></li>
         </ul>
       </li>
-      <li><a href="/home">CAROT Home</a></li>
+      <li class="col-12 col-sm-2 dropdown">
+      	<a href="/home">CAROT Home</a>
+      </li>
     </ul>
 </div>	
 	

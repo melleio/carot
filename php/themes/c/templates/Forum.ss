@@ -58,7 +58,7 @@ melle.io
 		</div>
 	</div>
 	</header>
-	<div id="mainNavigation" class="navbar navbar-static-top main-nav" data-activeslide="1">
+	<%-- <div id="mainNavigation" class="navbar navbar-static-top main-nav" data-activeslide="1">
 		<div class="container">
 		
 			<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
@@ -71,7 +71,7 @@ melle.io
 			
 			<% include Navigation %>
 		</div><!-- /.container -->
-	</div><!-- /.navbar -->
+	</div><!-- /.navbar --> --%>
 	<div id="subNavigation" class="navbar navbar-static-top main-nav" data-activeslide="1">
 		<div class="container">
 		<% include ForumNavigation %>
