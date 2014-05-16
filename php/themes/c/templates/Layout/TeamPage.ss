@@ -12,8 +12,8 @@
 		<% end_if %>
 		<% if Image %>
 		<div class="col-xs-6 col-sm-3" style="text-align:center">
-			<p>$Image.SetWidth(180)
-			<p class="team-list-name"><strong><a href="$Link">$MenuTitle</a></strong></p>
+			<p><a href="$Link">$Image.SetWidth(180)<br>
+			<span class="team-list-name"><strong>$MenuTitle</strong></a></span>
 			</p>
 		</div>
 		<% else %>
