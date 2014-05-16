@@ -7,7 +7,7 @@
 
 	
 		<% loop Children %>
-		<% if Count % 4 == 0 %>
+		<% if $MultipleOf(4) %>
 		<div class="row" style="background:url('') no-repeat;background-size:cover;background-position: 100% 100%;">
 		<% end_if %>
 		<% if Image %>
@@ -19,7 +19,7 @@
 		<% else %>
 
 		<% end_if %>
-		<% if Count % 4 == 0 %>
+		<% if $MultipleOf(4) %>
 		</div>
 		<% end_if %>
 		<% end_loop %>
