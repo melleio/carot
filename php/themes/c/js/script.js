@@ -18,6 +18,8 @@ $(document).ready(function(e) {
         collapsedBar = c;
         //document.body.style.backgroundPosition = (-window.pageXOffset / speed) + "px " + (-window.pageYOffset / speed) + "px";
     }
+});
+$(document).ready(function(e) {
 	/*$('.with-hover-text, .regular-link').click(function(e){
 		e.stopPropagation();
 	});*/
@@ -26,7 +28,7 @@ $(document).ready(function(e) {
 	* = Hover text *
 	* Hover text for the last slide
 	***************/
-	$('.with-hover-text').hover(
+/*	$('.with-hover-text').hover(
 		function(e) {
 			$(this).css('overflow', 'visible');
 			$(this).find('.hover-text')
@@ -61,13 +63,13 @@ $(document).ready(function(e) {
 	);
 	
 	var img_loaded = 0;
-	var j_images = [];
+	var j_images = [];*/
 	
 	/*************************
 	* = Controls active menu *
 	* Hover text for the last slide
 	*************************/
-	$('#slide-3 img').each(function(index, element) {
+/*	$('#slide-3 img').each(function(index, element) {
 		var time = new Date().getTime();
 		var oldHref = $(this).attr('src');
 		var myImg = $('<img />').attr('src', oldHref + '?' + time );
@@ -103,7 +105,7 @@ $(document).ready(function(e) {
 				});
 			}
 		});
-	});
+	});*/
 	
 });
 
@@ -111,7 +113,7 @@ $(document).ready(function(e) {
 * = Gallery width *
 ******************/
 $(function() {
-	var pause = 50; // will only process code within delay(function() { ... }) every 100ms.
+/*	var pause = 50; // will only process code within delay(function() { ... }) every 100ms.
 	$(window).resize(function() {
 		delay(function() {
 				var gallery_images = $('#slide-3 img');
@@ -140,7 +142,7 @@ $(function() {
 			pause
 		);
 	});
-	$(window).resize();
+	$(window).resize();*/
 });
 
 var delay = (function(){
@@ -265,41 +267,7 @@ jQuery(document).ready(function ($) {
 	);*/
 });
 
-/******************
-* = Gallery hover *
-******************/
-jQuery(document).ready(function ($) {
-	//Cache some variables
-	var images = $('#slide-3 a');
-	
-	images.hover(
-		function(e) {
-			var asta = $(this).find('img');
-			$('#slide-3 img').not( asta ).stop(false, false).animate(
-				{
-					opacity: .5
-				},
-				'fast',
-				'linear'
-			);
-			var zoom = $('<div class="zoom"></div>');
-			if ( $(this).hasClass('video') ) {
-				zoom.addClass('video');
-			}
-			$(this).prepend(zoom);
-		},
-		function(e) {
-			$('#slide-3 img').stop(false, false).animate(
-				{
-					opacity: 1
-				},
-				'fast',
-				'linear'
-			);
-			$('.zoom').remove();
-		}
-	);
-});
+
 
 /******************
 * = Arrows click  *

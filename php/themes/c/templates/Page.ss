@@ -96,7 +96,7 @@ melle.io
 	<!-- fancybox init -->
 	<script>
 	$(document).ready(function(e) {
-		var lis = $('.nav > li');
+		<%-- var lis = $('.nav > li');
 		menu_focus( lis[0], 1 );
 		
 		$(".fancybox").fancybox({
@@ -106,7 +106,7 @@ melle.io
 					locked: false
 				}
 			}
-		});
+		}); --%>
 	
 	});
 	</script>
