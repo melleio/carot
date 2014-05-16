@@ -8,9 +8,9 @@
 		<div class="col-sm-6">
 			<h2 class="lab-header">$Title</h2>
 			<ul>
-				<% if URLSegment == translational-studies %>
-				<% loop ChildrenOf(translational-studies) %>
-					<li><a href="$Link">$Title</a></li>		
+				<% if URLSegment == 'translational-studies' %>
+				<% loop Children %>
+				<li><a href="$Link">$Title</a></li>		
 				<% end_loop %>
 				<% end_if %>
 			</ul>
