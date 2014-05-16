@@ -7,11 +7,9 @@
 		<div class="col-sm-6">
 			<h2 class="lab-header">Translational Studies</h2>
 			<ul>
-				<li><a href="#">Leber’s Congenital Amaurosis Type 2 (LCA2)</a></li>
-				<li><a href="#">Gene therapy for Leber’s Congenital Amaurosis due to LCA5 Mutations</a></li>
-				<li><a href="#">Gene therapy for Leber’s Congenital Amaurosis due to RDH12 Mutations</a></li>
-				<li><a href="#">Gene therapy for Leber’s Congenital Amaurosis due to CEP290 Mutations</a></li>
-				<li><a href="#">Gene therapy for Stargardt Disease</a></li>
+				<% loop ChildrenOf(translational-studies) %>
+					<li><a href="$Link">$MenuTitle</a></li>		
+				<% end_loop %>
 			</ul>
 		</div>
 		<div class="col-sm-6">
