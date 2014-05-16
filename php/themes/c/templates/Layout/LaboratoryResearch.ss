@@ -6,9 +6,9 @@
 	<div class="row">
 		<% loop ChildrenOf(laboratory-research) %>
 		<div class="col-sm-6">
-			<h2 class="lab-header">Translational Studies</h2>
+			<h2 class="lab-header">$Title</h2>
 			<ul>
-				<% loop ChildrenOf(translational-studies) %>
+				<% loop ChildrenOf($Title) %>
 					<li><a href="$Link">$Title</a></li>		
 				<% end_loop %>
 			</ul>
