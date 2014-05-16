@@ -12,6 +12,7 @@
           <li><a href="#">Separated link</a></li>
         </ul>
       </li>
+      <li><a href="/home">CAROT Home</a></li>
     </ul>
 </div>	
 	
