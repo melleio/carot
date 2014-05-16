@@ -1,4 +1,7 @@
-<% include ForumHeader %>
+<div class="slide story" id="slide-1" data-slide="1" ng-controller="MainCtrl">
+	<div class="container">
+
+	<% include ForumHeader %>
 
 <% if ForumAdminMsg %>
 	<p class="forum-message-admin">$ForumAdminMsg</p>
@@ -67,3 +70,5 @@
 </div><!-- forum-features. -->
 
 <% include ForumFooter %>
+</div>
+</div>
