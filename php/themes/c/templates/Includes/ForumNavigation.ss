@@ -12,7 +12,7 @@
           <li><a href="#">Calendar</a></li>
         </ul>
       </li>
-      <li class="col-12 col-sm-2 dropdown">
+      <li class="col-12 col-sm-3 dropdown">
       	<a href="/home">CAROT Home</a>
       </li>
     </ul>
