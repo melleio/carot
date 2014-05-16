@@ -7,6 +7,7 @@
         <ul class="dropdown-menu" role="menu">
         	<% with Page(lab) %>
           <li><a href="$Link">$MenuTitle</a></li>
+          <% end_with %>
           <li class="divider"></li>
           <li><a href="#">Calendar</a></li>
         </ul>
