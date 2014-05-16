@@ -8,7 +8,7 @@
 			<h2 class="lab-header">Translational Studies</h2>
 			<ul>
 				<% loop ChildrenOf(translational-studies) %>
-					<li><a href="$Link">$MenuTitle</a></li>		
+					<li><a href="$Link">$Title</a></li>		
 				<% end_loop %>
 			</ul>
 		</div>
