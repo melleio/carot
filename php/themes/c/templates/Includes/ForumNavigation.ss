@@ -1,6 +1,6 @@
 <div class="nav-collapse navbar-responsive-collapse">
 	<ul class="nav row">
-     <li class="col-12 col-sm-2 dropdown">
+     <li class="col-12 col-sm-3 dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
           myLab <span class="caret"></span>
         </a>
