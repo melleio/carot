@@ -5,8 +5,11 @@
 	
 
 
-	<div class="row" style="background:url('') no-repeat;background-size:cover;background-position: 100% 100%;">
+	
 		<% loop Children %>
+		<% if Count % 4 == 0 %>
+		<div class="row" style="background:url('') no-repeat;background-size:cover;background-position: 100% 100%;">
+		<% end_if %>
 		<% if Image %>
 		<div class="col-xs-6 col-sm-3" class="team-list">
 			<p>$Image.SetWidth(150)
@@ -16,10 +19,9 @@
 		<% else %>
 
 		<% end_if %>
-		<% end_loop %>
-		<div class="col-sm-2">
-			<p></p>
-			<p></p>
+		<% if Count % 4 == 0 %>
 		</div>
-	</div>
+		<% end_if %>
+		<% end_loop %>
+	
 </div>
