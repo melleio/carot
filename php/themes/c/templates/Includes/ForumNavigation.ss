@@ -5,7 +5,7 @@
           <% if Children %>
             $MenuTitle <span class="caret"></span>
           <% else %>
-            $Parent.MenuTitle
+            $Parent.MenuTitle <span class="caret"></span>
           <% end_if %>
         </a>
         <ul class="dropdown-menu" role="menu">
