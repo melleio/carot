@@ -1,6 +1,6 @@
 <div class="nav-collapse navbar-responsive-collapse">
 	<ul class="nav row">
-     <li class="col-12 col-sm-3 dropdown">
+     <li class="col-12 col-sm-4 dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
           $MenuTitle <span class="caret"></span>
         </a>
