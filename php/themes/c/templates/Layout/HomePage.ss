@@ -7,7 +7,6 @@
 					</div>
 					<div class="font-thin">
 						$Content
-						$Form
 					</div>
 					<br>
 					<br>
