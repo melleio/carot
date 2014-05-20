@@ -19,7 +19,7 @@
 
 				<% with Page(research) %>
 					<li class="col-12 col-sm-2 dropdown">
-						<a id="menu-link-1" class="dropdown-toggle" data-toggle="dropdown" href="#" title="$Title.XML">
+						<a id="menu-link-1" class="dropdown-toggle" data-toggle="dropdown" href="#" title="$Title.XML" style="padding:10px 0 5px;color:rgb(226,88,88);">
 						<span class="text">$MenuTitle</span><%-- <b class="caret"></b> --%>
 						</a>
 						<ul class="dropdown-menu" style="width:600px;">
@@ -77,7 +77,7 @@
 
 				<% with Page(services) %>
 					<li class="col-12 col-sm-2 dropdown">
-						<a id="menu-link-3" class="dropdown-toggle" data-toggle="dropdown" href="#" title="$Title.XML">
+						<a id="menu-link-3" class="dropdown-toggle" data-toggle="dropdown" href="#" title="$Title.XML" style="padding:10px 0 5px;color:rgb(226,88,88);">
 						<span class="text">$MenuTitle</span><%-- <b class="caret"></b> --%>
 						</a>
 						<ul class="dropdown-menu">
@@ -95,7 +95,7 @@
 
 				<% with Page(community) %>
 					<li class="col-12 col-sm-2">
-						<a id="menu-link-4" class="" href="$Link" title="$Title.XML">
+						<a id="menu-link-4" class="" href="$Link" title="$Title.XML" style="padding:10px 0 5px;color:rgb(226,88,88);">
 						<span class="text">$MenuTitle</span><%-- <b class="caret"></b> --%>
 						</a>
 						<%-- <ul class="dropdown-menu">
