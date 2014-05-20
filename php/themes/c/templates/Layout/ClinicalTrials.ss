@@ -17,7 +17,7 @@
 		</div>
 		<% loop ChildrenOf(clinical-trials) %>
 		<div class="col-sm-2">
-			<p>$Image</p>
+			<p>$Image.SetWidth(186)</p>
 			<p><strong><a href="$Link">$MenuTitle</a></strong></p>
 		</div>
 		<% end_loop %>
