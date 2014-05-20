@@ -261,7 +261,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 }
 
 .navbar .nav a {
-	color: #5f5f5f;
+	color: rgba(226,88,88);
 	font-family: "Effra", sans-serif;
 	font-weight: 600;
 	transition: all .5 linear;
