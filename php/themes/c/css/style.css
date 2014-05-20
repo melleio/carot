@@ -873,6 +873,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
 }
 #breadcrumbs .breadcrumb-1 {
 	color:#777;
+	font-size:1.4em;
 }
 .lab-header {
 	background:url('http://www-carot.us.melle.io/assets/Research/Labstudies/Lab-Studies-Main/OPtogenetic-Therapy-block.png') top center no-repeat;
