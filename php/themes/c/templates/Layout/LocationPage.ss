@@ -1,7 +1,7 @@
 <div class="slide story" id="slide-1" data-slide="1">
 		<div class="container">
 			<div id="home-row-1" class="row clearfix">
-				<h1 style="text-align: center;text-transform:uppercase">$Title</h1>
+				<h1 style="text-align: center;text-transform:uppercase" class="tk-eskapade">$Title</h1>
 			  <div class="col-md-4">
 				<p class="p2" style="text-align: center;"><img SRC="assets/Index-Page/Location/REV1-Index-Location-FM-Kirby-Map-.png" title="Stellar Chance"></p>
 			  	<h4 style="text-align: center;">F.M. Kirby Center for Molecular Ophthalmology</h5>
