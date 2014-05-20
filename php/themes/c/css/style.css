@@ -124,6 +124,9 @@ background-color: #FFFFFF !important;
 ul.dropdown-menu li{
 	font-size: 16px;
 }
+ul.dropdown-menu li a {
+	color:rgb(65,65,65);
+}
 .carot-header {
 position: absolute;
 right: 30px;
