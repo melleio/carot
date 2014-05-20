@@ -125,7 +125,7 @@ ul.dropdown-menu li{
 	font-size: 16px;
 }
 ul.dropdown-menu li a {
-	color:rgb(65,65,65);
+	color:rgb(65,65,65) !important;
 }
 .carot-header {
 position: absolute;
