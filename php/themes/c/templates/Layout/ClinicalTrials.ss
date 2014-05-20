@@ -16,9 +16,9 @@
 			<p></p>
 		</div>
 		<% loop ChildrenOf(clinical-trials) %>
-		<div class="col-sm-2" style="padding:2.5%;">
+		<div class="col-sm-2" style="padding:1% 2%;">
 			<p>$Image.SetWidth(160)</p>
-			<p style="text-align:center;text-transform:uppercase;font-size:1.4em;"><strong><a href="$Link">$MenuTitle</a></strong></p>
+			<p style="text-align:center;text-transform:uppercase;font-size:1.2em;"><strong><a href="$Link">$MenuTitle</a></strong></p>
 		</div>
 		<% end_loop %>
 		<div class="col-sm-2">
