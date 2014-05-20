@@ -23,10 +23,8 @@ melle.io
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<script src="$ThemeDir/js/jquery-1.10.2.min.js"></script>
-	<script type="text/javascript" src="//use.typekit.net/bzx4dno.js"></script>
-    <script type="text/javascript">
-        try{Typekit.load();}catch(e){}
-    </script>
+    <script type="text/javascript" src="//use.typekit.net/bzx4dno.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<% require themedCSS('bootstrap') %>
 	<% require themedCSS('fancybox') %>
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
