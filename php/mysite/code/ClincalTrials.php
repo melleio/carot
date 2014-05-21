@@ -69,6 +69,10 @@ class ClinicalTrials_Controller extends ResearchPage_Controller {
 		$this->redirect(ClinicalTrialItem::get()->First()->AbsoluteLink());
 	}
 
+	public function galleryPhotos(){
+		return true;
+	}
+
 
 
 }
