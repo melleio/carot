@@ -265,6 +265,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 	font-family: "Effra", sans-serif;
 	font-weight: 600;
 	transition: all .5 linear;
+	padding: 10px 0 5px;
 }
 
 .navbar .nav a:hover {
