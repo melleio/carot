@@ -121,8 +121,10 @@ text-decoration: none;
 background-color: #FFFFFF !important;
 }
 
-ul.dropdown-menu li{
-	font-size: 16px;
+ul.dropdown-menu li
+{
+font-size: 16px;
+margin-left: 10px;
 }
 .carot-header {
 position: absolute;
