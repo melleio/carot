@@ -94,7 +94,5 @@ melle.io
 	<script src="$ThemeDir/js/jquery-migrate-1.2.1.min.js"></script>
 	<script src="$ThemeDir/js/bootstrap.min.js"></script>
 	<script src="$ThemeDir/js/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="$ThemeDir/fancybox/jquery.fancybox.pack-v=2.1.5.js"></script>
-	<script src="$ThemeDir/js/script.js"></script>
 	</script>
 </html>
