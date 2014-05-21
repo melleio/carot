@@ -2,7 +2,7 @@
 		<div class="container">
 			<div id="home-row-1" class="row clearfix" style="text-align: center;">
 				<div class="col-12">
-					<h1 class="tk-eskapade" style="font-size:30pt;">$Title</h1>
+					<h1 class="tk-eskapade" style="font-size:30pt">$Title</h1>
 					<div id="top-image">
 						<img src="$TopImage.Filename" title="$TopImage.Title">
 					</div>
