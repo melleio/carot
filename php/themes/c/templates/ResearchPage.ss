@@ -35,7 +35,7 @@ melle.io
 	
 	<link rel="shortcut icon" href="$ThemeDir/images/favicon.ico" />
 
-	<script src="js/jquery-2.0.3.min.js"></script>
+	<script src="js/jquery-1.10.2.min.js"></script>
     <script src="http://code.angularjs.org/1.2.0rc1/angular.js"></script>
     <script src="http://code.angularjs.org/1.2.0rc1/angular-animate.min.js"></script>
     <script src="http://code.angularjs.org/1.2.0rc1/angular-touch.min.js"></script>
