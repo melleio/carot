@@ -17,7 +17,11 @@
 			</p>
 		</div>
 		<% else %>
-
+		<div class="col-xs-6 col-sm-3" style="text-align:center">
+			<p><a href="$Link"><span class="team-list-name"><strong>$MenuTitle</strong></span></a><br>
+			
+			</p>
+		</div>
 		<% end_if %>
 		<% if $MultipleOf(4) %>
 		</div>
