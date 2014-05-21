@@ -55,16 +55,12 @@ class ClinicalTrials_Controller extends ResearchPage_Controller {
 		// Security Check. Comment to disable
 		// if(!Permission::check("VIEW_SITE")) Security::permissionFailure();
 		//Requirements::set_write_js_to_body(false);
-		/*Requirements::combine_files(
-	    'home.ppd.js',
+		Requirements::combine_files(
+	    'clinicaltrials.carot.js',
 	    array(
-	        'themes/v3/js/custom.js',
-	    	'themes/v3/js/home.js',
-	        'themes/v3/js/bootstrap.min.js',
-	        'themes/v3/js/chosen.jquery.min.js',
-	        'themes/v3/js/searchoverlay.js'
+	        'themes/v3/js/clinicalgallery.js'
 	    )
-		);*/
+		);
 	}
 
 

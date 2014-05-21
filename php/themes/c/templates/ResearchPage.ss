@@ -7,7 +7,7 @@ melle.io
 -->
 
 <!--[if !IE]><!-->
-<html lang="$ContentLocale">
+<html ng-app="researchApp" lang="$ContentLocale">
 <!--<![endif]-->
 <!--[if IE 6 ]><html lang="$ContentLocale" class="ie ie6"><![endif]-->
 <!--[if IE 7 ]><html lang="$ContentLocale" class="ie ie7"><![endif]-->
@@ -34,8 +34,13 @@ melle.io
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	
 	<link rel="shortcut icon" href="$ThemeDir/images/favicon.ico" />
+
+	<script src="js/jquery-2.0.3.min.js"></script>
+    <script src="http://code.angularjs.org/1.2.0rc1/angular.js"></script>
+    <script src="http://code.angularjs.org/1.2.0rc1/angular-animate.min.js"></script>
+    <script src="http://code.angularjs.org/1.2.0rc1/angular-touch.min.js"></script>
 </head>
-<body>
+<body ng-controller="MainCtrl">
 	<header class="header">
 	<div class="inner container">
 		<div class="unit size4of4 lastUnit">
@@ -72,12 +77,10 @@ melle.io
 			<% include Navigation %>
 	
 	<!-- === Arrows === -->
-	<%-- <div id="arrows">
+	<div id="arrows">
 		<div id="arrow-up" class="disabled"></div>
 		<div id="arrow-down"></div>
-		<div id="arrow-left" class="disabled visible-lg"></div>
-		<div id="arrow-right" class="disabled visible-lg"></div>
-	</div> --%><!-- /.arrows -->
+	</div> <!-- /.arrows -->
 	
 	<div id="black-blue"></div>
 	<!-- === MAIN Background === -->
@@ -93,22 +96,5 @@ melle.io
 	<script src="$ThemeDir/js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="$ThemeDir/fancybox/jquery.fancybox.pack-v=2.1.5.js"></script>
 	<script src="$ThemeDir/js/script.js"></script>
-	
-	<!-- fancybox init -->
-	<script>
-	$(document).ready(function(e) {
-		<%-- var lis = $('.nav > li');
-		menu_focus( lis[0], 1 );
-		
-		$(".fancybox").fancybox({
-			padding: 10,
-			helpers: {
-				overlay: {
-					locked: false
-				}
-			}
-		}); --%>
-	
-	});
 	</script>
 </html>
