@@ -17,8 +17,8 @@
 		</div>
 		<% loop ChildrenOf(clinical-trials) %>
 		<div class="col-sm-2" style="padding:1% 2%;">
-			<p>$Image.SetWidth(160)</p>
-			<p style="text-align:center;text-transform:uppercase;font-size:1.2em;"><strong><a href="$Link">$MenuTitle</a></strong></p>
+			<p><a href="$Link">$Image.SetWidth(160)</p>
+			<p style="text-align:center;text-transform:uppercase;font-size:1.2em;"><a href="$Link"><strong>$MenuTitle</strong></a></p>
 		</div>
 		<% end_loop %>
 		<div class="col-sm-2">
@@ -30,7 +30,7 @@
 	<div class="row">
 		<div class="col-sm-3">
 			<div class="options">
-				<a href="#"><img src="images/buttons/share.png" alt="share button" title="Share" /></a>
+				<%-- <a href="#"><img src="images/buttons/share.png" alt="share button" title="Share" /></a> --%>
 			</div>
 		</div>
 		<div class="col-sm-9">
