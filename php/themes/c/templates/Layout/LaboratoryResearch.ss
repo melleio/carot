@@ -4,7 +4,7 @@
 	<% include BreadCrumbs %>
 	
 		<% loop ChildrenOf(laboratory-research) %>
-<% if $First %>
+		<% if $First %>
 		<div class="row">
 		<% end_if %>
 		<% if $MultipleOf(3) %>

@@ -366,6 +366,7 @@ jQuery(document).ready(function ($) {
 });
 jQuery(document).ready(function ($) {
 	$(".toggle").click(function(){
+		alert("toggle");
 		$(".lab-list").slideToggle("slow",function(){
 			//slide completed
 		});
