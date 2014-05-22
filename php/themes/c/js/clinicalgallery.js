@@ -1,6 +1,6 @@
 jQuery(document).ready(function() {
 
-jQuery('body').animate({opacity: 1},500);
+jQuery('#mainNavigation').animate({opacity: 1},500);
 
 });
 var pageLoading = false;
