@@ -12,7 +12,7 @@ angular.module('researchApp', ['ngAnimate', 'ngTouch', 'galleryServices', 'ngRou
   .controller('MainCtrl', ['$scope', 'Gallery', function ($scope, Gallery) {
 
     // Set of Photos
-    Gallery.get({pageId: '15'}, function(phone) {
+    Gallery.get({pageID: '15'}, function(phone) {
         //$scope.mainImageUrl = 
         console.log(phone.response.photos[0]);
     });
