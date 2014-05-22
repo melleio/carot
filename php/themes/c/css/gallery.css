@@ -28,7 +28,7 @@
     opacity:1;
 }
 
-.nav {
+.gallerynav {
     bottom: -4px;
     display: block;
     height: 48px;
@@ -41,7 +41,7 @@
     width: 100%;
     z-index: 5;
 }
-.nav li {
+.gallerynav li {
     border: 5px solid #AAAAAA;
     border-radius: 5px;
     cursor: pointer;
@@ -51,10 +51,10 @@
     position: relative;
     width: 50px;
 }
-.nav li.active {
+.gallerynav li.active {
     border: 5px solid #FFFFFF;
 }
-.nav li img {
+.gallerynav li img {
     width: 100%;
 }
 
