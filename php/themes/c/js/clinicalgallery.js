@@ -1,4 +1,17 @@
+jQuery(document).ready(function() {
 
+jQuery('body').animate({opacity: 1},500);
+
+});
+var pageLoading = false;
+
+function nowLoading(e) {
+    
+    if(pageLoading) return false;
+    pageLoading = true;
+    
+    $('#wrapper').animate({opacity: 0},500);
+}
 var galleryServices = angular.module('galleryServices', ['ngResource']);
 
 galleryServices.factory('Gallery', ['$resource',
