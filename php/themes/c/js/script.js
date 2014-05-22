@@ -364,3 +364,10 @@ jQuery(document).ready(function ($) {
 		}
 	});
 });
+jQuery(document).ready(function ($) {
+	$(".toggle").click(function(){
+		$(".lab-list").slideToggle("slow",function(){
+			//slide completed
+		});
+	});
+});
