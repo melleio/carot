@@ -11,7 +11,7 @@
 		<% end_if %>
 		<div class="col-sm-6">
 			<% if URLSegment == 'translational-studies' %>
-			<h2 class="lab-header"><a href="$Link">$Title</a></h2>
+			<h2 class="lab-header"><a href="$Link" class="toggle">$Title</a></h2>
 			<% else %>
 			<h2 class="lab-header"><a href="$Link">$Title</a></h2>
 			<% end_if %>
@@ -23,7 +23,9 @@
 				<% end_if %>
 			</ul>
 		</div>
-		<% if $MultipleOf(2) %>
+		<% if $First %>
+		</div>
+		<% else_if $MultipleOf(2) %>
 		</div>
 		<% end_if %>
 		<% end_loop %>
