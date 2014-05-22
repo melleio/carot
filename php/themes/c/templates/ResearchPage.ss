@@ -92,11 +92,6 @@ melle.io
 
 </body>
 <!-- SCRIPTS -->
-	<script src="$ThemeDir/js/html5shiv.js"></script>
-	
-	<script src="$ThemeDir/js/jquery-migrate-1.2.1.min.js"></script>
-	<script src="$ThemeDir/js/bootstrap.min.js"></script>
-	<script src="$ThemeDir/js/jquery.easing.1.3.js"></script>
 	<script src="$ThemeDir/js/clinicalgallery.js"></script>
 
 	
