@@ -17,7 +17,7 @@ class DummyWebService implements WebServiceable {
 		
 	}
 	
-	public function webEnabledMethods() {
+	public function publicWebMethods() {
 		return array(
 			'myMethod'		=> 'GET',
 		);

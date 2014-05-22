@@ -1,4 +1,4 @@
-'use strict';
+
 
 angular.module('researchApp', ['ngAnimate', 'ngTouch'])
   .controller('MainCtrl', function ($scope) {
