@@ -8,7 +8,7 @@
 		<div class="row">
 		<% end_if %>
 		<div class="col-sm-6">
-			<h2 class="lab-header"><a href="$MenuTitle">$Title</a></h2>
+			<h2 class="lab-header"><a href="$Link">$Title</a></h2>
 			<ul>
 				<% if URLSegment == 'translational-studies' %>
 				<% loop Children %>
