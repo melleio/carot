@@ -43,7 +43,7 @@ melle.io
     <script src="http://code.angularjs.org/1.2.15/angular-route.js"></script>
     <script src="http://code.angularjs.org/1.2.15/angular-resource.js"></script>
 </head>
-<body ng-controller="MainCtrl" style="opacity:0;">
+<body ng-controller="MainCtrl">
 	<header class="header">
 	<div class="inner container">
 		<div class="unit size4of4 lastUnit">
@@ -66,7 +66,7 @@ melle.io
 		</div>
 	</div>
 	</header>
-	<div id="mainNavigation" class="navbar navbar-static-top main-nav" data-activeslide="1">
+	<div id="mainNavigation" class="navbar navbar-static-top main-nav" style="opacity:0;">
 		<div class="container">
 		
 			<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
