@@ -66,9 +66,9 @@ melle.io
 		</div>
 	</div>
 	</header>
-	
-<div id="wrapper" style="opacity:0;">
-	<div id="mainNavigation" class="navbar navbar-static-top main-nav">
+
+
+<div id="mainNavigation" class="navbar navbar-static-top main-nav">
 		<div class="container">
 		
 			<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
@@ -86,7 +86,8 @@ melle.io
 		<div id="arrow-up" class="disabled"></div>
 		<div id="arrow-down"></div>
 	</div> <!-- /.arrows -->
-	
+</div>
+<div id="wrapper" style="opacity:0;">
 	<div id="black-blue"></div>
 	<!-- === MAIN Background === -->
 	$Layout
