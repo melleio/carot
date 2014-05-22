@@ -66,6 +66,8 @@ melle.io
 		</div>
 	</div>
 	</header>
+	
+<div id="wrapper">
 	<div id="mainNavigation" class="navbar navbar-static-top main-nav" style="opacity:0;">
 		<div class="container">
 		
@@ -89,7 +91,7 @@ melle.io
 	<!-- === MAIN Background === -->
 	$Layout
 	
-
+</div>
 </body>
 <!-- SCRIPTS -->
 	<script src="$ThemeDir/js/bootstrap.min.js"></script>
