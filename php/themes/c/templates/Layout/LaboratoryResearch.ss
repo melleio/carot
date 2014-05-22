@@ -6,7 +6,8 @@
 		<% loop ChildrenOf(laboratory-research) %>
 <% if $First %>
 		<div class="row">
-		<% else_if $MultipleOf(3) %>
+		<% end_if %>
+		<% if $MultipleOf(3) %>
 		<div class="row">
 		<% end_if %>
 		<div class="col-sm-6">
@@ -23,9 +24,7 @@
 				<% end_if %>
 			</ul>
 		</div>
-		<% if $First %>
-		</div>
-		<% else_if $MultipleOf(3) %>
+		<% if $MultipleOf(2) %>
 		</div>
 		<% end_if %>
 		<% end_loop %>
