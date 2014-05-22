@@ -43,7 +43,7 @@ melle.io
     <script src="http://code.angularjs.org/1.2.15/angular-route.js"></script>
     <script src="http://code.angularjs.org/1.2.15/angular-resource.js"></script>
 </head>
-<body ng-controller="MainCtrl">
+<body ng-controller="MainCtrl" style="opacity:0;">
 	<header class="header">
 	<div class="inner container">
 		<div class="unit size4of4 lastUnit">
