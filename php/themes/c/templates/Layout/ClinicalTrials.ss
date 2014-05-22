@@ -1,5 +1,6 @@
+<p><a href="$Link">$Title</p>
 <div class="slide story" id="slide-1" data-slide="1" ng-controller="MainCtrl">
-	<p><a href="$Link">$Title</p>
+
 <div class="container">
 
 	<% include BreadCrumbs %>
