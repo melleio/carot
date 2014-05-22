@@ -1,4 +1,3 @@
-<p><a href="$Link">$Title</p>
 <div class="slide story" id="slide-1" ng-controller="MainCtrl">
 
 <div class="container">
