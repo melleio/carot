@@ -12,7 +12,6 @@ angular.module('researchApp', ['ngAnimate', 'ngTouch', 'galleryServices', 'ngRou
   .controller('MainCtrl', ['$scope', 'Gallery', function ($scope, Gallery) {
 
     // Set of Photos
-    console.log(Gallery.query());
     $scope.phone = Gallery.get({phoneId: '15'}, function(phone) {
         //$scope.mainImageUrl = 
         console.log(phone.response.photos[0]);
