@@ -13,7 +13,7 @@ angular.module('researchApp', ['ngAnimate', 'ngTouch', 'galleryServices', 'ngRou
 
     // Set of Photos
     console.log(Gallery.query());
-    $scope.phone = Phone.get({phoneId: '15'}, function(phone) {
+    $scope.phone = Gallery.get({phoneId: '15'}, function(phone) {
         //$scope.mainImageUrl = 
         console.log(phone.response.photos[0]);
     });
