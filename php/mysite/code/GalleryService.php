@@ -33,9 +33,9 @@ class GalleryService implements WebServiceable {
         foreach ($d->GalleryImages() as $images) {
             # code...
             $t = array('url'=>$images->Image()->AbsoluteURL);
-            array_push($t);
+            array_push($a,$t);
         }
         return array(
-            'photos' => $d->GalleryImages()->First()->Image()->AbsoluteURL);
+            'photos' => $a);
     }
 }
