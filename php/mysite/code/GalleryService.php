@@ -30,9 +30,10 @@ class GalleryService implements WebServiceable {
     public function photos($pageID){
         $d = ResearchPage::get()->filter(array('ID'=>$pageID))->First();
         $a = array();
-        foreach ($d->GalleryImages() as $images) {
+        foreach ($d->GalleryImages() as $image) {
             # code...
-            $t = array('url'=>$images->Image()->AbsoluteURL);
+            $t = array('src'=>$image->Image()->AbsoluteURL,
+                'title'=> $image->Image()->Title);
             array_push($a,$t);
         }
         return array(

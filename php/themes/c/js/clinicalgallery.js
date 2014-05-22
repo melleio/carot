@@ -14,7 +14,7 @@ angular.module('researchApp', ['ngAnimate', 'ngTouch', 'galleryServices', 'ngRou
     // Set of Photos
     Gallery.get({pageID: '15'}, function(phone) {
         //$scope.mainImageUrl = 
-        console.log(phone.response.photos[0]);
+        $scope.photos = phone.response.photos;
     });
     //$scope.photos = Gallery.query().photos;
 
