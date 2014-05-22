@@ -79,9 +79,10 @@
     transform-style: preserve-3d;
 }
 .galleryslide {
-    position: relative;
-    top: 0;
-    left: 0;
+position: relative;
+top: 50px;
+/* margin: auto; */
+left: 170px;
 }
 .galleryslide.ng-hide-add {
     opacity:1;

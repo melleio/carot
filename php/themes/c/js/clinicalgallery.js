@@ -7,12 +7,12 @@ galleryServices.factory('Gallery', ['$resource',
       query: {method:'GET', params:{pageID:'15'}, isArray:true}
     });
   }]);
-
+var pageID = $('title').attr('pageId');
 angular.module('researchApp', ['ngAnimate', 'ngTouch', 'galleryServices', 'ngRoute'])
   .controller('MainCtrl', ['$scope', 'Gallery', function ($scope, Gallery) {
 
     // Set of Photos
-    Gallery.get({pageID: '15'}, function(phone) {
+    Gallery.get({pageID: pageId}, function(phone) {
         //$scope.mainImageUrl = 
         $scope.photos = phone.response.photos;
     });
