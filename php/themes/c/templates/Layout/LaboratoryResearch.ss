@@ -9,9 +9,9 @@
 		<% end_if %>
 		<div class="col-sm-6">
 			<% if URLSegment == 'translational-studies' %>
-			<h2 class="lab-header"><a href="$MenuTitle" class="toggle">$Title</a></h2>
+			<h2 class="lab-header"><a href="$Link" class="toggle">$Title</a></h2>
 			<% else %>
-			<h2 class="lab-header"><a href="$MenuTitle">$Title</a></h2>
+			<h2 class="lab-header"><a href="$Link">$Title</a></h2>
 			<% end_if %>
 			<ul class="lab-list">
 				<% if URLSegment == 'translational-studies' %>
