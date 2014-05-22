@@ -29,7 +29,8 @@ class GalleryService implements WebServiceable {
 
     public function photos($pageID){
         $d = ResearchPage::get()->filter(array('ID'=>$pageID))->First();
+        var_dump($d);
         return array(
-            'URL' => $d->GalleryImages()->First()->Image->AbsoluteURL);
+            'URL' => $d->GalleryImages()->First()->Image()->AbsoluteURL);
     }
 }
