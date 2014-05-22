@@ -92,6 +92,7 @@ melle.io
 
 </body>
 <!-- SCRIPTS -->
+	<script src="$ThemeDir/js/bootstrap.min.js"></script>
 	<script src="$ThemeDir/js/clinicalgallery.js"></script>
 
 	
