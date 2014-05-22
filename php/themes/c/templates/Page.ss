@@ -109,6 +109,13 @@ melle.io
 		$('#myCarousel').carousel({
 		  interval: 7000
 		});
+		
+		$(".toggle").click(function(){
+			alert("toggle");
+			$(".lab-list").slideToggle("slow",function(){
+				//slide completed
+			});
+		});
 	});
 	</script>
 </html>

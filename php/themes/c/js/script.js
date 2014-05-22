@@ -41,12 +41,7 @@ angular.module('researchApp', ['ngAnimate', 'ngTouch'])
 });
 
 $(document).ready(function(e) {
-	$(".toggle").click(function(){
-		alert("toggle");
-		$(".lab-list").slideToggle("slow",function(){
-			//slide completed
-		});
-	});
+	
 
 	window.onscroll = function() {
         
