@@ -1,9 +1,9 @@
 
 <!-- slider container -->
-<div id="myCarousel" class="container slide">
+<div id="myCarousel" class="container slider">
 
     <!-- enumerate all photos -->
-    <img ng-repeat="photo in photos" class="slide" ng-swipe-right="showPrev()" ng-swipe-left="showNext()" ng-show="isActive(\$index)" ng-src="{{photo.src}}" />
+    <img ng-repeat="photo in photos" class="slider" ng-swipe-right="showPrev()" ng-swipe-left="showNext()" ng-show="isActive(\$index)" ng-src="{{photo.src}}" />
 
     <!-- prev / next controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev" ng-click="showPrev()">&lsaquo;</a>
