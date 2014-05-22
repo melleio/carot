@@ -1,4 +1,4 @@
-<div class="slide story" id="slide-1" data-slide="1" ng-controller="MainCtrl">
+<div class="story" id="slide-1" data-slide="1" ng-controller="MainCtrl">
 <div class="container">
 
 	<% include BreadCrumbs %>
