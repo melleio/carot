@@ -31,6 +31,7 @@ melle.io
 	<% require themedCSS('fancybox') %>
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<% require themedCSS('style') %>
+	<% require themedCSS('gallery') %>
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	
 	<link rel="shortcut icon" href="$ThemeDir/images/favicon.ico" />
