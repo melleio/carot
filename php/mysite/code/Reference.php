@@ -19,6 +19,7 @@ class Reference extends DataObject{
 		'ClinicalTrialItem' => 'ClinicalTrialItem',
 		'TeamMemberPage' => 'TeamMemberPage',
 		'LaboratoryResearchItem' => 'LaboratoryResearchItem',
+		'TranslationalServicesItem' => 'TranslationalServicesItem',
 	);
 
 	private static $belongs_many_many = array(
