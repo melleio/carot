@@ -46,7 +46,7 @@ class ClinicalTrials_Controller extends ResearchPage_Controller {
 	 * @var array
 	 */
 	private static $allowed_actions = array (
-		'LatestTweet','TopImage'
+		'LatestTweet','galleryPhotos'
 	);
 
 	public function init() {
@@ -70,7 +70,7 @@ class ClinicalTrials_Controller extends ResearchPage_Controller {
 	}
 
 	public function galleryPhotos(){
-		return true;
+		return $this->Link;
 	}
 
 
