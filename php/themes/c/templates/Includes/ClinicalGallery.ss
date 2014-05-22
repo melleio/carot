@@ -1,13 +1,13 @@
 
 <!-- slider container -->
 <div id="myCarousel" class="container slider">
-	<!-- prev / next controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev" ng-click="showPrev()"><i style="padding-top:100px" class="fa fa-arrow-circle-left"></i></a>
-	<a class="right carousel-control" href="#myCarousel" data-slide="next" ng-click="showNext()"><i style="padding-top:100px" class="fa fa-arrow-circle-right"></a>
+
     <!-- enumerate all photos -->
     <img ng-repeat="photo in photos" class="galleryslide" ng-swipe-right="showPrev()" ng-swipe-left="showNext()" ng-show="isActive(\$index)" ng-src="{{photo.src}}" />
 
-    
+    <!-- prev / next controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev" ng-click="showPrev()"><i style="padding-top:100px" class="fa fa-arrow-circle-left"></i></a>
+	<a class="right carousel-control" href="#myCarousel" data-slide="next" ng-click="showNext()"><i style="padding-top:100px" class="fa fa-arrow-circle-right"></i></a>
 
     <!-- extra navigation controls -->
     <ul class="gallerynav">
