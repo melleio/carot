@@ -3,7 +3,7 @@
 <div id="myCarousel" class="container slide">
 
     <!-- enumerate all photos -->
-    <img ng-repeat="photo in photos" class="slide" ng-swipe-right="showPrev()" ng-swipe-left="showNext()" ng-show="isActive($index)" ng-src="{{photo.src}}" />
+    <img ng-repeat="photo in photos" class="slide" ng-swipe-right="showPrev()" ng-swipe-left="showNext()" ng-show="isActive(\$index)" ng-src="{{photo.src}}" />
 
     <!-- prev / next controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev" ng-click="showPrev()">&lsaquo;</a>
@@ -11,8 +11,8 @@
 
     <!-- extra navigation controls -->
     <ul class="nav">
-        <li ng-repeat="photo in photos" ng-class="{'active':isActive($index)}">
-            <img src="{{photo.src}}" alt="{{photo.desc}}" title="{{photo.desc}}" ng-click="showPhoto($index);" />
+        <li ng-repeat="photo in photos" ng-class="{'active':isActive(\$index)}">
+            <img src="{{photo.src}}" alt="{{photo.desc}}" title="{{photo.desc}}" ng-click="showPhoto(\$index);" />
         </li>
     </ul>
 

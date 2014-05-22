@@ -56,10 +56,10 @@ class ClinicalTrials_Controller extends ResearchPage_Controller {
 		// if(!Permission::check("VIEW_SITE")) Security::permissionFailure();
 		//Requirements::set_write_js_to_body(false);
 		Requirements::combine_files(
-	    'clinicaltrials.carot.js',
-	    array(
-	        'themes/v3/js/clinicalgallery.js'
-	    )
+	    	'clinicaltrials.carot.js',
+		    array(
+		        'themes/v3/js/clinicalgallery.js'
+		    )
 		);
 	}
 
