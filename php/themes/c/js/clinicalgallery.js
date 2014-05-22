@@ -1,25 +1,19 @@
 
 var galleryServices = angular.module('galleryServices', ['ngResource']);
 
-phonecatServices.factory('Phone', ['$resource',
+galleryServices.factory('Gallery', ['$resource',
   function($resource){
-    return $resource('phones/:phoneId.json', {}, {
-      query: {method:'GET', params:{phoneId:'phones'}, isArray:true}
+    return $resource('jsonservice/Gallery/photos.json', {}, {
+      query: {method:'GET', params:{pageId:'15'}, isArray:true}
     });
   }]);
 
-angular.module('researchApp', ['ngAnimate', 'ngTouch'])
-  .controller('MainCtrl', function ($scope) {
+angular.module('researchApp', ['ngAnimate', 'ngTouch', 'galleryServices', 'ngRoute'])
+  .controller('MainCtrl', ['$scope', 'Gallery', function ($scope, Gallery) {
 
     // Set of Photos
-    $scope.photos = [
-        {src: 'http://farm9.staticflickr.com/8042/7918423710_e6dd168d7c_b.jpg', desc: 'Image 01'},
-        {src: 'http://farm9.staticflickr.com/8449/7918424278_4835c85e7a_b.jpg', desc: 'Image 02'},
-        {src: 'http://farm9.staticflickr.com/8457/7918424412_bb641455c7_b.jpg', desc: 'Image 03'},
-        {src: 'http://farm9.staticflickr.com/8179/7918424842_c79f7e345c_b.jpg', desc: 'Image 04'},
-        {src: 'http://farm9.staticflickr.com/8315/7918425138_b739f0df53_b.jpg', desc: 'Image 05'},
-        {src: 'http://farm9.staticflickr.com/8461/7918425364_fe6753aa75_b.jpg', desc: 'Image 06'}
-    ];
+    console.log(Gallery.query());
+    //$scope.photos = Gallery.query().photos;
 
     // initial image index
     $scope._Index = 0;
@@ -43,5 +37,5 @@ angular.module('researchApp', ['ngAnimate', 'ngTouch'])
     $scope.showPhoto = function (index) {
         $scope._Index = index;
     };
-});
+}]);
 
