@@ -67,8 +67,8 @@ melle.io
 	</div>
 	</header>
 	
-<div id="wrapper">
-	<div id="mainNavigation" class="navbar navbar-static-top main-nav" style="opacity:0;">
+<div id="wrapper" style="opacity:0;">
+	<div id="mainNavigation" class="navbar navbar-static-top main-nav">
 		<div class="container">
 		
 			<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
