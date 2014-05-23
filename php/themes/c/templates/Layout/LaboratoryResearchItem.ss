@@ -1,6 +1,6 @@
 <div class="slide story" id="slide-1" ng-controller="MainCtrl">
 	<div class="container">
-		<% include BreadCrumbs %>
+		<% include SubpageBreadCrumbs %>
 		<div class="row">
 			<div class="col-sm-12" style="background:url('$AbsoluteURL/assets/Research/Labstudies/Translational/Introductory-Page/REV1-Lab-Studies-Trans-Studies-Header-for-Translational-Studies.png') top center no-repeat;background-size:cover;background-position: 0% 0px;padding:2.5%;">
 				<h2 style="color:#c70000;font-weight:bold;text-align:center;">$Title</h2>
@@ -24,7 +24,7 @@
 				
 			</div>
 			<% else %>
-			<div class="col-sm-12 gray-box" style="background:url('$AbsoluteURL/assets/Research/Labstudies/Translational/Introductory-Page/background-center-section-for-text-.png');background-size:cover;background-position: 100% 100%;">
+			<div class="col-sm-12 gray-box" style="background:url('$AbsoluteURL/assets/Research/Labstudies/Translational/Introductory-Page/background-center-section-for-text-.png');background-size:cover;">
 				<div class="content-text">
 				$Content
 				</div>
