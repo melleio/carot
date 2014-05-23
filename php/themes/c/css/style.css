@@ -180,6 +180,7 @@ background: -ms-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(242,242,242,1) 
 background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(242,242,242,1) 21%,rgba(204,204,204,1) 95%,rgba(155,155,155,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#9b9b9b',GradientType=0 );
 padding-left: 20px;
+margin-bottom: 5px;
 }
 
 .header .inner {

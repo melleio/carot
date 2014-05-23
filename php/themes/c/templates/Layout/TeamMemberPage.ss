@@ -1,10 +1,14 @@
 <div class="slide story" id="slide-1" ng-controller="MainCtrl">
 	<div class="container">
+	<div class="row">
+	<div class="col-sm-4">
+		<img src="http://www-carot.us.melle.io/assets/Research/TeamWork/Carot-Main-Team-Page/REV-3-TEAM-PAGE-ELEMENTS/REV3back-button-on-team-page.001-186x207.png">
+	</div>
+	<div class="col-sm-8">
 		<% include BreadCrumbs %>
 		<div class="row">
 			<div class="col-sm-12" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/Clinical-Trials-Main/other-graphic-elements/Clinical-Trials-Image-Bed-for-Mission-Statement-.png') no-repeat;background-size:cover;background-position: 100% 100%;padding:2.5%;margin:1% 0;">
 				<p>$Title</p>
-				$Image
 			</div>
 		</div>
 		<div class="row">
@@ -32,5 +36,6 @@
 			</div>
 			<% end_if %>
 		</div>
+	</div>
 	</div>
 </div>
