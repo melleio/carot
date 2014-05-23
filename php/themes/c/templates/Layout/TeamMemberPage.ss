@@ -2,7 +2,7 @@
 	<div class="container">
 	<div class="row">
 	<div class="col-sm-4">
-		<img src="http://www-carot.us.melle.io/assets/Research/TeamWork/Carot-Main-Team-Page/REV-3-TEAM-PAGE-ELEMENTS/REV3back-button-on-team-page.001-186x207.png">
+		<img src="$AbsoluteURL/assets/Research/TeamWork/Carot-Main-Team-Page/REV-3-TEAM-PAGE-ELEMENTS/REV3back-button-on-team-page.001-186x207.png">
 	</div>
 	<div class="col-sm-8">
 		<% include SubpageBreadCrumbs %>
@@ -29,7 +29,7 @@
 				
 			</div>
 			<% else %>
-			<div class="col-sm-12 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
+			<div class="col-sm-12 team-body" style="">
 				<div class="content-text">
 				$Content
 				</div>
