@@ -18,6 +18,12 @@ margin-right: -700px;
 margin-left: 0px;
 }
 
+.carot-head{
+font-weight: bold;
+font-size: 2em;
+color: rgba(226,88,88,255);
+}
+
 @media (min-width: 1200px){
 	.container {
 max-width: 1124px;
