@@ -32,7 +32,7 @@
 	</div>
 	<div class="row">
 		<div class="col-sm-12">
-			<h1 class="" style="color:red;text-transform:uppercase;">$MenuTitle</h1>
+			<h1 class="" style="color:rgba(226,88,88,255);text-transform:uppercase;">$MenuTitle</h1>
 			<h2 class="" style="color:#777;text-transform:uppercase;">$Title</h2>
 		</div>
 	</div>

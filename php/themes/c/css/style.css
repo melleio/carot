@@ -290,7 +290,7 @@ html, body {
 
 body {
 	background-color: #2f2f2f;
-	font-family: "Titillium Web", sans-serif;
+	font-family: "Effra", sans-serif;
 	font-weight: normal;
 	overflow-x: hidden;
 	-webkit-font-smoothing: antialiased !important;
@@ -920,7 +920,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
 }
 .ref-header {
 	text-transform:uppercase;
-	color:blue;
+	color:#428bca;
 }
 .ref-list {
 	padding:20px;
