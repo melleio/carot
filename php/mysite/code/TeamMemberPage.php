@@ -2,6 +2,7 @@
 class TeamMemberPage extends TeamPage {
 
 	private static $db = array(
+		'Position'
 	);
 
 	/*function canCreate($Member = null){
@@ -19,6 +20,7 @@ class TeamMemberPage extends TeamPage {
     public function getCMSFields() {
 		$fields = parent::getCMSFields();
 		$fields->addFieldToTab('Root.Main', new UploadField('Image'),'MenuTitle');
+		$fields->addFieldToTab('Root.Main', new TextField('Position'),'MenuTitle');
 		
 		$config2 = new GridFieldConfig_RelationEditor();
 		$config2->addComponents(new GridFieldExportButton('before'));
