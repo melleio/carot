@@ -7,7 +7,7 @@
 	<div class="col-sm-8">
 		<% include SubpageBreadCrumbs %>
 		<div class="row">
-			<div class="col-sm-12 team-title" style="padding:2.5%;margin:1% 0;">
+			<div class="col-sm-12 team-title" style="padding:2.5%;">
 				<p>$Title</p>
 			</div>
 		</div>
