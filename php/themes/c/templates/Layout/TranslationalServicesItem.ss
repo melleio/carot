@@ -1,8 +1,8 @@
 <div class="slide story" id="slide-1" ng-controller="MainCtrl">
 	<div class="container">
-		<% include BreadCrumbs %>
+		<% include SubpageBreadCrumbs %>
 		<div class="row">
-			<div class="col-sm-12" style="background:url('$AbsoluteURL/assets/Services/REV3-Header-and-Body-Images-for-the-Text-in-the-6-Services-on-the-Main-Service-Page/REV3pharm-and-toxi-header-777x123.png') top center no-repeat;background-size:cover;padding:2.5%;">
+			<div class="col-sm-12" style="background:url('$AbsoluteURL/assets/Services/REV3-Header-and-Body-Images-for-the-Text-in-the-6-Services-on-the-Main-Service-Page/REV3pharm-and-toxi-header-777x123.png') top center no-repeat;background-size:cover;padding:2.5%;background-position: 0% -68px;">
 				<h2 style="color:#c70000;font-weight:bold;text-align:center;">$Title</h2>
 			</div>
 		</div>

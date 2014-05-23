@@ -482,6 +482,7 @@ a:focus {
 
 #breadcrumbs{
 font-size: 21px;
+padding-bottom: 15px;
 }
 
 #breadcrumbs a:nth-child(3),div:first-child::after{
