@@ -2,7 +2,7 @@
 	<div class="container">
 		<% include BreadCrumbs %>
 		<div class="row">
-			<div class="col-sm-12" style="background:url('$AbsoluteURL/assets/Services/REV3-Header-and-Body-Images-for-the-Text-in-the-6-Services-on-the-Main-Service-Page/REV3pharm-and-toxi-header-777x123.png') top center no-repeat;background-size:cover;padding:2.5%;margin:1% 0;">
+			<div class="col-sm-12" style="background:url('$AbsoluteURL/assets/Services/REV3-Header-and-Body-Images-for-the-Text-in-the-6-Services-on-the-Main-Service-Page/REV3pharm-and-toxi-header-777x123.png') top center no-repeat;background-size:cover;padding:2.5%;">
 				<h2 style="color:#c70000;font-weight:bold;text-align:center;">$Title</h2>
 			</div>
 		</div>
@@ -24,7 +24,7 @@
 				
 			</div>
 			<% else %>
-			<div class="col-sm-12 gray-box" style="background:url('$AbsoluteURL/assets/Research/Labstudies/Optgenetic-Therapy/Optogenetic-Therapy-Block-for-Text-.png');background-size:cover;background-position: 100% 100%;">
+			<div class="col-sm-12 gray-box" style="background:url('$AbsoluteURL/assets/Services/REV3-Header-and-Body-Images-for-the-Text-in-the-6-Services-on-the-Main-Service-Page/REV3earlystage-body-2-889x448.png');background-size:cover;background-position: 100% 100%;">
 				<div class="content-text">
 				$Content
 				</div>
