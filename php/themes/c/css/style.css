@@ -161,11 +161,14 @@ float: left;
 padding-right: 45px;
 font-family: "eskapade";
 }
+.breadcrumb-1{
+	text-transform: uppercase;
+}
 
 .breadcrumb-2{
 	font-weight: bold;
-	font-size: 2em;
 	color: rgba(226,88,88,255);
+	text-transform: uppercase;
 }
 .breadcrumb-2::after{
 	display:none;
