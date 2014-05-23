@@ -29,12 +29,8 @@
 	</div>
 
 	<div class="row">
-		<div class="col-sm-3">
-			<div class="options">
-				<%-- <a href="#"><img src="images/buttons/share.png" alt="share button" title="Share" /></a> --%>
-			</div>
-		</div>
-		<div class="col-sm-9">
+		
+		<div class="col-sm-12">
 			<% include ClinicalGallery %>
 		</div>
 	</div>

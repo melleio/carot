@@ -34,7 +34,7 @@
     height: 48px;
     left: 0;
     margin: 0 auto;
-    padding: 1em 0 0.8em;
+    padding: 4px 0 0.8em;
     position: absolute;
     right: 0;
     text-align: center;
@@ -46,13 +46,13 @@
     border-radius: 5px;
     cursor: pointer;
     display: inline-block;
-    height: 30px;
+    height: 38px;
     margin: 0 8px;
     position: relative;
     width: 50px;
 }
 .gallerynav li.active {
-    border: 5px solid #FFFFFF;
+    border: 5px solid rgba(226,88,88,255);
 }
 .gallerynav li img {
     width: 100%;
@@ -64,7 +64,7 @@ border-radius: 5px;
 height: 445px;
 margin: 20px auto;
 position: relative;
-width: 800px;
+width: 1050px;
 -webkit-perspective: 1000px;
 -moz-perspective: 1000px;
 -ms-perspective: 1000px;

@@ -29,7 +29,7 @@
 				
 			</div>
 			<% else %>
-			<div class="col-sm-12 team-body" style="">
+			<div class="col-sm-12 team-body" style="margin-top: 10px;">
 				<div class="content-text">
 				$Content
 				</div>
