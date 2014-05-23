@@ -58,6 +58,11 @@
     width: 100%;
 }
 
+.current a{
+    color: rgba(226,88,88,255);
+    font-weight: 24px;
+}
+
 .slider {
 border: 15px solid #FFFFFF;
 border-radius: 5px;
@@ -78,9 +83,9 @@ transform-style: preserve-3d;
 }
 .galleryslide {
 position: relative;
-top: 50px;
+/* top: 50px; */
 /* margin: auto; */
-left: 170px;
+left: 110px;
 }
 .galleryslide.ng-hide-add {
     opacity:1;
