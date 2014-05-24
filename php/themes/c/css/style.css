@@ -18,6 +18,10 @@ margin-right: -700px;
 margin-left: 0px;
 }
 
+.section{
+	border-bottom: 3px solid rgb(226,88,88);
+}
+
 .carot-head{
 font-weight: bold;
 font-size: 2em;
