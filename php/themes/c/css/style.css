@@ -917,6 +917,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
 
 .content-text {
 	color:#555;
+	margin-bottom: 30px;
 	padding:2.5% 2.5% 5%;
 }
 .ref-header {
