@@ -13,11 +13,17 @@
 
 	<div class="row" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/Clinical-Trials-Main/nav/REV1-BlueWhitish-Nav-Bar-In-Clinical-Trials-Section.png') no-repeat;background-size:cover;background-position: 100% 100%;">
 		<% loop ChildrenOf(clinical-trials) %>
-		<div class="col-sm-4" style="padding:1% 2%;margin-top: 20px;">
+		<div class="col-sm-3" style="padding:1% 2%;margin-top: 20px;">
 			<p class="$LinkingMode" style="text-align:center;min-height: 112px;"><a href="$Link">$Image.SetHeight(107)</a></p>
 			<p class="$LinkingMode" style="text-align:center;text-transform:uppercase;font-size:1.2em;"><span><a href="$Link"><strong>$MenuTitle</strong></a></span></p>
 		</div>
 		<% end_loop %>
+		<% with Page(research-method) %>
+		<div class="col-sm-3" style="padding:1% 2%;margin-top: 20px;">
+			<p class="$LinkingMode" style="text-align:center;min-height: 112px;"><a href="$Link">$Image.SetHeight(107)</a></p>
+			<p class="$LinkingMode" style="text-align:center;text-transform:uppercase;font-size:1.2em;"><span><a href="$Link"><strong>$MenuTitle</strong></a></span></p>
+		</div>
+		<% end_with %>
 		<div class="col-sm-2">
 			<p></p>
 			<p></p>
