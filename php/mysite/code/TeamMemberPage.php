@@ -2,7 +2,7 @@
 class TeamMemberPage extends TeamPage {
 
 	private static $db = array(
-		'Position'
+		'Position'=>'Varchar(255)'
 	);
 
 	/*function canCreate($Member = null){
