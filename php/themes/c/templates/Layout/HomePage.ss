@@ -5,7 +5,7 @@
 					<div id="home-image">
 						<p style="text-align:center;"><img src="$HomeImage.Filename" title="$HomeImage.Title"></p>
 					</div>
-					<div class="font-thin">
+					<div class="">
 						$Content
 					</div>
 					<br>
