@@ -39,7 +39,7 @@
 	<div class="row">
 
 		<div class="col-sm-7 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
-			<h2 class="" style="color:#777;text-transform:uppercase;">$Title</h2>
+			<h2 class="" style="color:#777;text-transform:uppercase;margin-top: 0px;">$Title</h2>
 			<div class="content-text">
 				$Content
 			</div>
