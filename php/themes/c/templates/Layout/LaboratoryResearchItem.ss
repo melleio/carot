@@ -24,7 +24,7 @@
 				
 			</div>
 			<% else %>
-			<div class="col-sm-12 gray-box" style="background:url('$AbsoluteURL/assets/Research/Labstudies/Translational/Introductory-Page/background-center-section-for-text-.png');background-size:cover;border-bottom: 1px solid #1B4B75;">
+			<div class="col-sm-12 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;border-bottom: 1px solid #1B4B75;">
 				<div class="content-text">
 				$Content
 				</div>
