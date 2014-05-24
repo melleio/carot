@@ -18,7 +18,7 @@
 		</div>
 		<% else %>
 		<div class="col-xs-6 col-sm-3" style="text-align:center">
-			<p><a href="$Link">$Image.SetWidth(180)</a><br><a href="$Link"><span class="team-list-name"><strong>$MenuTitle</strong></span></a><br>
+			<p><a href="$Link"><span class="team-list-name"><strong>$MenuTitle</strong></span></a><br>
 			
 			</p>
 		</div>
