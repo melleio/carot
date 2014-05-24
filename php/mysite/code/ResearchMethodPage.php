@@ -5,6 +5,10 @@ class ResearchMethodPage extends ResearchPage {
 		'TopContent' => 'Text'
 	);
 
+	private static $has_one = array(
+		'Image' => 'Image'
+    );
+
 	/*function canCreate($Member = null){
 	    if(!Permission::check("EDIT_SITE")) Security::permissionFailure();
 	}*/
