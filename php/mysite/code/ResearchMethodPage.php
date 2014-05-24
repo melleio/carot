@@ -21,8 +21,6 @@ class ResearchMethodPage extends ResearchPage {
 		$topcontent = new TextAreaField('TopContent');
 		$fields->addFieldToTab('Root.Main', new UploadField('Image'),'MenuTitle');
 		
-		$fields->addFieldToTab('Root.Main', $topcontent,'MenuTitle');
-		
 		$config2 = new GridFieldConfig_RelationEditor();
 		$config2->addComponents(new GridFieldExportButton('before'));
 		$config2->addComponent(new GridFieldSortableRows('SortOrder'));
