@@ -952,9 +952,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
 	background-size:cover;
 	background-position: 100% 100%;
 	height:150px;
-	padding-top: 15px;
 	text-transform: uppercase;
-	padding: 50px;
+	padding: 15px 70px;
 	font-weight: bold;
 	font
 	text-align:center;
