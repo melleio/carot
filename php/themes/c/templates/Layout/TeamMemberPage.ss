@@ -8,7 +8,7 @@
 		<% include SubpageBreadCrumbs %>
 		<div class="row">
 			<div class="col-sm-12 team-title" style="padding:2.5%;">
-				<p>$Title</p>
+				<p style="color: #428bca;font-size:36pt">$Title</p>
 			</div>
 		</div>
 		<div class="row">
