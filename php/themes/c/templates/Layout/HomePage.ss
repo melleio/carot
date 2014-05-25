@@ -5,7 +5,8 @@
 					<div id="home-image">
 						<p style="text-align:center;"><img src="$HomeImage.Filename" title="$HomeImage.Title"></p>
 					</div>
-					<div class="">
+					<h1 style="text-align: center; font-size: 30pt; line-height: 1.2; letter-spacing: 16%; color: #414141;"><span class="s1">WELCOME</span><span class="s1">!</span></h1>
+					<div class="width: 800px;font-size: 19pt;margin-left: 140px;text-align: left;">
 						$Content
 					</div>
 					<br>
