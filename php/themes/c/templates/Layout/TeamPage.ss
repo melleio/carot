@@ -3,7 +3,6 @@
 		<% include BreadCrumbs %>
 		<div class="row" style="padding-top:15px;background:url('') no-repeat;background-size:cover;background-position: 100% 100%;">
 		<% loop Children %>
-		<% end_if %>
 		
 			<div class="col-xs-6 col-sm-3" style="text-align:center">
 				<p><a href="$Link">$Image.SetWidth(180)</a><br>
