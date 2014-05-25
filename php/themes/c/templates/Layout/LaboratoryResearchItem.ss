@@ -3,7 +3,7 @@
 		<% include SubpageBreadCrumbs %>
 		<div class="row">
 			<div class="col-sm-12" style="padding:2.5%;">
-				<h2 style="color:#c70000;font-weight:bold;text-align:left;margin-left: 20px;">$Title</h2>
+				<h2 style="margin-left: 20px;color:#c70000;font-weight:bold;text-align:left;margin-left: 20px;">$Title</h2>
 			</div>
 		</div>
 		<div class="row">
