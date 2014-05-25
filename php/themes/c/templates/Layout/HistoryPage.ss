@@ -6,7 +6,7 @@
 					<div id="top-image">
 						<img src="$TopImage.Filename" title="$TopImage.Title">
 					</div>
-					<div class="font-thin">
+					<div style="width: 800px;font-size: 19pt;margin-left: 140px;text-align: left;line-height: 1.5;">
 						$Content
 					$Form</div>
 					<br>
