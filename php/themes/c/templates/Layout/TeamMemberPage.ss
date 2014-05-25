@@ -2,7 +2,7 @@
 	<div class="container">
 	<div class="row">
 	<div class="col-sm-4">
-		<img src="$AbsoluteURL/assets/Research/TeamWork/Carot-Main-Team-Page/REV-3-TEAM-PAGE-ELEMENTS/REV3back-button-on-team-page.001-186x207.png">
+		$Image
 	</div>
 	<div class="col-sm-8">
 		<% include SubpageBreadCrumbs %>
