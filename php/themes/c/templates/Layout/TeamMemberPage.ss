@@ -23,7 +23,7 @@
 				<h4 class="ref-header">References</h4>
 				<ol class="ref-list">
 					<% loop References %>
-						<li>$Title</li>
+						<li style="color:#428bca;font-size:36pt;">$Title</li>
 					<% end_loop %>
 				</ol>
 				
