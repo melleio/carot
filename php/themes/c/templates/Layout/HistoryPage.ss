@@ -3,7 +3,7 @@
 			<div id="home-row-1" class="row clearfix" style="text-align: center;">
 				<div class="col-12">
 					<h1 style="font-size:30pt">$Title</h1>
-					<div id="top-image">
+					<div id="top-image" style="text-align:center;background-color: #012D5B;padding: 20px 20px;">
 						<img src="$TopImage.Filename" title="$TopImage.Title">
 					</div>
 					<div style="width: 800px;font-size: 19pt;margin-left: 140px;text-align: left;line-height: 1.5;">
