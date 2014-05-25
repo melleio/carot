@@ -1,7 +1,7 @@
 <div class="slide story" id="slide-1">
 		<div class="container">
 			<div id="home-row-1" class="row clearfix">
-				<h1 style="text-align: center; font-size: 30pt; line-height: 1.2; letter-spacing: 16%; color: #414141;width:800px;"><span class="s1">$Title</span><span class="s1">!</span></h1>
+				<h1 style="text-align: center; font-size: 30pt; line-height: 1.2; letter-spacing: 16%; color: #414141;"><span class="s1">$Title</span><span class="s1">!</span></h1>
 			  <div class="col-md-4">
 				<p class="p2" style="text-align:center;background-color: #012D5B;padding: 20px 20px;"><a target="_blank" href="https://www.google.com/maps/dir//Stellar-Chance+Laboratories,+440+Curie+Blvd,+University+of+Pennsylvania,+Philadelphia,+PA+19104/@39.9487219,-75.1969207,17z/data=!4m13!1m4!3m3!1s0x89c6c6594a7bd29b:0x997b20a091b77ce9!2sStellar-Chance+Laboratories,+440+Curie+Blvd!3b1!4m7!1m0!1m5!1m1!1s0x89c6c6594a7bd29b:0x997b20a091b77ce9!2m2!1d-75.1969207!2d39.9487219"><img SRC="assets/Index-Page/Location/REV1-Index-Location-FM-Kirby-Map-.png" title="Stellar Chance"></a></p>
 			  	<h4 style="text-align: center;background:white;">F.M. Kirby Center for Molecular Ophthalmology</h5>
