@@ -82,7 +82,7 @@
 						</a>
 						<ul class="dropdown-menu">
 						<% loop Children %>
-							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
+							<li role="presentation" class="dropdown-header"><a href="#">$MenuTitle</a></li>
 							<li role="presentation" class="divider"></li>
 							<% loop Children %>
 								<li class="submenu-item"><a href="$Link">$MenuTitle</a></li>

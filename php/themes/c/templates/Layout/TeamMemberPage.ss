@@ -1,7 +1,7 @@
 <div class="slide story" id="slide-1" ng-controller="MainCtrl">
 	<div class="container">
 	<div class="row">
-	<div class="col-sm-4">
+	<div class="col-sm-4" style="padding: 60px 100px;">
 		$Image
 	</div>
 	<div class="col-sm-8">
