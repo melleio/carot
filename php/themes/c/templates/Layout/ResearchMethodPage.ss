@@ -12,9 +12,11 @@
 	
 
 	<div class="row">
+	<% with Page('clinical-trials') %>
 		<div class="col-sm-12" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/Clinical-Trials-Main/other-graphic-elements/Clinical-Trials-Image-Bed-for-Mission-Statement-.png') no-repeat;background-size:cover;background-position: 100% 100%;padding:2.5%;margin:1% 0;">
-			<p><% if TopContent %> $TopContent <% else %> $Parent.TopContent <% end_if %></p>
+			<p>$TopContent</p>
 		</div>
+	<% end_with %>
 	</div>
 
 	<div class="row" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/Clinical-Trials-Main/nav/REV1-BlueWhitish-Nav-Bar-In-Clinical-Trials-Section.png') no-repeat;background-size:cover;background-position: 100% 100%;">
@@ -44,8 +46,8 @@
 	</div>
 	<div class="row">
 		<div class="col-sm-12">
-			<h1 class="" style="color:rgba(226,88,88,255);text-transform:uppercase;">$MenuTitle</h1>
-			<h2 class="" style="color:#777;text-transform:uppercase;margin-bottom: 25px;">$Title</h2>
+			<h1 class="" style="margin-left: 20px;color:rgba(226,88,88,255);text-transform:uppercase;">$MenuTitle</h1>
+			<h2 class="" style="margin-left: 20px;color:#777;text-transform:uppercase;margin-bottom: 25px;">$Title</h2>
 		</div>
 	</div>
 	<div class="row">
