@@ -5,7 +5,7 @@
 				<img src="$AbsoluteURL/assets/Community/REV3AAV-Vector-298x656.png" />
 			</div><!-- /col-12 -->
 			<div class="col-sm-8" style="min-height: 657px;background:url('$AbsoluteURL/assets/Community/REV3BED-FOR-Copy-Points-628x620.png');background-size:cover;">
-				<ul>
+				<ul class="community-nav">
 					<li>
 					FAQ	
 					</li>
