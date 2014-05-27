@@ -8,7 +8,7 @@
 				<ul class="community-nav">
 					<% loop Children %>
 					<li>
-					<a href="$Link">$Title</a>
+					<a href="$Link">$MenuTitle</a>
 					</li>
 					<% end_loop %>
 				</ul>
