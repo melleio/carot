@@ -27,12 +27,34 @@
 		<div id="" class="row clearfix">
 		<div class="col-sm-4">
 			<div class="title">CONTACT</div>
-			<p><strong>F.M. Kirby Center for Molecular Ophthalmology</strong><br>
+			<p><strong>CENTER FOR ADVANCED
+RETINAL AND	OPHTHALMIC
+THERAPEUTICS</strong><br>
+F.M. Kirby Center for Molecular Ophthalmology<br>
 			305 Stellar-Chance Labs<br>
 422 Curie Blvd.<br>
 Philadelphia, PA 19104-6100</p>
 <p><strong>Media Inquiries</strong><br>
 hello@carotlab.org</p>
+
+		</div>
+
+		<div class="col-sm-4">
+			<div class="title">ABOUT US</div>
+			<p>The Center for Advanced Retinal and Ophthalmic Therapeutics, or CAROT, is advancing he development of novel biologic and small molecule therapeutics for retinal and ocular diseases through a balanced commitment to basic research, translational development, and the clinician/patient communities.</p>
+			<p>
+				<a href="/history">History</a>
+			</p>
+			<p>
+				<a href="/research/our-team-work/">Our Team</a>
+			</p>
+			<p>
+				<a href="/community/resources/">Resources</a>
+			</p>
+			<p>
+				<a href="/community/faq/">FAQ</a>
+			</p>
+
 
 		</div>
 		</div>
