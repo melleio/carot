@@ -1,6 +1,6 @@
 <div class="slide story" id="slide-1">
 	<div class="container">
-		<div id="home-row-1" class="row clearfix" style="">
+		<div id="home-row-1" class="row clearfix" style="background-image: url('/assets/Community/widerBackground.png');">
 			<div class="col-sm-3" style="width: 30%;">
 				<img src="$AbsoluteURL/assets/Community/REV3AAV-Vector-298x656.png" />
 			</div><!-- /col-12 -->

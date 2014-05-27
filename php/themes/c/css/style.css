@@ -105,6 +105,10 @@ color: #A6AAA9;
 font-weight: bold;
 }
 
+.community-nav a{
+	color: #A6AAA9;
+}
+
 .community-nav a:hover{
 	color: rgb(226,88,88);
 }
