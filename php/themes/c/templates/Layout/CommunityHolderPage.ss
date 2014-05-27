@@ -1,10 +1,10 @@
 <div class="slide story" id="slide-1">
 	<div class="container">
 		<div id="home-row-1" class="row clearfix" style="">
-			<div class="col-3">
+			<div class="col-sm-3">
 				<img src="$AbsoluteURL/assets/Community/REV3AAV-Vector-298x656.png" />
 			</div><!-- /col-12 -->
-			<div class="col-8">
+			<div class="col-sm-8">
 				<ul>
 					<li>
 					FAQ	
