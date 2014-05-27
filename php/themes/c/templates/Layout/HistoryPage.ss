@@ -6,8 +6,8 @@
 					<div id="top-image" style="text-align:center;">
 						<img style="background-color: #012D5B;padding: 0px 80px;" src="$TopImage.Filename" title="$TopImage.Title">
 					</div>
-					<div class="col-sm-7 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
-						<div class="content-text">
+					<div class="col-sm-7 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;margin-left: 180px;">
+						<div class="content-text" style="font-size: 16px;line-height: 25px;">
 							$Content
 						</div>
 					</div>
