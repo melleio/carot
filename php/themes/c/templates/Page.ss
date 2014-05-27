@@ -79,6 +79,7 @@ melle.io
 	<div id="blue-space" style="height:40px"></div>
 	<!-- === MAIN Background === -->
 	$Layout
+	<% include Footer %>
 	
 
 </body>
