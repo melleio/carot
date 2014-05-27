@@ -6,18 +6,11 @@
 			</div><!-- /col-12 -->
 			<div class="col-sm-8" style="min-height: 657px;background:url('$AbsoluteURL/assets/Community/REV3BED-FOR-Copy-Points-628x620.png');background-size:cover;">
 				<ul class="community-nav">
+					<% loop Children %>
 					<li>
-					<a href="#">FAQ</a>
+					<a href="$Link">$Title</a>
 					</li>
-					<li>
-					Press	
-					</li>
-					<li>
-					Resources	
-					</li>
-					<li>
-					Colaboration	
-					</li>
+					<% end_loop %>
 				</ul>
 			</div><!-- /col-12 -->
 		</div><!-- /row -->

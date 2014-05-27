@@ -98,11 +98,11 @@
 						<a id="menu-link-4" class="" href="$Link" title="$Title.XML" style="padding:10px 0 5px;color:rgb(226,88,88);">
 						<span class="text $LinkingMode">$MenuTitle</span><%-- <b class="caret"></b> --%>
 						</a>
-						<%-- <ul class="dropdown-menu">
+						<ul class="dropdown-menu">
 						<% loop Children %>
 							<li><a href="#">$MenuTitle</a></li>
 						<% end_loop %>
-						</ul> --%>
+						</ul>
 					</li>
 				<% end_with %>
 				</ul>
