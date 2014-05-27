@@ -6,7 +6,7 @@
 						<p style="text-align:center;"><img src="$HomeImage.Filename" title="$HomeImage.Title"></p>
 					</div>
 					<h1 style="text-align: center; font-size: 30pt; line-height: 1.2; letter-spacing: 16%; color: #414141;"><span class="s1">WELCOME</span><span class="s1">!</span></h1>
-					<div class="col-sm-7 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;margin-left: 180px;">
+					<div class="col-sm-8 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;margin-left: 180px;">
 						<div class="content-text" style="font-size: 16px;line-height: 25px;">
 							$Content
 						</div>

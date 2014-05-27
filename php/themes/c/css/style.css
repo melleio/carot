@@ -144,6 +144,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4f54', end
 
 }
 
+#footer div.title {
+color: #e8ebec;
+border-bottom: #646a6d solid 3px;
+font-size: 24px;
+margin-bottom: 12px;
+padding-bottom: 9px;
+}
+
 .dropdown-menu{
 	left:0px;
 }
@@ -358,7 +366,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 	background-color: inherit;
 	outline: none;
 	color:#E25858;
-	
+
 }
 
 .navbar.inv a {
