@@ -2,7 +2,7 @@
 	<div class="container">
 		<div id="home-row-1" class="row clearfix" style="">
 			<div class="col-3">
-				<img src="$AbsoluteURL/assets/Community/Reference-Screen-Shot-Community-Page.001.png" />
+				<img src="$AbsoluteURL/assets/Community/REV3AAV-Vector-298x656.png" />
 			</div><!-- /col-12 -->
 			<div class="col-8">
 				<ul>
