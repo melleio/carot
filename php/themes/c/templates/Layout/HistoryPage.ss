@@ -26,7 +26,14 @@
 	<div class="container">
 		<div id="" class="row clearfix">
 		<div class="col-sm-4">
-			<div class="title"><i class="icon-envelope-alt"></i>&nbsp;&nbsp;CONTACT</div>
+			<div class="title">CONTACT</div>
+			<p>F.M. Kirby Center for Molecular Ophthalmology<br>
+			305 Stellar-Chance Labs<br>
+422 Curie Blvd.<br>
+Philadelphia, PA 19104-6100</p>
+<p>Media Inquiries<br>
+hello@carotlab.org</p>
+
 		</div>
 		</div>
 	</div>
