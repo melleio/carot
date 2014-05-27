@@ -1,7 +1,7 @@
 <div class="slide story" id="slide-1" style="background-image: url('/assets/Community/widerBackground.png');">
 	<div class="container">
 		<div class="row clearfix" id="breadcrumbs">
-			<div class="col-sm-12" style="padding: 0px 40px;">
+			<div class="col-sm-12" style="padding: 0px 40px;letter-spacing: 2.5px;">
 				<span style="font-weight:bold;font-size:1.6em;color:rgba(226,88,88,255);">
 				<span class="breadcrumb-1">Community</span>
 				>>

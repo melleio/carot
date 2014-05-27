@@ -3,7 +3,7 @@
 		<div id="home-row-1" class="row clearfix" style="text-align: center;">
 			<div class="col-8">
 				<h1 class="carot-head">$Title</h1>
-				<div class="font-thin">
+				<div class="font-thin" style="text-align: left;">
 					$Content
 					$Form
 				</div>
