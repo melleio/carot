@@ -7,7 +7,7 @@
 			<div class="col-sm-8" style="min-height: 657px;background:url('$AbsoluteURL/assets/Community/REV3BED-FOR-Copy-Points-628x620.png');background-size:cover;">
 				<ul class="community-nav">
 					<li>
-					FAQ	
+					<a href="#">FAQ</a>
 					</li>
 					<li>
 					Press	
