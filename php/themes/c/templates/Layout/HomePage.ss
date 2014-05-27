@@ -6,8 +6,10 @@
 						<p style="text-align:center;"><img src="$HomeImage.Filename" title="$HomeImage.Title"></p>
 					</div>
 					<h1 style="text-align: center; font-size: 30pt; line-height: 1.2; letter-spacing: 16%; color: #414141;"><span class="s1">WELCOME</span><span class="s1">!</span></h1>
-					<div style="width: 800px;font-size: 19pt;margin-left: 160px;text-align: left;line-height: 1.5;">
-						<i>$Content</i>
+					<div class="col-sm-7 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
+						<div class="content-text">
+							$Content
+						</div>
 					</div>
 					<br>
 					<br>

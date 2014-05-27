@@ -6,9 +6,11 @@
 					<div id="top-image" style="text-align:center;">
 						<img style="background-color: #012D5B;padding: 0px 80px;" src="$TopImage.Filename" title="$TopImage.Title">
 					</div>
-					<div style="width: 800px;font-size: 19pt;margin-left: 160px;text-align: left;line-height: 1.5;">
-						$Content
-					$Form</div>
+					<div class="col-sm-7 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
+						<div class="content-text">
+							$Content
+						</div>
+					</div>
 					<br>
 					<br>
 				</div><!-- /col-12 -->
