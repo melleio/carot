@@ -41,17 +41,14 @@ hello@carotlab.org</p>
 
 		<div class="col-sm-4">
 			<div class="title">ABOUT US</div>
-			<p>The Center for Advanced Retinal and Ophthalmic Therapeutics, or CAROT, is advancing he development of novel biologic and small molecule therapeutics for retinal and ocular diseases through a balanced commitment to basic research, translational development, and the clinician/patient communities.</p>
+			<p>The Center for Advanced Retinal and Ophthalmic Therapeutics, or CAROT, is advancing the development of novel biologic and small molecule therapeutics for retinal and ocular diseases through a balanced commitment to basic research, translational development, and the clinician/patient communities.</p>
 			<p>
 				<a href="/history">History</a>
-			</p>
-			<p>
+			<br>
 				<a href="/research/our-team-work/">Our Team</a>
-			</p>
-			<p>
+			<br>
 				<a href="/community/resources/">Resources</a>
-			</p>
-			<p>
+			<br>
 				<a href="/community/faq/">FAQ</a>
 			</p>
 
