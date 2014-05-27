@@ -144,6 +144,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4f54', end
 
 }
 
+#footer {
+background: url('http://www.designbolts.com/wp-content/uploads/2012/11/Dark-textured-pattern-for-backgrounds.jpg') repeat;
+border-top: #808080 solid 3px;
+border-bottom: #808080 solid 3px;
+color: #e8ebec;
+padding-top: 45px;
+padding-bottom: 45px;
+}
+
 #footer div.title {
 color: #e8ebec;
 border-bottom: #646a6d solid 3px;
