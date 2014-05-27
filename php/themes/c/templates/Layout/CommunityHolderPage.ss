@@ -1,5 +1,13 @@
 <div class="slide story" id="slide-1" style="background-image: url('/assets/Community/widerBackground.png');">
 	<div class="container">
+		<div class="row clearfix" id="breadcrumbs">
+			<div class="col-sm-12">
+				<span style="font-weight:bold;font-size: 1.6em;color:rgba(226,88,88,255);">
+				$Breadcrumbs(2,true)
+				</span>
+			</div>
+		</div>
+	
 		<div id="home-row-1" class="row clearfix">
 			<div class="col-sm-3" style="width: 30%;">
 				<img src="$AbsoluteURL/assets/Community/REV3AAV-Vector-298x656.png" />
