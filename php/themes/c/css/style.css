@@ -160,6 +160,17 @@ font-size: 24px;
 margin-bottom: 12px;
 }
 
+#copyright p {
+display: inline;
+margin: 0 9px;
+}
+
+#copyright {
+text-align: center;
+background: url('/assets/background-copyright.jpg') repeat;
+padding: 30px 0;
+}
+
 .dropdown-menu{
 	left:0px;
 }
