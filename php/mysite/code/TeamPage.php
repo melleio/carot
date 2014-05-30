@@ -70,8 +70,21 @@ class TeamPage_Controller extends ResearchPage_Controller {
 
 	public function index($arguments){
 		$u = $arguments->requestVars();
-		
-			var_dump($u);
+		if(array_key_exists('leaders', $u)){
+			//Get Leaders
+			$team = TeamMemberPage::get()->filter(array('Type'=>'Leader'));
+			$this->TeamList = $team;
+		}else if(array_key_exists('alumni', $u)){
+			$team = TeamMemberPage::get()->filter(array('Type'=>'Alumni'));
+			$this->TeamList = $team;
+		}
+		else if(array_key_exists('team', $u)){
+			$team = TeamMemberPage::get()->filter(array('Type'=>'Team'));
+			$this->TeamList = $team;
+		}else{
+			$team = TeamMemberPage::get();
+			$this->TeamList = $team;
+		}
 		return $this->renderWith(array('ResearchPage','TeamPage'));
 	}
 
