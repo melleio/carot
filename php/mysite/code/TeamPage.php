@@ -74,13 +74,16 @@ class TeamPage_Controller extends ResearchPage_Controller {
 			//Get Leaders
 			$team = TeamMemberPage::get()->filter(array('Type'=>'Leader'));
 			$this->TeamList = $team;
+			$this->Title = 'Leaders';
 		}else if(array_key_exists('alumni', $u)){
 			$team = TeamMemberPage::get()->filter(array('Type'=>'Alumni'));
 			$this->TeamList = $team;
+			$this->Title = 'Alumni';
 		}
 		else if(array_key_exists('team', $u)){
 			$team = TeamMemberPage::get()->filter(array('Type'=>'Team'));
 			$this->TeamList = $team;
+			$this->Title = 'Team';
 		}else{
 			$team = TeamMemberPage::get();
 			$this->TeamList = $team;
