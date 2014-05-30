@@ -69,11 +69,8 @@ class TeamPage_Controller extends ResearchPage_Controller {
 
 
 	public function index($arguments){
-		$u = $arguments->param('ID');
-		if($u == 'leaders'){
-			var_dump('works');
-		}
-		return $this->renderWith(array('ResearchPage','TeamPage'));
+		var_dump($arguments)
+		//return $this->renderWith(array('ResearchPage','TeamPage'));
 	}
 
 
