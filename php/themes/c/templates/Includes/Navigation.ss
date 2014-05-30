@@ -64,12 +64,9 @@
 						<% with Page(our-team) %>
 						<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
 						<li role="presentation" class="divider"></li>
-						<% if Type = 'Leader' %>
 							<li role="presentation" class="dropdown-header"><a href="#">Leaders</a></li>
-						<% else_if Type = 'Team' %>
 							<li role="presentation" class="dropdown-header"><a href="#">Team</a></li>
-						<% else_if Type = 'Alumni' %>
-							<li role="presentation" class="dropdown-header"><a href="#">Alumni</a></li>
+							<%-- <li role="presentation" class="dropdown-header"><a href="#">Alumni</a></li> --%>
 						<% end_if %>
 						<% end_with %>
 						</div>
