@@ -69,7 +69,7 @@ class TeamPage_Controller extends ResearchPage_Controller {
 
 
 	public function index($arguments){
-		var_dump($arguments)
+		var_dump($arguments);
 		//return $this->renderWith(array('ResearchPage','TeamPage'));
 	}
 
