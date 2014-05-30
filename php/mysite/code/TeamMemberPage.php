@@ -10,6 +10,10 @@ class TeamMemberPage extends TeamPage {
 	    if(!Permission::check("EDIT_SITE")) Security::permissionFailure();
 	}*/
 
+	private static $defaults = array(
+		'Type' => 'Team'
+    );
+
 	private static $has_one = array(
 		'Image' => 'Image'
     );
@@ -22,6 +26,7 @@ class TeamMemberPage extends TeamPage {
 		$fields = parent::getCMSFields();
 		$fields->addFieldToTab('Root.Main', new UploadField('Image'),'MenuTitle');
 		$fields->addFieldToTab('Root.Main', new TextField('Position'),'MenuTitle');
+		$fields->addFieldToTab('Root.Main', new DropdownField('Type'),'MenuTitle');
 		
 		$config2 = new GridFieldConfig_RelationEditor();
 		$config2->addComponents(new GridFieldExportButton('before'));
