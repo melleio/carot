@@ -76,7 +76,7 @@ class TeamMemberPage_Controller extends TeamPage_Controller {
 		);*/
 	}
 
-	public function index(){
+	public function index($arguments){
 
 		return $this->renderWith(array('ResearchPage','TeamMemberPage'));
 	}
