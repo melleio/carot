@@ -26,7 +26,8 @@ class TeamMemberPage extends TeamPage {
 		$fields = parent::getCMSFields();
 		$fields->addFieldToTab('Root.Main', new UploadField('Image'),'MenuTitle');
 		$fields->addFieldToTab('Root.Main', new TextField('Position'),'MenuTitle');
-		$fields->addFieldToTab('Root.Main', new DropdownField('Type'),'MenuTitle');
+		$fields->addFieldToTab('Root.Main', new DropdownField('Type''Type',
+  singleton('TeamMemberPage')->dbObject('Type')->enumValues()),'Title');
 		
 		$config2 = new GridFieldConfig_RelationEditor();
 		$config2->addComponents(new GridFieldExportButton('before'));
