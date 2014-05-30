@@ -16,4 +16,4 @@ ln -sf $OPENSHIFT_DATA_DIR/assets $OPENSHIFT_REPO_DIR/php/assets
 
 # git clone https://github.com/nyeholt/silverstripe-webservices
 
-# php framework/cli-script.php dev/build flush=1
+php framework/cli-script.php dev/build flush=1
