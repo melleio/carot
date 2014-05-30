@@ -81,7 +81,7 @@ class TeamPage_Controller extends ResearchPage_Controller {
 			$this->Title = 'Alumni';
 		}
 		else if(array_key_exists('team', $u)){
-			$team = TeamMemberPage::get()->filter(array('Type'=>'Team'));
+			$team = TeamMemberPage::get()->filter(array('Type'=>'Team'))->sort('Title ASC');
 			$this->TeamList = $team;
 			$this->Title = 'Team';
 		}else{
