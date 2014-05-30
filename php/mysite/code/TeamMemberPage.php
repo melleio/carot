@@ -2,7 +2,8 @@
 class TeamMemberPage extends TeamPage {
 
 	private static $db = array(
-		'Position'=>'Varchar(255)'
+		'Position'=>'Varchar(255)',
+		'Type' => "Enum('Team,Alumni,Leader')"
 	);
 
 	/*function canCreate($Member = null){
