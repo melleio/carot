@@ -33,5 +33,8 @@ class Page_Controller extends ContentController {
 		// You can include any CSS or JS required by your project here.
 		// See: http://doc.silverstripe.org/framework/en/reference/requirements
 	}
+	public function index($arguments){
+		return $this->render();
+	}
 
 }
