@@ -67,7 +67,6 @@
 							<li role="presentation" class="dropdown-header"><a href="#">Leaders</a></li>
 							<li role="presentation" class="dropdown-header"><a href="#">Team</a></li>
 							<%-- <li role="presentation" class="dropdown-header"><a href="#">Alumni</a></li> --%>
-						<% end_if %>
 						<% end_with %>
 						</div>
 							
