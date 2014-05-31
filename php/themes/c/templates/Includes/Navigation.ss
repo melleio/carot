@@ -34,7 +34,7 @@
 							<% end_loop %>
 						<% end_with %>
 
-						<% with Page(research-method) %>
+						<% with Page(clinical-studies) %>
 							<li role="presentation" class="dropdown-header" style="padding-top: 10px;"><a href="$Link">$MenuTitle</a></li>
 							<li role="presentation" class="divider"></li>
 							<% loop Children %>
@@ -64,9 +64,9 @@
 						<% with Page(our-team) %>
 						<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
 						<li role="presentation" class="divider"></li>
-							<li role="presentation" class="dropdown-header"><a href="$Link?leaders">Leaders</a></li>
-							<li role="presentation" class="dropdown-header"><a href="$Link?team">Team</a></li>
-							<%-- <li role="presentation" class="dropdown-header"><a href="#">Alumni</a></li> --%>
+							<li role="presentation" class="submenu-item"><a href="$Link?leaders">Leaders</a></li>
+							<li role="presentation" class="submenu-item"><a href="$Link?team">Team</a></li>
+							<%-- <li role="presentation" class="submenu-item"><a href="#">Alumni</a></li> --%>
 						<% end_with %>
 						</div>
 							
