@@ -1,3 +1,28 @@
+collapsedBar = false;
+c=false;
+
+$(document).ready(function(e) {
+    
+
+    window.onscroll = function() {
+        
+        if(window.pageYOffset > 110 && !collapsedBar){  // header size
+          c = true;
+          // Change Navbar class to fixed
+          $("#mainNavigation").removeClass('navbar-static-top');
+          $("#mainNavigation").addClass('navbar-fixed-top');
+
+        }else if(window.pageYOffset < 110 && collapsedBar){ //full size
+          c = false;
+          $("#mainNavigation").removeClass('navbar-fixed-top');
+          $("#mainNavigation").addClass('navbar-static-top');
+
+        }
+        collapsedBar = c;
+        //document.body.style.backgroundPosition = (-window.pageXOffset / speed) + "px " + (-window.pageYOffset / speed) + "px";
+    }
+});
+
 jQuery(document).ready(function() {
 
 jQuery('#wrapper').animate({opacity: 1},500);
