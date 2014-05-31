@@ -36,7 +36,7 @@ hello@carotlab.org</p>
 			<div class="title">LAB</div>
 			<h2 style="background-color:#e8ebec;padding: 5px 10px;"><a href="/lab"><i class="fa fa-users"></i> Lab Member Login</a></h2>
 			<p style="padding-top: 30px;text-align:left">
-				<a href="http://med.upenn.edu"><img src="/assets/Index-Page/Home/pennmedlogo.jpg" style="padding:5px;background:#fff;"></a>
+				<a href="http://med.upenn.edu"><img src="/assets/Index-Page/Home/pennmedlogo.jpg" style="padding:10px;background:#fff;"></a>
 			</p>
 
 
