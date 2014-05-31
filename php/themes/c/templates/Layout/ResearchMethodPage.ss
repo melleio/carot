@@ -12,7 +12,7 @@
 	
 
 	<div class="row">
-	<% with Page('clinical-trials') %>
+	<% with Page('clinical-studies') %>
 		<div class="col-sm-12" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/Clinical-Trials-Main/other-graphic-elements/Clinical-Trials-Image-Bed-for-Mission-Statement-.png') no-repeat;background-size:cover;background-position: 100% 100%;padding:2.5%;margin:1% 0;">
 			<p>$TopContent</p>
 		</div>
@@ -20,18 +20,18 @@
 	</div>
 
 	<div class="row" style="background:url('http://www-carot.us.melle.io/assets/Research/Clinical-Trials/Clinical-Trials-Main/nav/REV1-BlueWhitish-Nav-Bar-In-Clinical-Trials-Section.png') no-repeat;background-size:cover;background-position: 100% 100%;">
-		<% loop ChildrenOf(clinical-trials) %>
+		<% loop ChildrenOf(clinical-studies) %>
 		<div class="col-sm-3" style="padding:1% 2%;margin-top: 20px;">
 			<p class="$LinkingMode" style="text-align:center;min-height: 112px;"><a href="$Link">$Image.SetHeight(107)</a></p>
 			<p class="$LinkingMode" style="text-align:center;text-transform:uppercase;font-size:1.2em;"><span><a href="$Link"><strong>$MenuTitle</strong></a></span></p>
 		</div>
 		<% end_loop %>
-		<% with Page(high-resolution-retinal-imaging) %>
+		<%-- <% with Page(high-resolution-retinal-imaging) %>
 		<div class="col-sm-3" style="padding:1% 2%;margin-top: 20px;">
 			<p class="$LinkingMode" style="text-align:center;min-height: 112px;"><a href="$Link">$Image.SetHeight(107)</a></p>
 			<p class="$LinkingMode" style="text-align:center;text-transform:uppercase;font-size:1.2em;"><span><a href="$Link"><strong>$MenuTitle</strong></a></span></p>
 		</div>
-		<% end_with %>
+		<% end_with %> --%>
 		<div class="col-sm-2">
 			<p></p>
 			<p></p>

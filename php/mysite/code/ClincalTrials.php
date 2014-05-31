@@ -64,9 +64,11 @@ class ClinicalTrials_Controller extends ResearchPage_Controller {
 	}
 
 
-	public function index(){
-
-		$this->redirect(ClinicalTrialItem::get()->First()->AbsoluteLink());
+	public function index($arguments){
+		//Redirect to first child
+		$p = $arguments->param('URLSegment');
+		$d = Page::get()->filter(array('URLSegment'=>$p))->First();
+		$this->redirect($d->AbsoluteLink());
 	}
 
 	public function galleryPhotos(){
