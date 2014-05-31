@@ -13,6 +13,7 @@
     <ul class="gallerynav">
         <li ng-repeat="photo in photos" ng-class="{'active':isActive(\$index)}">
             <img src="{{photo.src}}" alt="{{photo.desc}}" title="{{photo.desc}}" ng-click="showPhoto(\$index);" />
+            <p class="gallery-caption">$Description</p>
         </li>
     </ul>
 
