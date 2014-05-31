@@ -60,7 +60,7 @@
 
 .current a{
     color: rgba(226,88,88,255);
-    font-size: 24px;
+    font-weight: bolder;
 }
 
 .slider {
