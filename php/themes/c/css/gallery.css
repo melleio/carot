@@ -58,6 +58,16 @@
     width: 100%;
 }
 
+.gallery-caption{
+position: relative;
+top: -70px;
+height: 70px;
+background-color: #000;
+opacity: 0.5;
+padding: 0px 130px;
+color: #FFF;
+}
+
 .current a{
     color: rgba(226,88,88,255);
     font-weight: bolder;
