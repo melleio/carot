@@ -1,11 +1,11 @@
 <div class="nav-collapse navbar-responsive-collapse">
-				<ul style="padding-bottom: 20px;" id="mainNavList" class="nav row">
+				<ul id="mainNavList" class="nav row">
 				<% with Page(home) %>
 					<li class="col-12 col-sm-2 dropdown">
 						<a id="menu-link-1" class="dropdown-toggle" data-toggle="dropdown" href="#" title="$Title.XML" style="padding:10px 0 5px;color:rgb(226,88,88);">
 						<span class="text $LinkingMode">$MenuTitle</span><%-- <b class="caret"></b> --%>
 						</a>
-						<ul class="dropdown-menu">
+						<ul style="padding-bottom: 20px;" class="dropdown-menu">
 							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
 						<% loop Children %>
 							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
