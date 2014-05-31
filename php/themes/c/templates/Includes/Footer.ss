@@ -14,8 +14,6 @@ Fax: 215-573-7155</p>
 <p><strong>Media Inquiries</strong><br>
 hello@carotlab.org</p>
 
-F.M. Kirby Center for Molecular Ophthalmology, Stellar-Chance Labs 309 & 807 422 Curie Blvd. Philadelphia, PA 19104-6100 
-
 		</div>
 
 		<div class="col-sm-4">
