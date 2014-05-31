@@ -7,11 +7,14 @@
 RETINAL AND	OPHTHALMIC
 THERAPEUTICS</strong><br>
 F.M. Kirby Center for Molecular Ophthalmology<br>
-			305 Stellar-Chance Labs<br>
+			 Stellar-Chance Labs 309 & 807<br>
 422 Curie Blvd.<br>
-Philadelphia, PA 19104-6100</p>
+Philadelphia, PA 19104-6100<br/>
+Fax: 215-573-7155</p>
 <p><strong>Media Inquiries</strong><br>
 hello@carotlab.org</p>
+
+F.M. Kirby Center for Molecular Ophthalmology, Stellar-Chance Labs 309 & 807 422 Curie Blvd. Philadelphia, PA 19104-6100 
 
 		</div>
 
