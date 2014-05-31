@@ -145,7 +145,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4f54', end
 }
 
 #footer {
-background: url('http://2.bp.blogspot.com/_UdH8rcs3s1Q/TGdcZB6sO3I/AAAAAAAAAKU/KrPuD_wmBC4/s320/iPadBackgroundTexture-grey.png') repeat;
+background-color: #464646;
+background: url('/assets/iPadBackgroundTexture-grey.png') repeat;
 border-top: #808080 solid 3px;
 border-bottom: #808080 solid 3px;
 color: #e8ebec;
