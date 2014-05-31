@@ -971,7 +971,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
 .content-text {
 	color:#555;
 	margin-bottom: 50px;
-	padding:2.5% 2.5% 5%;
+	padding: 2.5% 2.5% 5%;
 }
 .ref-header {
 	text-transform:uppercase;
