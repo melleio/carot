@@ -2,27 +2,13 @@
 	<div class="container">
 		<% include BreadCrumbs %>
 		<div class="row" style="padding-top:15px;background:url('') no-repeat;background-size:cover;background-position: 100% 100%;">
-<<<<<<< HEAD
-		<% end_if %>
-		<% if Image %>
-			<div class="col-xs-6 col-sm-3" style="text-align:center" class="team-block">
-=======
 		<% loop TeamList %>
 		
 			<div class="col-xs-6 col-sm-3" style="text-align:center">
->>>>>>> 865248b4b3ddc092a730d93788f5c47f8165cfa5
 				<p><a href="$Link">$Image.SetWidth(180)</a><br>
 				<span class="team-list-name"><strong>$MenuTitle</strong></span>
 				</p>
 			</div>
-<<<<<<< HEAD
-		<% else %>
-			<div class="col-xs-6 col-sm-3" style="text-align:center" class="team-block extra-team">
-				<p><a href="$Link"><span class="team-list-name"><strong>$MenuTitle</strong></span></a></p>
-			</div>
-		<% end_if %>
-=======
->>>>>>> 865248b4b3ddc092a730d93788f5c47f8165cfa5
 		<% if $MultipleOf(4) %>
 		</div>
 		<div class="row" style="padding-top:15px;background:url('') no-repeat;background-size:cover;background-position: 100% 100%;">
