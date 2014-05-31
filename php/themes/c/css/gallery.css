@@ -59,9 +59,10 @@
 }
 
 .gallery-caption{
-position: relative;
-top: -70px;
+    position: absolute;
+bottom: -10px;
 height: 70px;
+width: 100%;
 background-color: #000;
 opacity: 0.5;
 padding: 0px 130px;
