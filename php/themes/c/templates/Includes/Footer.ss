@@ -46,5 +46,5 @@ hello@carotlab.org</p>
 </div><!-- /row -->
 
 <div class="copyright" id="copyright">
-			<p>Site Design: Squirrel | Powered by: -melle.io- | &copy; 2014 Center for Advanced Retinal and Ophthalmic Therapeutics</p>
+			<p>Site Design: Squirrelle | Powered by: -melle.io- | &copy; 2014 Center for Advanced Retinal and Ophthalmic Therapeutics</p>
 </div>
