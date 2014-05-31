@@ -67,7 +67,7 @@ class ClinicalTrials_Controller extends ResearchPage_Controller {
 	public function index($arguments){
 		//Redirect to first child
 		$p = $arguments->param('URLSegment');
-		$d = Page::get()->filter(array('URLSegment'=>$p))->First();
+		$d = Page::get()->filter(array('URLSegment'=>$p))->First()->Children()->First();
 		$this->redirect($d->AbsoluteLink());
 	}
 
