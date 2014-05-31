@@ -38,6 +38,7 @@ melle.io
 <body>
 
 	$Form
+	<% include Footer %>
 	
 
 </body>

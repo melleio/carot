@@ -82,6 +82,7 @@ melle.io
 	<div id="black-blue"></div>
 	<!-- === MAIN Background === -->
 	$Layout
+	<% include Footer %>
 	
 
 </body>

@@ -3,7 +3,7 @@
 				<% with Page(home) %>
 					<li class="col-12 col-sm-2 dropdown">
 						<a id="menu-link-1" class="dropdown-toggle" data-toggle="dropdown" href="#" title="$Title.XML" style="padding:10px 0 5px;color:rgb(226,88,88);">
-						<span class="text">$MenuTitle</span><%-- <b class="caret"></b> --%>
+						<span class="text $LinkingMode">$MenuTitle</span><%-- <b class="caret"></b> --%>
 						</a>
 						<ul class="dropdown-menu">
 							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
@@ -20,7 +20,7 @@
 				<% with Page(research) %>
 					<li class="col-12 col-sm-2 dropdown">
 						<a id="menu-link-1" class="dropdown-toggle" data-toggle="dropdown" href="#" title="$Title.XML" style="padding:10px 0 5px;color:rgb(226,88,88);">
-						<span class="text">$MenuTitle</span><%-- <b class="caret"></b> --%>
+						<span class="text $LinkingMode">$MenuTitle</span><%-- <b class="caret"></b> --%>
 						</a>
 						<ul class="dropdown-menu" style="width:600px;">
 				<% end_with %>		
@@ -61,13 +61,12 @@
 						</div>
 
 						<div class="col-md-4">
-						<% with Page(our-team-work) %>
-						
-							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
-							<li role="presentation" class="divider"></li>
-							<% loop Children.Limit(8) %>
-								<li class="submenu-item"><a href="$Link">$MenuTitle</a></li>
-							<% end_loop %>
+						<% with Page(our-team) %>
+						<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
+						<li role="presentation" class="divider"></li>
+							<li role="presentation" class="dropdown-header"><a href="$Link?leaders">Leaders</a></li>
+							<li role="presentation" class="dropdown-header"><a href="$Link?team">Team</a></li>
+							<%-- <li role="presentation" class="dropdown-header"><a href="#">Alumni</a></li> --%>
 						<% end_with %>
 						</div>
 							
@@ -78,11 +77,11 @@
 				<% with Page(services) %>
 					<li class="col-12 col-sm-2 dropdown">
 						<a id="menu-link-3" class="dropdown-toggle" data-toggle="dropdown" href="#" title="$Title.XML" style="padding:10px 0 5px;color:rgb(226,88,88);">
-						<span class="text">$MenuTitle</span><%-- <b class="caret"></b> --%>
+						<span class="text $LinkingMode">$MenuTitle</span><%-- <b class="caret"></b> --%>
 						</a>
 						<ul class="dropdown-menu">
 						<% loop Children %>
-							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
+							<li role="presentation" class="dropdown-header"><a href="#">$MenuTitle</a></li>
 							<li role="presentation" class="divider"></li>
 							<% loop Children %>
 								<li class="submenu-item"><a href="$Link">$MenuTitle</a></li>
@@ -96,13 +95,13 @@
 				<% with Page(community) %>
 					<li class="col-12 col-sm-2">
 						<a id="menu-link-4" class="" href="$Link" title="$Title.XML" style="padding:10px 0 5px;color:rgb(226,88,88);">
-						<span class="text">$MenuTitle</span><%-- <b class="caret"></b> --%>
+						<span class="text $LinkingMode">$MenuTitle</span><%-- <b class="caret"></b> --%>
 						</a>
-						<%-- <ul class="dropdown-menu">
+						<ul class="dropdown-menu">
 						<% loop Children %>
 							<li><a href="#">$MenuTitle</a></li>
 						<% end_loop %>
-						</ul> --%>
+						</ul>
 					</li>
 				<% end_with %>
 				</ul>

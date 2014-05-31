@@ -1,8 +1,7 @@
 <?php
-class TeamPage extends ResearchPage {
+class CommunityHolderPage extends CommunityPage {
 
 	private static $db = array(
-		'TopContent' => 'Text'
 	);
 
 	/*function canCreate($Member = null){
@@ -14,21 +13,11 @@ class TeamPage extends ResearchPage {
 
     public function getCMSFields() {
 		$fields = parent::getCMSFields();
-		$topcontent = new TextAreaField('TopContent');
-		$fields->addFieldToTab('Root.Main', $topcontent,'MenuTitle');
-		
-		$config2 = new GridFieldConfig_RelationEditor();
-		$config2->addComponents(new GridFieldExportButton('before'));
-		$config2->addComponent(new GridFieldSortableRows('SortOrder'));
-		$toolbox = GridField::create('GalleryImages',false, $this->GalleryImages()->sort('SortOrder'), $config2);
-		if(Permission::check("ADMIN")){
-			$fields->addFieldToTab('Root.GalleryImages', $toolbox);
-		}
 		return $fields;
     }
 
 }
-class TeamPage_Controller extends ResearchPage_Controller {
+class CommunityHolderPage_Controller extends CommunityPage_Controller {
 
 	/**
 	 * An array of actions that can be accessed via a request. Each array element should be an action name, and the
@@ -68,28 +57,9 @@ class TeamPage_Controller extends ResearchPage_Controller {
 	}
 
 
-	public function index($arguments){
-		$u = $arguments->requestVars();
-		if(array_key_exists('leaders', $u)){
-			//Get Leaders
-			$team = TeamMemberPage::get()->filter(array('Type'=>'Leader'));
-			$this->TeamList = $team;
-			$this->MenuTitle = 'Leaders';
-		}else if(array_key_exists('alumni', $u)){
-			$team = TeamMemberPage::get()->filter(array('Type'=>'Alumni'));
-			$this->TeamList = $team;
-			$this->MenuTitle = 'Alumni';
-		}
-		else if(array_key_exists('team', $u)){
-			$team = TeamMemberPage::get()->filter(array('Type'=>'Team'))->sort('Title ASC');
-			$this->TeamList = $team;
-			$this->MenuTitle = 'Team';
-		}else{
-			$team = TeamMemberPage::get();
-			$this->TeamList = $team;
-		}
-		return $this->renderWith(array('ResearchPage','TeamPage'));
-	}
+	/*public function GalleryImages(){
+		return SiteConfig::get()->First()->HomeHeaderImages()->sort('RAND()')->First();
+	}*/
 
 
 

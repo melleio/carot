@@ -89,6 +89,7 @@ melle.io
 
 	<!-- === MAIN Background === -->
 	$Layout
+	<% include Footer %>
 	
 
 </body>

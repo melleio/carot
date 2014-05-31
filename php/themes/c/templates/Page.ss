@@ -76,9 +76,10 @@ melle.io
 		<div id="arrow-right" class="disabled visible-lg"></div>
 	</div> --%><!-- /.arrows -->
 	
-	<div id="blue-space"></div>
+	<div id="blue-space" style="height:40px"></div>
 	<!-- === MAIN Background === -->
 	$Layout
+	<% include Footer %>
 	
 
 </body>

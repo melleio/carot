@@ -1,14 +1,14 @@
 <div class="slide story" id="slide-1" ng-controller="MainCtrl">
 	<div class="container">
 	<div class="row">
-	<div class="col-sm-4">
-		<img src="$AbsoluteURL/assets/Research/TeamWork/Carot-Main-Team-Page/REV-3-TEAM-PAGE-ELEMENTS/REV3back-button-on-team-page.001-186x207.png">
+	<div class="col-sm-4" style="padding: 60px 100px;">
+		$Image
 	</div>
 	<div class="col-sm-8">
 		<% include SubpageBreadCrumbs %>
 		<div class="row">
 			<div class="col-sm-12 team-title" style="padding:2.5%;">
-				<p>$Title</p>
+				<p style="color: #428bca;font-size:36pt">$Title</p>
 			</div>
 		</div>
 		<div class="row">
@@ -23,7 +23,7 @@
 				<h4 class="ref-header">References</h4>
 				<ol class="ref-list">
 					<% loop References %>
-						<li>$Title</li>
+						<li style="color:#428bca;font-size:36pt;">$Title</li>
 					<% end_loop %>
 				</ol>
 				

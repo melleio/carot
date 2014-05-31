@@ -5,6 +5,10 @@ class ResearchMethodPage extends ResearchPage {
 		'TopContent' => 'Text'
 	);
 
+	private static $has_one = array(
+		'Image' => 'Image'
+    );
+
 	/*function canCreate($Member = null){
 	    if(!Permission::check("EDIT_SITE")) Security::permissionFailure();
 	}*/
@@ -15,7 +19,7 @@ class ResearchMethodPage extends ResearchPage {
     public function getCMSFields() {
 		$fields = parent::getCMSFields();
 		$topcontent = new TextAreaField('TopContent');
-		$fields->addFieldToTab('Root.Main', $topcontent,'MenuTitle');
+		$fields->addFieldToTab('Root.Main', new UploadField('Image'),'MenuTitle');
 		
 		$config2 = new GridFieldConfig_RelationEditor();
 		$config2->addComponents(new GridFieldExportButton('before'));

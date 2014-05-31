@@ -1,35 +1,43 @@
 <div class="slide story" id="slide-1" ng-controller="MainCtrl">
 	<div class="container">
-		<% include SubpageBreadCrumbs %>
+		<div class="row clearfix" id="breadcrumbs">
+			<div class="col-sm-12" style="padding: 0px 40px;">
+				<span style="font-weight:bold;font-size:1.6em;color:rgba(226,88,88,255);">
+				<a href="$Parent.Parent.Link" class="breadcrumb-1">$Parent.Parent.Title</a>
+				>>
+				<a href="$Parent.Link" class="breadcrumb-2">$Parent.Title</a>
+				</span>
+			</div>
+		</div>
 		<div class="row">
-			<div class="col-sm-12" style="background:url('$AbsoluteURL/assets/Research/Labstudies/Translational/Introductory-Page/REV1-Lab-Studies-Trans-Studies-Header-for-Translational-Studies.png') top center no-repeat;background-size:cover;background-position: 0% 0px;padding:2.5%;">
-				<h2 style="color:#c70000;font-weight:bold;text-align:center;">$Title</h2>
+			<div class="col-sm-12" style="padding: 0px 2.5%;">
+				<h2 style="color: #428bca;font-size:36pt;font-weight:bold;text-align:left;margin-left: 20px;" >$Title</h2>
 			</div>
 		</div>
 		<div class="row">
 			<% if References %>
-			<div class="col-sm-7 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
-				<div class="content-text">
-					$Content
-				</div>
-			</div>
-			
-			<div class="col-sm-4" id="references" >
-				<h4 class="ref-header">References</h4>
-				<ol class="ref-list">
-					<% loop References %>
-						<li>$Title</li>
-					<% end_loop %>
-				</ol>
-				
-			</div>
-			<% else %>
-			<div class="col-sm-12 gray-box" style="background:url('$AbsoluteURL/assets/Research/Labstudies/Translational/Introductory-Page/background-center-section-for-text-.png');background-size:cover;border-bottom: 1px solid #1B4B75;">
-				<div class="content-text">
+		<div class="col-sm-7 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
+			<div class="content-text">
 				$Content
-				</div>
 			</div>
-			<% end_if %>
+		</div>
+		
+		<div class="col-sm-4" id="references" >
+			<h4 class="ref-header">References</h4>
+			<ol class="ref-list">
+				<% loop References %>
+					<li>$Title</li>
+				<% end_loop %>
+			</ol>
+			
+		</div>
+	<% else %>
+		<div class="col-sm-12 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
+			<div class="content-text">
+			$Content
+			</div>
+		</div>
+	<% end_if %>
 		</div>
 	</div>
 </div>
