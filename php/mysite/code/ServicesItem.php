@@ -69,7 +69,7 @@ class ServicesItem_Controller extends ClinicalTrials_Controller {
 		);*/
 	}
 
-	public function index(){
+	public function index($arguments){
 
 		return $this->renderWith(array('ServicesPage','ServicesItem'));
 	}
