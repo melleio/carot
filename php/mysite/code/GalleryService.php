@@ -34,7 +34,7 @@ class GalleryService implements WebServiceable {
             # code...
             $t = array('src'=>$image->Image()->AbsoluteURL,
                 'title'=> $image->Image()->Title,
-                'description'=> $image->Description->Raw());
+                'description'=> $image->Description->LimitWordCount(20));
             array_push($a,$t);
         }
         return array(
