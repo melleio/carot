@@ -34,7 +34,7 @@ class GalleryService implements WebServiceable {
             # code...
             $t = array('src'=>$image->Image()->AbsoluteURL,
                 'title'=> $image->Image()->Title,
-                'description'=> $image->Image()->Description);
+                'description'=> $image->Description);
             array_push($a,$t);
         }
         return array(
