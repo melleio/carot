@@ -25,7 +25,7 @@
 		<div class="col-sm-4" id="references" >
 			<h4 class="ref-header">References</h4>
 			<ol class="ref-list">
-				<% loop References %>
+				<% loop References.Sort(SortOrder) %>
 					<li>$Title</li>
 				<% end_loop %>
 			</ol>
