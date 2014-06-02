@@ -18,7 +18,7 @@
 				
 			  </div>
 			  <div class="col-md-4">
-				<p class="p2" style="text-align: center;"><a target="_blank" href="https://www.google.com/maps/dir//Perelman+School+of+Medicine+at+the+University+of+Pennsylvania,+415+Curie+Blvd,+Philadelphia,+PA+19104/@39.949128,-75.196889,17z/data=!4m12!1m3!3m2!1s0x89c6c65eb364c785:0x88f556a60c7c2b4!2sPerelman+School+of+Medicine+at+the+University+of+Pennsylvania!4m7!1m0!1m5!1m1!1s0x89c6c65eb364c785:0x88f556a60c7c2b4!2m2!1d-75.196889!2d39.949128"><img SRC="http://www-carot.us.melle.io/assets/Index-Page/Location/Rev-5-Location-3-Perelman-.png" title="Stellar Chance"></a></p>
+				<p class="p2" style="text-align: center;"><a target="_blank" href="https://www.google.com/maps/dir//Perelman+School+of+Medicine+at+the+University+of+Pennsylvania,+415+Curie+Blvd,+Philadelphia,+PA+19104/@39.949128,-75.196889,17z/data=!4m12!1m3!3m2!1s0x89c6c65eb364c785:0x88f556a60c7c2b4!2sPerelman+School+of+Medicine+at+the+University+of+Pennsylvania!4m7!1m0!1m5!1m1!1s0x89c6c65eb364c785:0x88f556a60c7c2b4!2m2!1d-75.196889!2d39.949128"><img SRC="http://www-carot.us.melle.io/assets/Index-Page/Location/new-location-slices/REV303-Perelman-School-of-Medicine-350x247.png" title="Stellar Chance"></a></p>
 			  	<h4 style="text-align: center;background:white;">Perelman School of Medicine<br/><small>at the University of Pennsylvania</small></h5>
 				<p class="p2" style="text-align: center;"><span class="s1">3800 Civic Center Blvd, </span></p>
 				<p class="p2" style="text-align: center;"><span class="s1">Ophthalmology Suite, 3rd Floor</span></p>
