@@ -24,7 +24,7 @@
 				<% loop Children %>
 				<li><a href="$Link">$Title</a></li>		
 				<% end_loop %>
-				</ul>
+			</ul>
 		</div>
 		
 		<div class="col-sm-4" id="references" >
