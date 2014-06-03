@@ -20,11 +20,9 @@
 			<div class="content-text">
 				$Content
 				<ul>
-				<% if URLSegment == 'translational-studies' %>
-				<% loop Children %>
+				<% loop ChildrenOf(translational-studies) %>
 				<li><a href="$Link">$Title</a></li>		
 				<% end_loop %>
-				<% end_if %>
 				</ul>
 			</div>
 		</div>
