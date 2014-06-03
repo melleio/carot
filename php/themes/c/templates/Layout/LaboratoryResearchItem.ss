@@ -19,12 +19,12 @@
 		<div class="col-sm-7 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
 			<div class="content-text">
 				$Content
-				<ul>
-				<% loop ChildrenOf(translational-studies) %>
+			</div>
+			<ul>
+				<% loop Children %>
 				<li><a href="$Link">$Title</a></li>		
 				<% end_loop %>
 				</ul>
-			</div>
 		</div>
 		
 		<div class="col-sm-4" id="references" >
