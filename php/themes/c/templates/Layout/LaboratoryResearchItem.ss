@@ -18,7 +18,7 @@
 			<div class="col-sm-3" id="references" >
 			<h4 class="ref-header"></h4>
 			<ul class="ref-list">
-				<% loop $Children %>
+				<% loop $ChildrenOf('translational-studies') %>
 					<li>$MenuTitle</li>
 				<% end_loop %>
 			</ul>
