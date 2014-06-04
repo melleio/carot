@@ -17,7 +17,7 @@
 		<div class="row">
 			<% if References %>
 		<div class="col-sm-7 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
-			<% include ClinicalGallery %>
+			
 			<div class="content-text">
 				$Content
 			</div>
@@ -32,7 +32,7 @@
 			<h4 class="ref-header">References</h4>
 			<ol class="ref-list">
 				<% loop References.Sort(SortOrder) %>
-					<li>$Title</li>
+					<li><a href="$Link">$Title</a></li>
 				<% end_loop %>
 			</ol>
 			
