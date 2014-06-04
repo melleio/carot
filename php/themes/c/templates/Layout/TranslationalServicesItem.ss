@@ -8,7 +8,7 @@
 		</div>
 		<div class="row">
 			<% if References %>
-			<div class="col-sm-7 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
+			<div class="col-sm-5 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
 				<div class="content-text">
 					$Content
 				</div>
@@ -24,7 +24,7 @@
 				
 			</div>
 			<% else %>
-			<div class="col-sm-12 gray-box" style="background:url('$AbsoluteURL/assets/Services/REV3-Header-and-Body-Images-for-the-Text-in-the-6-Services-on-the-Main-Service-Page/REV3earlystage-body-2-889x448.png');background-size:cover;background-position: 100% 100%;">
+			<div class="col-sm-10 gray-box" style="background:url('$AbsoluteURL/assets/Services/REV3-Header-and-Body-Images-for-the-Text-in-the-6-Services-on-the-Main-Service-Page/REV3earlystage-body-2-889x448.png');background-size:cover;background-position: 100% 100%;">
 				<div class="content-text">
 				$Content
 				</div>
