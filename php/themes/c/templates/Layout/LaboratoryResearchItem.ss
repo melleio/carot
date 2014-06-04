@@ -41,9 +41,9 @@
 		<div class="col-sm-12 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
 			<div class="content-text">
 			$Content
-			<ul>
+			<ul style="padding:0;margin:0;">
 				<% loop Children %>
-				<li style="list-style-type:none;height:40px;line-height:40px;"><a href="$Link">$Title</a></li>		
+				<li style="list-style-type:none;height:40px;line-height:40px;margin:4px 0;"><a href="$Link">$Title</a></li>		
 				<% end_loop %>
 			</ul>
 			</div>
