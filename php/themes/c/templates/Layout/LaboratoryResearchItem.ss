@@ -16,16 +16,16 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-3" id="references" >
-			<h4 class="ref-header">References</h4>
+			<h4 class="ref-header"></h4>
 			<ul class="ref-list">
 				<% loop $Children %>
-					<li>$Title</li>
+					<li>$MenuTitle</li>
 				<% end_loop %>
 			</ul>
 			
 		</div>
 			<% if References %>
-		<div class="col-sm-5 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
+		<div class="col-sm-4 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
 			<% include ClinicalGallery %>
 			<div class="content-text">
 				$Content
@@ -47,7 +47,7 @@
 			
 		</div>
 	<% else %>
-		<div class="col-sm-10 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
+		<div class="col-sm-8 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
 			<div class="content-text">
 			$Content
 			</div>
