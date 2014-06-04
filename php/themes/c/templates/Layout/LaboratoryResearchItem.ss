@@ -32,7 +32,7 @@
 			<h4 class="ref-header">References</h4>
 			<ol class="ref-list">
 				<% loop References.Sort(SortOrder) %>
-					<li><a href="$Link">$Title</a></li>
+					<li>$Title</li>
 				<% end_loop %>
 			</ol>
 			
@@ -42,11 +42,6 @@
 			<div class="content-text">
 			$Content
 			</div>
-			<ul>
-				<% loop Children %>
-				<li><a href="$Link">$Title</a></li>		
-				<% end_loop %>
-			</ul>
 		</div>
 	<% end_if %>
 		</div>
