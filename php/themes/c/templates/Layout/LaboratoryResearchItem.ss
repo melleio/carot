@@ -15,6 +15,15 @@
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-sm-3" id="references" >
+			<h4 class="ref-header">References</h4>
+			<ul class="ref-list">
+				<% loop $Children %>
+					<li>$Title</li>
+				<% end_loop %>
+			</ul>
+			
+		</div>
 			<% if References %>
 		<div class="col-sm-5 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
 			<% include ClinicalGallery %>
