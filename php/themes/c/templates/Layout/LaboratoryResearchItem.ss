@@ -42,6 +42,11 @@
 			<div class="content-text">
 			$Content
 			</div>
+			<ul>
+				<% loop Children %>
+				<li><a href="$Link">$Title</a></li>		
+				<% end_loop %>
+			</ul>
 		</div>
 	<% end_if %>
 		</div>
