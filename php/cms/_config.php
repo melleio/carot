@@ -12,7 +12,7 @@ define('CMS_PATH', BASE_PATH . '/' . CMS_DIR);
  */
 ShortcodeParser::get('default')->register('sitetree_link', array('SiteTree', 'link_shortcode_handler'));
 
-// File::add_extension('SiteTreeFileExtension');
+File::add_extension('SiteTreeFileExtension');
 
 // TODO Remove once we can configure CMSMenu through static, nested configuration files
 CMSMenu::remove_menu_item('CMSMain');
