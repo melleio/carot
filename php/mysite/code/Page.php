@@ -9,17 +9,17 @@ class Page extends SiteTree {
 
 	public function Link($action = null) { 
 	   if($action == 'index') { 
-	      $action = 'index'; 
+	      $action = ''; 
 	   } 
 	   if($this->URLSegment == 'home' && !$action) return Director::baseURL();
-	   $r = $this->RelativeLink();
+	   $r = substr($this->RelativeLink(),0, -1);
 	   $txt='/home/';
 
 		 $re1='.*?';	# Non-greedy match on filler
   $re2='(home)';	# Word 1
   $re3='(\\/)';	# Any Single Character 1
 			$rlink = preg_replace("/".$re1.$re2.$re3."/is", '', $r);
-		return Director::baseURL() . $rlink . (!$action ? '.html' : "/$action.html"); 
+		return Director::baseURL() . $rlink . (!$action ? '.html' : "/$action"); 
 	}
 
 }
