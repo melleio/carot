@@ -15,11 +15,11 @@ class Page extends SiteTree {
 	   $r = substr($this->RelativeLink(),0, -1);
 	   $txt='/home/';
 
-		 $re1='(\\/)';	# Any Single Character 1
-		$re2='(home)';	# Word 1
-  		$re3='(\\/)';	# Any Single Character 2
-			$r = preg_replace("/".$re1.$re2.$re3."/is", '/', $r);
-		return Director::baseURL() . $r . (!$action ? '.html' : "/$action.html"); 
+		 $re1='.*?';	# Non-greedy match on filler
+  $re2='(home)';	# Word 1
+  $re3='(\\/)';	# Any Single Character 1
+			$rlink = preg_replace("/".$re1.$re2.$re3."/is", '', $r);
+		return Director::baseURL() . $rlink . (!$action ? '.html' : "/$action.html"); 
 	}
 
 }
