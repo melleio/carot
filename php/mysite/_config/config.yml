@@ -35,5 +35,5 @@ SiteTree:
   extensions:
     - PublishableSiteTree
     - SiteTreePublishingEngine
-    - FilesystemPublisher('web_docs', 'html')
+    - FilesystemPublisher('cache', 'html')
 
