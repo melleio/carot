@@ -7,7 +7,7 @@ class Page extends SiteTree {
 	private static $has_one = array(
 	);
 
-	public function Link($action = null) { 
+	/*public function Link($action = null) { 
 	   if($action == 'index') { 
 	      $action = ''; 
 	   } 
@@ -20,7 +20,7 @@ class Page extends SiteTree {
   $re3='(\\/)';	# Any Single Character 1
 			$rlink = preg_replace("/".$re1.$re2.$re3."/is", '', $r);
 		return Director::baseURL() . $rlink . (!$action ? '.html' : "/$action"); 
-	}
+	}*/
 
 }
 class Page_Controller extends ContentController {
