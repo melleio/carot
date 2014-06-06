@@ -25,7 +25,7 @@ $secureDomain = 'http://www-carot.us.melle.io';
 if($securePages){
 	if(!isset($_SERVER['REQUEST_URI'])) return;
 
-	$relativeURL = self::makeRelative(Director::absoluteURL($_SERVER['REQUEST_URI']));
+	$relativeURL = Director::makeRelative(Director::absoluteURL($_SERVER['REQUEST_URI']));
 
 	// protect portions of the site based on the pattern
 	foreach($securePages as $pattern) {
