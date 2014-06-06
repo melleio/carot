@@ -28,6 +28,14 @@ class Page_Controller extends ContentController {
 	private static $allowed_actions = array (
 	);
 
+	public function Link($action = null) { 
+	   if($action == 'index') { 
+	      $action = ''; 
+	   } 
+	   if($this->URLSegment == 'home' && !$action) return Director::baseURL(); 
+	   else return Director::baseURL() . $this->URLSegment . (!$action ? '.html' : "/$action.html"); 
+	}
+
 	public function init() {
 		parent::init();
 		// You can include any CSS or JS required by your project here.
