@@ -34,22 +34,24 @@ class SimpleTask extends Controller {
         //'relatives'
     );
 
-    public function index($arguments){
-        $vars = $arguments->requestVars();
-        $cat = StaticPagesQueue::get();
+    public function clean($arguments){
+        $cat = StaticPublishQueue::get();
         foreach ($cat as $c) {
             # code...
-<<<<<<< HEAD
+            $c->delete();
             var_dump($c->Link);
-=======
-		$c->delete();
-            var_dump($c->ID);
->>>>>>> 920b9a96cde6a97c266c3d71438981328e123f95
         }
         exit;
     }
 
-    public function clean(){
+    public function index($arguments){
+        $vars = $arguments->requestVars();
+        $cat = SiteTree::get();
+        foreach ($cat as $c) {
+            # code...
+            var_dump($c->Link);
+        }
+        exit;
     }
 
     public function flickr(){
