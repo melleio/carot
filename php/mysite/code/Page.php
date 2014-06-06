@@ -18,10 +18,7 @@ class Page extends SiteTree {
 		 $re1='(\\/)';	# Any Single Character 1
 		$re2='(home)';	# Word 1
   		$re3='(\\/)';	# Any Single Character 2
-  		if ($c=preg_match_all ("/".$re1.$re2.$re3."/is", $txt, $matches))
-  		{
 			$r = preg_replace("/".$re1.$re2.$re3."/is", '/', $r);
-		}
 		return Director::baseURL() . $r . (!$action ? '.html' : "/$action.html"); 
 	}
 
