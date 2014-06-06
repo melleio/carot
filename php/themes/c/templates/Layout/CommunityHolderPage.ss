@@ -12,7 +12,7 @@
 
 		<div id="home-row-1" class="row clearfix">
 			<div class="col-sm-3" style="width: 30%;">
-				<img src="$AbsoluteURL/assets/Community/REV3AAV-Vector-298x656.png" />
+				<img src="assets/Community/REV3AAV-Vector-298x656.png" />
 			</div><!-- /col-12 -->
 			<div class="col-sm-8" style="min-height: 657px;background:url('assets/Community/REV3BED-FOR-Copy-Points-628x620.png');background-size:cover;">
 				<ul class="community-nav">
