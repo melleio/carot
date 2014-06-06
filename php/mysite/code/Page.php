@@ -12,7 +12,7 @@ class Page extends SiteTree {
 	      $action = ''; 
 	   } 
 	   if($this->URLSegment == 'home' && !$action) return Director::baseURL(); 
-	   else return Director::baseURL() . substr($this->RelativeLink(),0, -1) . (!$action ? '.html' : "/$action/index.html"); 
+	   else return Director::baseURL() . substr($this->RelativeLink(),0, -1) . '/' . (!$action ? 'index.html' : "$action/index.html"); 
 	}
 
 }
