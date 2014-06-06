@@ -19,7 +19,7 @@ Only:
   environment: 'live'
 ---
 FilesystemPublisher:
-  static_base_url: 'http://www.med.upenn.edu/carot'
+  static_base_url: 'http://www-carot.us.melle.io'
 ---
 Name: mysiteconfig_redirector
 After: 'staticpublishqueue/*'
