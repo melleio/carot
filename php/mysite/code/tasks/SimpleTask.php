@@ -49,7 +49,7 @@ class SimpleTask extends Controller {
         $cat = SiteTree::get();
         foreach ($cat as $c) {
             # code...
-            var_dump($c->Link);
+            var_dump($c->Link());
         }
         exit;
     }
