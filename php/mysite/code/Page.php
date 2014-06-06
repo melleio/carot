@@ -7,6 +7,14 @@ class Page extends SiteTree {
 	private static $has_one = array(
 	);
 
+	public function Link($action = null) { 
+	   if($action == 'index') { 
+	      $action = ''; 
+	   } 
+	   if($this->URLSegment == 'home' && !$action) return Director::baseURL(); 
+	   else return Director::baseURL() . $this->URLSegment . (!$action ? '.html' : "/$action.html"); 
+	}
+
 }
 class Page_Controller extends ContentController {
 
@@ -28,13 +36,7 @@ class Page_Controller extends ContentController {
 	private static $allowed_actions = array (
 	);
 
-	public function Link($action = null) { 
-	   if($action == 'index') { 
-	      $action = ''; 
-	   } 
-	   if($this->URLSegment == 'home' && !$action) return Director::baseURL(); 
-	   else return Director::baseURL() . $this->URLSegment . (!$action ? '.html' : "/$action.html"); 
-	}
+
 
 	public function init() {
 		parent::init();
