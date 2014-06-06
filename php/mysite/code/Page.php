@@ -19,8 +19,7 @@ class Page extends SiteTree {
 		$re2='(home)';	# Word 1
   		$re3='(\\/)';	# Any Single Character 2
 		$newlink = preg_replace("/".$re1.$re2.$re3."/is", '/', $r);
-
-	   else return Director::baseURL() . $newlink . (!$action ? '.html' : "/$action.html"); 
+		return Director::baseURL() . $newlink . (!$action ? '.html' : "/$action.html"); 
 	}
 
 }
