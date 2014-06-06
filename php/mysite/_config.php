@@ -21,7 +21,7 @@ $securePages = array(
 	'/^admin/',
 	'/^Security/'
 );
-$secureDomain = 'http://www-carot.us.melle.io'
+$secureDomain = 'http://www-carot.us.melle.io';
 if($securePages){
 	if(!isset($_SERVER['REQUEST_URI'])) return;
 
