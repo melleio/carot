@@ -11,8 +11,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-12" style="padding: 0px 2.5%;">
-				$GalleryImages.First.Image
-				$GalleryImages.First.Description
+				<% include ClincalGallery %>
 				<h2 style="color: #428bca;font-size:36pt;font-weight:bold;text-align:left;margin-left: 20px;" >$Title</h2>
 			</div>
 		</div>

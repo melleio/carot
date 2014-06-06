@@ -1,4 +1,4 @@
-
+<% require javascript("$ThemeDir/js/clinicalgallery.js") %>
 <!-- slider container -->
 <div id="myCarousel" class="container slider">
 

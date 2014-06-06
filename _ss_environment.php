@@ -20,5 +20,5 @@ define('SS_DEFAULT_ADMIN_PASSWORD', 'sw0rdfish');
 
 global $_FILE_TO_URL_MAPPING;
 $_FILE_TO_URL_MAPPING[getenv('OPENSHIFT_REPO_DIR').'php'] = 'http://www-carot.us.melle.io/';
-// $_FILE_TO_URL_MAPPING[getenv('/Users/toby/melle/us/www/php')] = "http://www-carot.us.melle.io/";
+ $_FILE_TO_URL_MAPPING[getenv('/Users/toby/melle/us/www/php')] = "http://www-carot.us.melle.io/";
 // $_FILE_TO_URL_MAPPING[getenv('/Users/toby/melle/us/www/php')] = "http://www-carot.us.melle.io/";
