@@ -18,7 +18,7 @@ class FilesystemPublisher extends DataExtension {
 	 */
 	protected $urlArrayObject;
 
-	static $dependencies = array(
+	private static $dependencies = array(
 		'urlArrayObject' =>  '%$URLArrayObject'
 	);
 
