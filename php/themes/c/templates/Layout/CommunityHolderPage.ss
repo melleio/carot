@@ -1,4 +1,4 @@
-<div class="slide story" id="slide-1" style="background-image: url('/assets/Community/widerBackground.png');">
+<div class="slide story" id="slide-1" style="background-image: url('assets/Community/widerBackground.png');">
 	<div class="container">
 		<div class="row clearfix" id="breadcrumbs">
 			<div class="col-sm-12" style="padding: 0px 40px;letter-spacing: 2.5px;">
@@ -14,7 +14,7 @@
 			<div class="col-sm-3" style="width: 30%;">
 				<img src="$AbsoluteURL/assets/Community/REV3AAV-Vector-298x656.png" />
 			</div><!-- /col-12 -->
-			<div class="col-sm-8" style="min-height: 657px;background:url('$AbsoluteURL/assets/Community/REV3BED-FOR-Copy-Points-628x620.png');background-size:cover;">
+			<div class="col-sm-8" style="min-height: 657px;background:url('assets/Community/REV3BED-FOR-Copy-Points-628x620.png');background-size:cover;">
 				<ul class="community-nav">
 					<% loop Children %>
 					<li>
