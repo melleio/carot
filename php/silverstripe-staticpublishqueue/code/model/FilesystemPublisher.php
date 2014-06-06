@@ -143,7 +143,7 @@ class FilesystemPublisher extends DataExtension {
 			// Normalize URLs
 			$urlSegment = trim($urlSegment, '/');
 
-			$filename = $urlSegment ? "$urlSegment.'/index.'.$this->fileExtension" : "index.$this->fileExtension";
+			$filename = $urlSegment ? $urlSegment."/index.$this->fileExtension" : "index.$this->fileExtension";
 
 			if (Config::inst()->get('FilesystemPublisher', 'domain_based_caching')) {
 				if (!$urlParts) continue; // seriously malformed url here...
