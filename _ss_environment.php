@@ -2,7 +2,7 @@
 
 //$_SERVER['HTTP_HOST'] = $allowed_hosts;
 //$_SERVER['REQUEST_METHOD'] = 'Get';
-define('SS_ENVIRONMENT_TYPE', 'live');
+define('SS_ENVIRONMENT_TYPE', 'dev');
 $host = (getenv('OPENSHIFT_MYSQL_DB_HOST')) ? getenv('OPENSHIFT_MYSQL_DB_HOST') : putenv('OPENSHIFT_MYSQL_DB_HOST=173.194.248.103') ;
 $port = (getenv('OPENSHIFT_MYSQL_DB_PORT')) ? getenv('OPENSHIFT_MYSQL_DB_PORT') : putenv('OPENSHIFT_MYSQL_DB_PORT=3306');
 $user = (getenv('OPENSHIFT_MYSQL_DB_USERNAME')) ? getenv('OPENSHIFT_MYSQL_DB_USERNAME') : putenv('OPENSHIFT_MYSQL_DB_USERNAME=root') ;
