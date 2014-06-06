@@ -11,8 +11,16 @@ class Page extends SiteTree {
 	   if($action == 'index') { 
 	      $action = ''; 
 	   } 
-	   if($this->URLSegment == 'home' && !$action) return Director::baseURL(); 
-	   else return Director::baseURL() . substr($this->RelativeLink(),0, -1) . (!$action ? '.html' : "/$action.html"); 
+	   if($this->URLSegment == 'home' && !$action) return Director::baseURL();
+	   $r = substr($this->RelativeLink(),0, -1);
+	   $txt='/home/';
+
+		 $re1='(\\/)';	# Any Single Character 1
+		$re2='(home)';	# Word 1
+  		$re3='(\\/)';	# Any Single Character 2
+		$newlink = preg_replace("/".$re1.$re2.$re3."/is", '/', $r);
+
+	   else return Director::baseURL() . $newlink . (!$action ? '.html' : "/$action.html"); 
 	}
 
 }
