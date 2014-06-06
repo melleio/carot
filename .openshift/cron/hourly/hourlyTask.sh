@@ -13,5 +13,5 @@ pwd
 # php framework/cli-script.php dev/build flush=1
 php framework/cli-script.php rabbit
 
-php $OPENSHIFT_REPO_DIR/php/framework/cli-script.php dev/tasks/SiteTreeFullBuildEngine urls=/
-php $OPENSHIFT_REPO_DIR/php/framework/cli-script.php dev/tasks/BuildStaticCacheFromQueue
+php framework/cli-script.php dev/tasks/SiteTreeFullBuildEngine
+php framework/cli-script.php dev/tasks/BuildStaticCacheFromQueue
