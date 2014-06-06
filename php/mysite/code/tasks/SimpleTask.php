@@ -35,7 +35,7 @@ class SimpleTask extends Controller {
     );
 
     public function clean($arguments){
-        $cat = StaticPublishQueue::get();
+        $cat = StaticPagesueue::get();
         foreach ($cat as $c) {
             # code...
             $c->delete();
