@@ -32,7 +32,7 @@ class GalleryService implements WebServiceable {
         $a = array();
         foreach ($d->GalleryImages() as $image) {
             # code...
-            $t = array('src'=>$image->Image()->AbsoluteURL,
+            $t = array('src'=>$image->Image()->PaddedImage('1020','415','000000')->AbsoluteURL,
                 'title'=> $image->Image()->Title,
                 'description'=> strip_tags($image->Description));
             array_push($a,$t);
