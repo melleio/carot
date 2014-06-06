@@ -11,13 +11,15 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-12" style="padding: 0px 2.5%;">
+				$GalleryImages.First.Image
+				$GalleryImages.First.Description
 				<h2 style="color: #428bca;font-size:36pt;font-weight:bold;text-align:left;margin-left: 20px;" >$Title</h2>
 			</div>
 		</div>
 		<div class="row">
 			<% if References %>
 		<div class="col-sm-7 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
-			<% include ClinicalGallery %>
+			
 			<div class="content-text">
 				$Content
 			</div>
@@ -41,6 +43,11 @@
 		<div class="col-sm-12 gray-box" style="background:url('$AbsoluteURL/assets/Research/Clinical-Trials/CHM/CHM-Image-Bed-for-Text-on-Left-.png');background-size:cover;background-position: 100% 100%;">
 			<div class="content-text">
 			$Content
+			<ul style="padding:0;margin:0;">
+				<% loop Children %>
+				<li style="list-style-type:none;height:40px;line-height:40px;margin:4px 0;"><a href="$Link">$Title</a></li>		
+				<% end_loop %>
+			</ul>
 			</div>
 		</div>
 	<% end_if %>

@@ -1,10 +1,13 @@
 ### SILVERSTRIPE START ###
 
+Header set X-Frame-Options SAMEORIGIN
 <Files *.ss>
+	
 	Require host 127.0.0.1
 </Files>
 
 <Files web.config>
+	
 	Require all denied
 </Files>
 
@@ -26,20 +29,64 @@ ErrorDocument 500 /assets/error-500.html
 <IfModule mod_rewrite.c>
 	SetEnv HTTP_MOD_REWRITE On
 	RewriteEngine On
-	RewriteBase /
+	RewriteBase '/'
 
+<<<<<<< HEAD
 	# allow formtools to skip silverstripe
     	RewriteCond %{REQUEST_URI} !^/app/.*
     	
 	 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.*)index\.php($|\ |\?)
         RewriteRule ^ /%1 [R=301,L]
 
+=======
+
+
+    # allow formtools to skip silverstripe
+    RewriteCond %{REQUEST_URI} !^/ft/.*
+
+#
+    ## CONFIG FOR STATIC PUBLISHING
+  	## CONFIG FOR STATIC PUBLISHING
+    # Cached content - sub-pages (site in the root of a domain)
+    
+    RewriteCond %{REQUEST_METHOD} ^GET|HEAD$
+    RewriteCond %{QUERY_STRING} ^$
+    RewriteCond %{REQUEST_URI} /(.*[^/])/?$
+    RewriteCond %{DOCUMENT_ROOT}/cache/%1.html -f
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule .* /cache/%1.html [L]
+
+    
+    RewriteCond %{REQUEST_METHOD} ^GET|HEAD$
+        RewriteCond %{QUERY_STRING} ^$
+        RewriteCond %{REQUEST_URI} /(.*[^/])/?$
+        RewriteCond %{DOCUMENT_ROOT}/cache/%1.stale.html -f
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteRule .* /cache/%1.stale.html [L]
+
+    # Cached content - homepage (site in root of a domain)
+    
+    RewriteCond %{REQUEST_METHOD} ^GET|HEAD$
+    RewriteCond %{QUERY_STRING} ^$
+    RewriteCond %{REQUEST_URI} ^/?$
+    RewriteCond %{DOCUMENT_ROOT}/cache/index.html -f
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule .* /cache/index.html [L]
+
+    
+    RewriteCond %{REQUEST_METHOD} ^GET|HEAD$
+    RewriteCond %{QUERY_STRING} ^$
+    RewriteCond %{REQUEST_URI} ^/?$
+    RewriteCond %{DOCUMENT_ROOT}/cache/index.stale.html -f
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule .* /cache/index.stale.html [L]
+>>>>>>> 7f782ec4d6d4d1d03a2eecc7fe3ecb94bdb471e4
 
 	RewriteCond %{REQUEST_URI} ^(.*)$
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_URI} !\.php$
-	RewriteRule .* framework/main.php?url=%1 [QSA]
-
-
+	RewriteRule .* framework/main.php?url=%1&%{QUERY_STRING} [L]
 </IfModule>
+
+    
 ### SILVERSTRIPE END ###
