@@ -36,10 +36,15 @@ class SimpleTask extends Controller {
 
     public function index($arguments){
         $vars = $arguments->requestVars();
-        $cat = SiteTree::get();
+        $cat = StaticPagesQueue::get();
         foreach ($cat as $c) {
             # code...
+<<<<<<< HEAD
             var_dump($c->Link);
+=======
+		$c->delete();
+            var_dump($c->ID);
+>>>>>>> 920b9a96cde6a97c266c3d71438981328e123f95
         }
         exit;
     }
