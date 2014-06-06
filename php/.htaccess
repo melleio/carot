@@ -31,14 +31,14 @@ ErrorDocument 500 /assets/error-500.html
 	RewriteEngine On
 	RewriteBase '/'
 
-<<<<<<< HEAD
 	# allow formtools to skip silverstripe
-    	RewriteCond %{REQUEST_URI} !^/app/.*
-    	
-	 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.*)index\.php($|\ |\?)
-        RewriteRule ^ /%1 [R=301,L]
+    RewriteCond %{REQUEST_URI} !^/cache/.*
+    RewriteCond %{REQUEST_URI} !^/assets/.*
+        RewriteCond $1 !^(index\.php|robots\.txt)
+        RewriteRule ^(.*)$ /index.php/$1 [L]    	
+#	 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.*)index\.php($|\ |\?)
+#        RewriteRule ^ /%1 [R=301,L]
 
-=======
 
 
     # allow formtools to skip silverstripe
@@ -80,7 +80,6 @@ ErrorDocument 500 /assets/error-500.html
     RewriteCond %{DOCUMENT_ROOT}/cache/index.stale.html -f
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule .* /cache/index.stale.html [L]
->>>>>>> 7f782ec4d6d4d1d03a2eecc7fe3ecb94bdb471e4
 
 	RewriteCond %{REQUEST_URI} ^(.*)$
 	RewriteCond %{REQUEST_FILENAME} !-f
