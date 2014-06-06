@@ -9,10 +9,10 @@ class Page extends SiteTree {
 
 	public function Link($action = null) { 
 	   if($action == 'index') { 
-	      $action = ''; 
+	      $action = 'index'; 
 	   } 
 	   if($this->URLSegment == 'home' && !$action) return Director::baseURL();
-	   $r = substr($this->RelativeLink(),0, -1);
+	   $r = $this->RelativeLink();
 	   $txt='/home/';
 
 		 $re1='.*?';	# Non-greedy match on filler
