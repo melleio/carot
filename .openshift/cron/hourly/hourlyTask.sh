@@ -7,7 +7,7 @@
 #     	php $OPENSHIFT_DATA_DIR\composer.phar self-update
 # fi
 cd /home/carot/repo\php
-echo pwd
+pwd
 # git clone https://github.com/nyeholt/silverstripe-webservices
 
 # php framework/cli-script.php dev/build flush=1
