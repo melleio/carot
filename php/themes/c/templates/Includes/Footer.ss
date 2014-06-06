@@ -20,13 +20,13 @@ hello@carotlab.org</p>
 			<div class="title">ABOUT US</div>
 			<p>The Center for Advanced Retinal and Ophthalmic Therapeutics, or CAROT, is advancing the development of novel biologic and small molecule therapeutics for retinal and ocular diseases through a balanced commitment to basic research, translational development, and the clinician/patient communities.</p>
 			<p>
-				<a href="/history">History</a>
+				<a href="/carot/home/history/index.html">History</a>
 			<br>
-				<a href="/research/our-team-work/">Our Team</a>
+				<a href="/carot/research/our-team-work/index.html">Our Team</a>
 			<br>
-				<a href="/community/resources/">Resources</a>
+				<a href="/carot/community/resources/index.html">Resources</a>
 			<br>
-				<a href="/community/faq/">FAQ</a>
+				<a href="/carot/community/faq/index.html">FAQ</a>
 			</p>
 
 
@@ -37,7 +37,7 @@ hello@carotlab.org</p>
 			<p style="padding-top: 30px;text-align:left">
 				<a href="http://med.upenn.edu"><img src="assets/Index-Page/Home/pennmedlogo.jpg" style="padding:10px;background:#fff;"></a>
 			</p>
-			<h2 style="background-color:#e8ebec;padding: 5px 10px;"><a href="/lab"><i class="fa fa-users"></i> Lab Member Login</a></h2>
+			<h2 style="background-color:#e8ebec;padding: 5px 10px;"><a href="#"><i class="fa fa-users"></i> Lab Member Login</a></h2>
 			
 
 

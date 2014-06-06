@@ -50,7 +50,15 @@ class SimpleTask extends Controller {
         foreach ($cat as $c) {
             # code...
             var_dump($c->Link());
+            /*$src = "http://www-carot.us.melle.io/jsonService/Gallery/photos.json?pageID=".$c->ID
+            $newfile = BASE_PATH.'/'.ASSETS_DIR.'/services/gallery_'.$c->ID.'.json';
+            if(copy($src, $newfile)){
+                //File copied
+                var_dump('gallery service files set');
+            }*/
         }
+        //Get Services
+        
         exit;
     }
 
