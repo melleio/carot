@@ -14,3 +14,26 @@ Injector:
   WebserviceAuthenticator:
     properties:
       allowPublicAccess: 1
+---
+Only:
+  environment: 'live'
+---
+FilesystemPublisher:
+  static_base_url: 'http://www.med.upenn.edu/carot/'
+---
+Name: mysiteconfig_redirector
+After: 'staticpublishqueue/*'
+---
+RedirectorPage:
+  extensions:
+    - PublishableRedirectorPage
+---
+Name: mysiteconfig_staticpublishqueue
+After: 'staticpublishqueue/*','#mysiteconfig_redirector'
+---
+SiteTree:
+  extensions:
+    - PublishableSiteTree
+    - SiteTreePublishingEngine
+    - FilesystemPublisher('web_docs', 'html')
+
