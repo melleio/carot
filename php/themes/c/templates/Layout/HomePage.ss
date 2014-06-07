@@ -5,9 +5,9 @@
 				<div id="home-image">
 				<% loop HomeImages.Sort('Rand()') %>
 				<% if First %>
-					<p class="topImage" style="text-align:center;"><img src="$Filename" title="$Title"></p>
+					<p class="topImage" style="text-align:center;"><img src="$Image.Filename" title="$Title"></p>
 				<% else %>
-					<p class="out" style="text-align:center;"><img src="$Filename" title="$Title"></p>
+					<p class="out" style="text-align:center;"><img src="$Image.Link" title="$Title"></p>
 				<% end_if %>
 				<% end_loop %>
 				</div>
