@@ -46,7 +46,7 @@ class TeamPage_Controller extends ResearchPage_Controller {
 	 * @var array
 	 */
 	private static $allowed_actions = array (
-		'LatestTweet','TopImage'
+		'LatestTweet','TopImage','leaders','team','alumni'
 	);
 
 	public function init() {
