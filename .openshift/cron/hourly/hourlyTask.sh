@@ -11,7 +11,7 @@ pwd
 # git clone https://github.com/nyeholt/silverstripe-webservices
 
 # php framework/cli-script.php dev/build flush=1
-php framework/cli-script.php rabbit
+php framework/cli-script.php rabbit flush=1
 
 php framework/cli-script.php dev/tasks/SiteTreeFullBuildEngine
 php framework/cli-script.php dev/tasks/BuildStaticCacheFromQueue
