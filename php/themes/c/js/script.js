@@ -17,6 +17,7 @@ $(document).ready(function(e) {
           c = false;
           $("#mainNavigation").removeClass('navbar-fixed-top');
 		  $("#mainNavigation").addClass('navbar-static-top');
+		  jQuery('#mainNavigation').css({opacity: 1});
 
         }
         collapsedBar = c;
