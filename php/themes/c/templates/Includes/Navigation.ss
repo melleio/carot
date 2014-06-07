@@ -6,9 +6,9 @@
 						<span class="text $LinkingMode">$MenuTitle</span><%-- <b class="caret"></b> --%>
 						</a>
 						<ul style="padding-bottom: 20px;" class="dropdown-menu">
-							<li role="presentation" class="dropdown-header"><a class="$LinkingMode" href="$Link">$MenuTitle</a></li>
+							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
 						<% loop Children %>
-							<li role="presentation" class="dropdown-header"><a class="$LinkingMode" href="$Link">$MenuTitle</a></li>
+							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
 							<% loop Children %>
 								<li class="submenu-item"><a class="$LinkingMode" href="$Link">$MenuTitle</a></li>
 							<% end_loop %>
