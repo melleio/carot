@@ -2,20 +2,22 @@ collapsedBar = false;
 c=false;
 
 $(document).ready(function(e) {
-    
-
-    window.onscroll = function() {
+  
+  jQuery('#wrapper').animate({opacity: 1},500);
+  window.onscroll = function() {
         
         if(window.pageYOffset > 110 && !collapsedBar){  // header size
           c = true;
           // Change Navbar class to fixed
           $("#mainNavigation").removeClass('navbar-static-top');
-          $("#mainNavigation").addClass('navbar-fixed-top');
+      $("#mainNavigation").addClass('navbar-fixed-top');
+      jQuery('#mainNavigation').animate({opacity: 0.8},500);
 
         }else if(window.pageYOffset < 110 && collapsedBar){ //full size
           c = false;
           $("#mainNavigation").removeClass('navbar-fixed-top');
-          $("#mainNavigation").addClass('navbar-static-top');
+      $("#mainNavigation").addClass('navbar-static-top');
+      jQuery('#mainNavigation').css({opacity: 1});
 
         }
         collapsedBar = c;
