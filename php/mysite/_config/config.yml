@@ -19,7 +19,7 @@ Only:
   environment: 'live'
 ---
 FilesystemPublisher:
-  static_base_url: 'http://carot.info'
+  static_base_url: 'http://carot.info/'
 ---
 Name: mysiteconfig_redirector
 After: 'staticpublishqueue/*'
