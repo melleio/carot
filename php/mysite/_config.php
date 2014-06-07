@@ -23,12 +23,15 @@ $allowedOrigins = array(
 	'http://www.med.upenn.edu'
 );
  var_dump($_SERVER);
-/*foreach ($allowedOrigins as $key) {
-	if(in_array($_SERVER['HTTP_ORIGIN'] == $key) ){
+ if(array_key_exists('HTTP_REFERER', $_SERVER)){
+ 	foreach ($allowedOrigins as $key) {
+	if(in_array($_SERVER['HTTP_REFERER'] == $key) ){
 		header('Access-Control-Allow-Origin: '.$key);
 		break;
 	}
-}*/
+}
+ }
+
 
 //Re-route admin pages
 $securePages = array(
