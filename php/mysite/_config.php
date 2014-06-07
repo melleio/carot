@@ -18,17 +18,17 @@ i18n::set_locale('en_US');
 
 $allowedOrigins = array(
 	'http://www-carot.us.melle.io',
-	'https://www-carot.us.melle.io',
+	'https://www.med.upenn.edu',
 	'http://carot.info',
 	'http://www.med.upenn.edu'
 );
- var_dump($_SERVER['HTTP_ORIGIN']);
-foreach ($allowedOrigins as $key) {
+ var_dump($_SERVER);
+/*foreach ($allowedOrigins as $key) {
 	if(in_array($_SERVER['HTTP_ORIGIN'] == $key) ){
 		header('Access-Control-Allow-Origin: '.$key);
 		break;
 	}
-}
+}*/
 
 //Re-route admin pages
 $securePages = array(
