@@ -3,7 +3,7 @@ c=false;
 
 $(document).ready(function(e) {
 	
-
+	jQuery('#wrapper').animate({opacity: 1},500);
 	window.onscroll = function() {
         
         if(window.pageYOffset > 110 && !collapsedBar){  // header size
@@ -11,6 +11,7 @@ $(document).ready(function(e) {
           // Change Navbar class to fixed
           $("#mainNavigation").removeClass('navbar-static-top');
 		  $("#mainNavigation").addClass('navbar-fixed-top');
+		  jQuery('#mainNavigation').animate({opacity: 0.8},500);
 
         }else if(window.pageYOffset < 110 && collapsedBar){ //full size
           c = false;
@@ -148,13 +149,13 @@ $(function() {
 	$(window).resize();*/
 });
 
-var delay = (function(){
+/*var delay = (function(){
 	var timer = 0;
 	return function(callback, ms){
 		clearTimeout (timer);
 		timer = setTimeout(callback, ms);
 	};
-})();
+})();*/
 
 function menu_focus( element, i ) {
 	/*if ( $(element).hasClass('active') ) {
@@ -191,7 +192,7 @@ function menu_focus( element, i ) {
 	);*/
 }
 
-function enable_arrows( dataslide ) {
+/*function enable_arrows( dataslide ) {
 	$('#arrows div').addClass('disabled');
 	if ( dataslide != 1 ) {
 		$('#arrow-up').removeClass('disabled');
@@ -203,12 +204,12 @@ function enable_arrows( dataslide ) {
 		$('#arrow-left').removeClass('disabled');
 		$('#arrow-right').removeClass('disabled');
 	}
-}
+}*/
 
 /*************
 * = Parallax *
 *************/
-jQuery(document).ready(function ($) {
+/*jQuery(document).ready(function ($) {
 	//Cache some variables
 	var links = $('.nav').find('li');
 	slide = $('.slide');
@@ -219,11 +220,11 @@ jQuery(document).ready(function ($) {
 	//Create a function that will be passed a slide number and then will scroll to that slide using jquerys animate. The Jquery
 	//easing plugin is also used, so we passed in the easing method of 'easeInOutQuint' which is available throught the plugin.
 	function goToByScroll(dataslide) {
-		/*var offset_top = ( dataslide == 1 ) ? '0px' : $('.slide[data-slide="' + dataslide + '"]').offset().top;
+		var offset_top = ( dataslide == 1 ) ? '0px' : $('.slide[data-slide="' + dataslide + '"]').offset().top;
 		
 		htmlbody.stop(false, false).animate({
 			scrollTop: offset_top
-		}, 1500, 'easeInOutQuart');*/
+		}, 1500, 'easeInOutQuart');
 	}
 	
 	//When the user clicks on the navigation links, get the data-slide attribute value of the link and pass that variable to the goToByScroll function
@@ -240,8 +241,8 @@ jQuery(document).ready(function ($) {
 		dataslide = $(this).attr('data-slide');
 		goToByScroll(dataslide);
 		$(".nav-collapse").collapse('hide');
-	});*/
-});
+	});
+});*/
 
 /***************
 * = Menu hover *
@@ -275,7 +276,7 @@ jQuery(document).ready(function ($) {
 /******************
 * = Arrows click  *
 ******************/
-jQuery(document).ready(function ($) {
+/*jQuery(document).ready(function ($) {
 	//Cache some variables
 	var arrows = $('#arrows div');
 	
@@ -326,4 +327,4 @@ jQuery(document).ready(function ($) {
 			}
 		}
 	});
-});
+});*/
