@@ -23,9 +23,9 @@ $allowedOrigins = array(
 	'http://www.med.upenn.edu'
 );
  //var_dump($_SERVER);
- if(array_key_exists('HTTP_REFERER', $_SERVER)){
+ if(array_key_exists('HTTP_ORIGIN', $_SERVER)){
  	foreach ($allowedOrigins as $key) {
-	if($_SERVER['HTTP_REFERER'] == $key ){
+	if($_SERVER['HTTP_ORIGIN'] == $key ){
 		header('Access-Control-Allow-Origin: '.$key);
 		break;
 	}
