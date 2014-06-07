@@ -25,7 +25,7 @@ $allowedOrigins = array(
  //var_dump($_SERVER);
  if(array_key_exists('HTTP_REFERER', $_SERVER)){
  	foreach ($allowedOrigins as $key) {
-	if(in_array($_SERVER['HTTP_REFERER'] == $key) ){
+	if($_SERVER['HTTP_REFERER'] == $key ){
 		header('Access-Control-Allow-Origin: '.$key);
 		break;
 	}
