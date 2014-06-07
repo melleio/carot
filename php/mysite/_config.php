@@ -54,7 +54,7 @@ if($securePages){
 			if(class_exists('SapphireTest', false) && SapphireTest::is_running_test()) {
 				return $destURL;
 			} else {
-				self::force_redirect($destURL);
+				Director::force_redirect($destURL);
 			}	
 		}
 	}
