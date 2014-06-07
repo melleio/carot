@@ -21,12 +21,11 @@ $allowedOrigins = array(
 	'http://carot.info',
 	'http://www.med.upenn.edu'
 );
- var_dump($_SERVER['http_referer']);
+ var_dump($_SERVER['HTTP_ORIGIN']);
 foreach ($allowedOrigins as $key) {
-	if(in_array($_SERVER['http_referer'], $allowedOrigins) ){
+	if(in_array($_SERVER['HTTP_ORIGIN'] == $key) ){
 		header('Access-Control-Allow-Origin: '.$key);
-	}else{
-		header('Access-Control-Allow-Origin: http://blog.phillypolice.com');
+		break;
 	}
 }
 
