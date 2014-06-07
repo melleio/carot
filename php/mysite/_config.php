@@ -16,6 +16,23 @@ $databaseConfig = array(
 // Set the site locale
 i18n::set_locale('en_US');
 
+$allowedOrigins = array(
+	'http://www-carot.us.melle.io',
+	'https://www.med.upenn.edu',
+	'http://carot.info',
+	'http://www.med.upenn.edu'
+);
+ //var_dump($_SERVER);
+ if(array_key_exists('HTTP_ORIGIN', $_SERVER)){
+ 	foreach ($allowedOrigins as $key) {
+	if($_SERVER['HTTP_ORIGIN'] == $key ){
+		header('Access-Control-Allow-Origin: '.$key);
+		break;
+	}
+}
+ }
+
+
 //Re-route admin pages
 $securePages = array(
 	'/^admin/',
@@ -43,4 +60,6 @@ if($securePages){
 	}
 }
 //if(Director::isLive()) Director::forceSSL($securePages,$secureDomain');
+
+
 

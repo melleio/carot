@@ -41,7 +41,7 @@ var galleryServices = angular.module('galleryServices', ['ngResource']);
 
 galleryServices.factory('Gallery', ['$resource',
   function($resource){
-    return $resource('jsonservice/Gallery/photos.json', {}, {
+    return $resource('http://www-carot.us.melle.io/jsonservice/Gallery/photos.json', {}, {
       query: {method:'GET', params:{pageID:'15'}, isArray:true}
     });
   }]);

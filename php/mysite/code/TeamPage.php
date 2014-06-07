@@ -67,6 +67,12 @@ class TeamPage_Controller extends ResearchPage_Controller {
 		);*/
 	}
 
+	public function leaders($arguments){
+		$team = TeamMemberPage::get()->filter(array('Type'=>'Leader'));
+		$this->TeamList = $team;
+		$this->MenuTitle = 'Leaders';
+		$this->render();
+	}
 
 	public function index($arguments){
 		$u = $arguments->requestVars();
