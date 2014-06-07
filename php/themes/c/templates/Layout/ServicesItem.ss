@@ -13,7 +13,7 @@
 					$Content
 				</div>
 				<ul style="padding:0;margin:0;">
-				<% loop Parent.Children %>
+				<% loop $Parent.Children %>
 				<li style="list-style-type:none;height:40px;line-height:40px;margin:4px 0;"><a href="$Link">$MenuTitle</a></li>		
 				<% end_loop %>
 			</ul>
@@ -34,7 +34,7 @@
 				$Content
 				</div>
 				<ul style="padding:0;margin:0;">
-				<% loop Parent.Children %>
+				<% $loop Parent.Children %>
 				<li style="list-style-type:none;height:40px;line-height:40px;margin:4px 0;"><a href="$Link">$MenuTitle</a></li>		
 				<% end_loop %>
 			</ul>
