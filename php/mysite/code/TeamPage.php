@@ -71,7 +71,21 @@ class TeamPage_Controller extends ResearchPage_Controller {
 		$team = TeamMemberPage::get()->filter(array('Type'=>'Leader'));
 		$this->TeamList = $team;
 		$this->MenuTitle = 'Leaders';
-		return $this->index($arguments);
+		return $this->renderWith(array('ResearchPage','TeamPage'));
+	}
+
+	public function team($arguments){
+		$team = TeamMemberPage::get()->filter(array('Type'=>'Team'))->sort('Title ASC');
+		$this->TeamList = $team;
+		$this->MenuTitle = 'Team';
+		return $this->renderWith(array('ResearchPage','TeamPage'));
+	}
+
+	public function alumni($arguments){
+		$team = TeamMemberPage::get()->filter(array('Type'=>'Alumni'))->sort('Title ASC');
+		$this->TeamList = $team;
+		$this->MenuTitle = 'Alumni';
+		return $this->renderWith(array('ResearchPage','TeamPage'));
 	}
 
 	public function index($arguments){
