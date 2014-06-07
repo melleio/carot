@@ -19,5 +19,6 @@ ln -sf $OPENSHIFT_DATA_DIR/assets $OPENSHIFT_REPO_DIR/php/assets
 # php framework/cli-script.php dev/build flush=1
 php framework/cli-script.php rabbit flush=1
 
-php $OPENSHIFT_REPO_DIR/php/framework/cli-script.php dev/tasks/SiteTreeFullBuildEngine urls=/home
+# php $OPENSHIFT_REPO_DIR/php/framework/cli-script.php dev/tasks/SiteTreeFullBuildEngine
+php $OPENSHIFT_REPO_DIR/php/framework/cli-script.php dev/tasks/SiteTreeFullBuildEngine urls=/home,/our-team/leaders/index.html,/our-team/team/index.html
 php $OPENSHIFT_REPO_DIR/php/framework/cli-script.php dev/tasks/BuildStaticCacheFromQueue

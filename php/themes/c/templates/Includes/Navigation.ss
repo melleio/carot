@@ -6,11 +6,11 @@
 						<span class="text $LinkingMode">$MenuTitle</span><%-- <b class="caret"></b> --%>
 						</a>
 						<ul style="padding-bottom: 20px;" class="dropdown-menu">
-							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
+							<li role="presentation" class="dropdown-header"><a class="$LinkingMode" href="$Link">$MenuTitle</a></li>
 						<% loop Children %>
-							<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
+							<li role="presentation" class="dropdown-header"><a class="$LinkingMode" href="$Link">$MenuTitle</a></li>
 							<% loop Children %>
-								<li class="submenu-item"><a href="$Link">$MenuTitle</a></li>
+								<li class="submenu-item"><a class="$LinkingMode" href="$Link">$MenuTitle</a></li>
 							<% end_loop %>
 						<% end_loop %>
 						</ul>
@@ -31,9 +31,9 @@
 							<li role="presentation" class="divider"></li>
 							<% loop Children %>
 							<% if Last %>
-								<li style="padding-bottom: 5px;" class="submenu-item"><a href="$Link">$MenuTitle</a></li>
+								<li style="padding-bottom: 5px;" class="submenu-item"><a class="$LinkingMode" href="$Link">$MenuTitle</a></li>
 								<% else %>
-								<li class="submenu-item"><a href="$Link">$MenuTitle</a></li>
+								<li class="submenu-item"><a class="$LinkingMode" href="$Link">$MenuTitle</a></li>
 							<% end_if %>
 								
 							<% end_loop %>
@@ -43,7 +43,7 @@
 							<li role="presentation" class="dropdown-header" style="padding-top: 10px;"><a href="$Children.First.Link">$MenuTitle</a></li>
 							<li role="presentation" class="divider"></li>
 							<% loop Children %>
-								<li class="submenu-item"><a href="$Link">$MenuTitle</a></li>
+								<li class="submenu-item"><a class="$LinkingMode" href="$Link">$MenuTitle</a></li>
 							<% end_loop %>
 						<% end_with %>
 						</div>
@@ -53,13 +53,13 @@
 						
 							<li role="presentation" class="dropdown-header">
 								<p>
-									<a href="$Link">$MenuTitle</a>
+									<a class="$LinkingMode" href="$Link">$MenuTitle</a>
 								</p></li>
 							<li role="presentation" class="divider"></li>
 							<% loop Children %>
 								<li class="submenu-item">
 									<p>
-										<a href="$Link">$MenuTitle</a>
+										<a class="$LinkingMode" href="$Link">$MenuTitle</a>
 									</p></li>
 							<% end_loop %>
 						<% end_with %>
@@ -67,7 +67,7 @@
 
 						<div class="col-md-4">
 						<% with Page(our-team) %>
-						<li role="presentation" class="dropdown-header"><a href="$Link">$MenuTitle</a></li>
+						<li role="presentation" class="dropdown-header"><a class="$LinkingMode" href="$Link">$MenuTitle</a></li>
 						<li role="presentation" class="divider"></li>
 							<li role="presentation" class="submenu-item"><a href="$Link?leaders">Leaders</a></li>
 							<li role="presentation" class="submenu-item"><a href="$Link?team">Team</a></li>
@@ -89,7 +89,7 @@
 							<li role="presentation" class="dropdown-header"><a href="$Children.First.Link">$MenuTitle</a></li>
 							<li role="presentation" class="divider"></li>
 							<% loop Children %>
-								<li class="submenu-item"><a href="$Link">$MenuTitle</a></li>
+								<li class="submenu-item"><a class="$LinkingMode" href="$Link">$MenuTitle</a></li>
 							<% end_loop %>
 							<li role="presentation" class="divider"></li>
 						<% end_loop %>
@@ -99,7 +99,7 @@
 
 				<% with Page(community) %>
 					<li class="col-12 col-sm-2">
-						<a id="menu-link-4" class="" href="$Link" title="$Title.XML" style="padding:10px 0 5px;color:rgb(226,88,88);">
+						<a id="menu-link-4" class="" class="$LinkingMode" href="$Link" title="$Title.XML" style="padding:10px 0 5px;color:rgb(226,88,88);">
 						<span class="text $LinkingMode">$MenuTitle</span><%-- <b class="caret"></b> --%>
 						</a>
 						<ul class="dropdown-menu">
