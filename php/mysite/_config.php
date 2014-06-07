@@ -18,6 +18,7 @@ i18n::set_locale('en_US');
 
 $allowedOrigins = array(
 	'http://www-carot.us.melle.io',
+	'https://www-carot.us.melle.io',
 	'http://carot.info',
 	'http://www.med.upenn.edu'
 );
