@@ -16,6 +16,20 @@ $databaseConfig = array(
 // Set the site locale
 i18n::set_locale('en_US');
 
+$allowedOrigins = array(
+	'http://www-carot.us.melle.io',
+	'http://carot.info',
+	'http://www.med.upenn.edu'
+);
+ var_dump($_SERVER['http_referer']);
+foreach ($allowedOrigins as $key) {
+	if(in_array($_SERVER['http_referer'], $allowedOrigins) ){
+		header('Access-Control-Allow-Origin: '.$key);
+	}else{
+		header('Access-Control-Allow-Origin: http://blog.phillypolice.com');
+	}
+}
+
 //Re-route admin pages
 $securePages = array(
 	'/^admin/',
@@ -43,4 +57,6 @@ if($securePages){
 	}
 }
 //if(Director::isLive()) Director::forceSSL($securePages,$secureDomain');
+
+
 
