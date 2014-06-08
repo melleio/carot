@@ -2,7 +2,9 @@ collapsedBar = false;
 c=false;
 
 $(document).ready(function(e) {
-  
+  $(".blur").css({
+    'text-shadow': '2px 2px 5px whitesmoke'
+  });
   jQuery('#wrapper').animate({opacity: 1},500);
   window.onscroll = function() {
         
