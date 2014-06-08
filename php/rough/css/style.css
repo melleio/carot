@@ -65,6 +65,94 @@ background: linear-gradient(to bottom,  rgba(75,79,84,1) 0%,rgba(43,43,43,1) 41%
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4f54', endColorstr='#3f3f3f',GradientType=0 ); /* IE6-9 */
 
 }
+
+/* Keyframes for Carot logo */
+@keyframes carotFrames{
+  0% {
+    left:0px;
+    top:0px;
+    text-shadow:'2px 2px 5px whitesmoke',
+    color:transparent;
+    transform:  rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg) ;
+  }
+  100% {
+    left:0px;
+    top:0px;
+    text-shadow:'0px 0px 0px #fff',
+    color:'#ffffff';
+    t 0px 0px #fff',
+    color:'#ffffff';
+    transform:  rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg) ;
+  }
+}
+
+@-moz-keyframes carotFrames{
+  0% {
+    left:0px;
+    top:0px;
+    text-shadow:'2px 2px 5px whitesmoke',
+    color:transparent;
+    -moz-transform:  rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg) ;
+  }
+  100% {
+    left:0px;
+    top:0px;
+    text-shadow:'0px 0px 0px #fff',
+    color:'#ffffff';
+    -moz-transform:  rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg) ;
+  }
+}
+
+@-webkit-keyframes carotFrames {
+  0% {
+    left:0px;
+    top:0px;
+    text-shadow:'2px 2px 5px whitesmoke',
+    color:transparent;
+    -webkit-transform:  rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg) ;
+  }
+  100% {
+    left:0px;
+    top:0px;
+    text-shadow:'0px 0px 0px #fff',
+    color:'#ffffff';
+    -webkit-transform:  rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg) ;
+  }
+}
+
+@-o-keyframes carotFrames {
+  0% {
+    left:0px;
+    top:0px;
+    text-shadow:'2px 2px 5px whitesmoke',
+    color:transparent;
+    -o-transform:  rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg) ;
+  }
+  100% {
+    left:0px;
+    top:0px;
+    text-shadow:'0px 0px 0px #fff',
+    color:'#ffffff';
+    -o-transform:  rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg) ;
+  }
+}
+
+@-ms-keyframes carotFrames {
+  0% {
+    left:0px;
+    top:0px;
+    text-shadow:'2px 2px 5px whitesmoke',
+    color:transparent;
+    -ms-transform:  rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg) ;
+  }
+  100% {
+    left:0px;
+    top:0px;
+    text-shadow:'0px 0px 0px #fff',
+    color:'#ffffff';
+    -ms-transform:  rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg) ;
+  }
+}
 .carot-header {
 	position: absolute;
 right: 20px;
