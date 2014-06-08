@@ -309,6 +309,8 @@ font-family: "eskapade";
 }
 
 .blur{
+  text-shadow:'2px 2px 5px whitesmoke',
+    color:transparent;
   animation: carotFrames ease-in-out 4s;
   animation-iteration-count: 1;
   transform-origin: ;
