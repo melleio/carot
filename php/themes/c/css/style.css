@@ -309,7 +309,7 @@ font-family: "eskapade";
 }
 
 .blur{
-  text-shadow:'2px 2px 5px whitesmoke';
+  text-shadow:2px 2px 5px whitesmoke;
     color:transparent;
   animation: carotFrames ease-in-out 4s;
   animation-iteration-count: 1;
@@ -332,13 +332,13 @@ font-family: "eskapade";
 @keyframes carotFrames{
   0% {
     
-    text-shadow:'2px 2px 5px whitesmoke';
+    text-shadow:2px 2px 5px whitesmoke;
     color:transparent;
     transform:  rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg) ;
   }
   100% {
     
-    text-shadow:'0px 0px 0px #fff';
+    text-shadow:0px 0px 0px #fff;
     color:'#ffffff';
     t 0px 0px #fff';
     color:'#ffffff';
@@ -349,13 +349,13 @@ font-family: "eskapade";
 @-moz-keyframes carotFrames{
   0% {
     
-    text-shadow:'2px 2px 5px whitesmoke';
+    text-shadow:2px 2px 5px whitesmoke;
     color:transparent;
     -moz-transform:  rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg) ;
   }
   100% {
     
-    text-shadow:'0px 0px 0px #fff';
+    text-shadow:0px 0px 0px #fff;
     color:'#ffffff';
     -moz-transform:  rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg) ;
   }
@@ -364,13 +364,13 @@ font-family: "eskapade";
 @-webkit-keyframes carotFrames {
   0% {
     
-    text-shadow:'2px 2px 5px whitesmoke';
+    text-shadow:2px 2px 5px whitesmoke;
     color:transparent;
     -webkit-transform:  rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg) ;
   }
   100% {
     
-    text-shadow:'0px 0px 0px #fff';
+    text-shadow:0px 0px 0px #fff;
     color:'#ffffff';
     -webkit-transform:  rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg) ;
   }
@@ -379,13 +379,13 @@ font-family: "eskapade";
 @-o-keyframes carotFrames {
   0% {
     
-    text-shadow:'2px 2px 5px whitesmoke';
+    text-shadow:2px 2px 5px whitesmoke;
     color:transparent;
     -o-transform:  rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg) ;
   }
   100% {
     
-    text-shadow:'0px 0px 0px #fff';
+    text-shadow:0px 0px 0px #fff;
     color:'#ffffff';
     -o-transform:  rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg) ;
   }
@@ -394,13 +394,13 @@ font-family: "eskapade";
 @-ms-keyframes carotFrames {
   0% {
     
-    text-shadow:'2px 2px 5px whitesmoke';
+    text-shadow:2px 2px 5px whitesmoke;
     color:transparent;
     -ms-transform:  rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg) ;
   }
   100% {
     
-    text-shadow:'0px 0px 0px #fff';
+    text-shadow:0px 0px 0px #fff;
     color:'#ffffff';
     -ms-transform:  rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg) ;
   }
