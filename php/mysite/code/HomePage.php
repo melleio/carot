@@ -66,7 +66,7 @@ class HomePage_Controller extends Page_Controller {
 
 	public function init() {
 		parent::init();
-
+		$this->HomeImages = $this->HomeImages()->sort('RAND()');
 		// Security Check. Comment to disable
 		// if(!Permission::check("VIEW_SITE")) Security::permissionFailure();
 		//Requirements::set_write_js_to_body(false);

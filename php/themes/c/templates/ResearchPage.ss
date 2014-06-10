@@ -53,7 +53,7 @@ melle.io
 			</a>
 			<div class="carot-header">
 				<div id="carot-logo">
-					<h1 class="carot-large">CAROT</h1>
+					<h1 class="carot-large blur">CAROT</h1>
 					<p class="carot-medium">CAROT</p>
 					<p class="carot-small">CAROT</p>
 				</div>

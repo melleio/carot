@@ -2,7 +2,6 @@ collapsedBar = false;
 c=false;
 
 $(document).ready(function(e) {
-  
   jQuery('#wrapper').animate({opacity: 1},500);
   window.onscroll = function() {
         

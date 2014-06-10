@@ -69,8 +69,8 @@
 						<% with Page(our-team) %>
 						<li role="presentation" class="dropdown-header"><a class="$LinkingMode" href="$Link">$MenuTitle</a></li>
 						<li role="presentation" class="divider"></li>
-							<li role="presentation" class="submenu-item"><a href="$Link?leaders">Leaders</a></li>
-							<li role="presentation" class="submenu-item"><a href="$Link?team">Team</a></li>
+							<li role="presentation" class="submenu-item"><a href="$Parent.URLSegment/$URLSegment/leaders/index.html">Leaders</a></li>
+							<li role="presentation" class="submenu-item"><a href="$Parent.URLSegment/$URLSegment/team/index.html">Team</a></li>
 							<%-- <li role="presentation" class="submenu-item"><a href="#">Alumni</a></li> --%>
 						<% end_with %>
 						</div>
