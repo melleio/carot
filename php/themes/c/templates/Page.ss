@@ -57,15 +57,14 @@ melle.io
 	</div>
 	</header>
 	<div id="mainNavigation" class="navbar navbar-static-top main-nav" data-activeslide="1">
-		<div class="container">
+		<div class="container-fluid">
 		<div class="navbar-header">
 			<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainMenu">
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a href="/index.html">CAROT</a>
 		</div>
 			
 			<% include Navigation %>

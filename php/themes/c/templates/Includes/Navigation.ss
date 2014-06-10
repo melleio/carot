@@ -1,4 +1,4 @@
-<div class="nav-collapse navbar-responsive-collapse">
+<div id="maniMenu" class="nav-collapse navbar-responsive-collapse">
 				<ul id="mainNavList" class="nav row">
 				<% with Page(home) %>
 					<li class="col-12 col-sm-2 dropdown">
