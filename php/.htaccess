@@ -41,37 +41,37 @@ ErrorDocument 500 /assets/error-500.html
   	## CONFIG FOR STATIC PUBLISHING
     # Cached content - sub-pages (site in the root of a domain)
     
-    # RewriteCond %{REQUEST_METHOD} ^GET|HEAD$
-    # RewriteCond %{QUERY_STRING} ^$
-    # RewriteCond %{REQUEST_URI} /(.*[^/])/?$
-    # RewriteCond %{DOCUMENT_ROOT}/cache/%1.html -f
-    # RewriteCond %{REQUEST_FILENAME} !-f
-    # RewriteRule .* /cache/%1.html [L]
+    RewriteCond %{REQUEST_METHOD} ^GET|HEAD$
+    RewriteCond %{QUERY_STRING} ^$
+    RewriteCond %{REQUEST_URI} /(.*[^/])/?$
+    RewriteCond %{DOCUMENT_ROOT}/cache/%1.html -f
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule .* /cache/%1.html [L]
 
     
-    # RewriteCond %{REQUEST_METHOD} ^GET|HEAD$
-    #     RewriteCond %{QUERY_STRING} ^$
-    #     RewriteCond %{REQUEST_URI} /(.*[^/])/?$
-    #     RewriteCond %{DOCUMENT_ROOT}/cache/%1.stale.html -f
-    #     RewriteCond %{REQUEST_FILENAME} !-f
-    #     RewriteRule .* /cache/%1.stale.html [L]
+    RewriteCond %{REQUEST_METHOD} ^GET|HEAD$
+        RewriteCond %{QUERY_STRING} ^$
+        RewriteCond %{REQUEST_URI} /(.*[^/])/?$
+        RewriteCond %{DOCUMENT_ROOT}/cache/%1.stale.html -f
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteRule .* /cache/%1.stale.html [L]
 
     # # Cached content - homepage (site in root of a domain)
     
-    # RewriteCond %{REQUEST_METHOD} ^GET|HEAD$
-    # RewriteCond %{QUERY_STRING} ^$
-    # RewriteCond %{REQUEST_URI} ^/?$
-    # RewriteCond %{DOCUMENT_ROOT}/cache/index.html -f
-    # RewriteCond %{REQUEST_FILENAME} !-f
-    # RewriteRule .* /cache/index.html [L]
+    RewriteCond %{REQUEST_METHOD} ^GET|HEAD$
+    RewriteCond %{QUERY_STRING} ^$
+    RewriteCond %{REQUEST_URI} ^/?$
+    RewriteCond %{DOCUMENT_ROOT}/cache/index.html -f
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule .* /cache/index.html [L]
 
     
-    # RewriteCond %{REQUEST_METHOD} ^GET|HEAD$
-    # RewriteCond %{QUERY_STRING} ^$
-    # RewriteCond %{REQUEST_URI} ^/?$
-    # RewriteCond %{DOCUMENT_ROOT}/cache/index.stale.html -f
-    # RewriteCond %{REQUEST_FILENAME} !-f
-    # RewriteRule .* /cache/index.stale.html [L]
+    RewriteCond %{REQUEST_METHOD} ^GET|HEAD$
+    RewriteCond %{QUERY_STRING} ^$
+    RewriteCond %{REQUEST_URI} ^/?$
+    RewriteCond %{DOCUMENT_ROOT}/cache/index.stale.html -f
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule .* /cache/index.stale.html [L]
 
 	RewriteCond %{REQUEST_URI} ^(.*)$
 	RewriteCond %{REQUEST_FILENAME} !-f
