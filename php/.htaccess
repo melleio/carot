@@ -8,13 +8,13 @@ Header set X-Frame-Options SAMEORIGIN
 
 <Files web.config>
 	
-	Require all denied
+	Deny from all
 </Files>
 
 # This denies access to all yml files, since developers might include sensitive
 # information in them. See the docs for work-arounds to serve some yaml files
 <Files ~ "\.ya?ml$">
-	Require all denied
+	Deny from all
 </Files>
 
 ErrorDocument 404 /assets/error-404.html
